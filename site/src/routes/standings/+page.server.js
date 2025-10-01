@@ -29,11 +29,9 @@ export function load() {
 		});
 	}
 
-	// sort teams by final place each season
 	for (const season of Object.values(byYear)) {
 		season.teams.sort((a, b) => a.finalPlace - b.finalPlace);
 
-		// add flag for top bestGamePts in this season
 		const maxBestGame = Math.max(...season.teams.map((t) => t.bestGamePts));
 		season.teams = season.teams.map((t) => ({
 			...t,
@@ -41,7 +39,6 @@ export function load() {
 		}));
 	}
 
-	// return sorted years
 	const seasons = Object.values(byYear).sort((a, b) => b.year - a.year);
 
 	return { seasons };

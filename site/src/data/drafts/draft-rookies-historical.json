@@ -7,7 +7,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Josh Jacobs",
-			"pos": "OAK"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -19,7 +19,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "DK Metcalf",
-			"pos": "SEA"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -31,7 +31,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "N'Keal Harry",
-			"pos": "NEP"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -43,7 +43,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "David Montgomery",
-			"pos": "CHI"
+			"pos": "RB"
 		},
 		"traded_from": "The Sheriff"
 	},
@@ -55,7 +55,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Miles Sanders",
-			"pos": "PHI"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -67,7 +67,7 @@
 		"team": "Natty Guice",
 		"player": {
 			"name": "Parris Campbell",
-			"pos": "IND"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -79,7 +79,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Kyler Murray",
-			"pos": "ARI"
+			"pos": "QB"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -91,7 +91,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Mecole Hardman",
-			"pos": "KCC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -103,7 +103,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Darrell Henderson",
-			"pos": "LAR"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -115,7 +115,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Marquise Brown",
-			"pos": "BAL"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -127,7 +127,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "A.J. Brown",
-			"pos": "TEN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -139,7 +139,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Noah Fant",
-			"pos": "DEN"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -151,7 +151,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Hakeem Butler",
-			"pos": "ARI"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -163,7 +163,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "T.J. Hockenson",
-			"pos": "DET"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -175,7 +175,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Deebo Samuel",
-			"pos": "SFO"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -187,7 +187,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Devin Singletary",
-			"pos": "BUF"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -199,7 +199,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Damien Harris",
-			"pos": "NEP"
+			"pos": "RB"
 		},
 		"traded_from": "Arrowhead Hero"
 	},
@@ -211,7 +211,7 @@
 		"team": "Natty Guice",
 		"player": {
 			"name": "Miles Boykin",
-			"pos": "BAL"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -223,7 +223,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Andy Isabella",
-			"pos": "ARI"
+			"pos": "WR"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -235,7 +235,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Justice Hill",
-			"pos": "BAL"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -247,7 +247,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "JJ Arcega-Whiteside",
-			"pos": "PHI"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -259,7 +259,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Bryce Love",
-			"pos": "WAS"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -271,7 +271,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Benny Snell",
-			"pos": "PIT"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -283,7 +283,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Diontae Johnson",
-			"pos": "PIT"
+			"pos": "WR"
 		},
 		"traded_from": "Too Hot To Handle"
 	},
@@ -295,7 +295,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Dexter Williams",
-			"pos": "GBP"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -307,7 +307,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "Dwayne Haskins",
-			"pos": "WAS"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -319,7 +319,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Alexander Mattison",
-			"pos": "MIN"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -331,7 +331,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Ryquell Armstead",
-			"pos": "JAC"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -343,7 +343,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Kelvin Harmon",
-			"pos": "WAS"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -355,7 +355,7 @@
 		"team": "Natty Guice",
 		"player": {
 			"name": "Irv Smith Jr.",
-			"pos": "MIN"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -367,7 +367,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Terry McLaurin",
-			"pos": "WAS"
+			"pos": "WR"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -379,7 +379,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Darwin Thompson",
-			"pos": "KCC"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -391,7 +391,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Riley Ridley",
-			"pos": "CHI"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -403,7 +403,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Gary Jennings",
-			"pos": "MIA"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -415,7 +415,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Hunter Renfrow",
-			"pos": "OAK"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -427,7 +427,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Elijah Holyfield",
-			"pos": "PHI"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -439,7 +439,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Jace Sternberger",
-			"pos": "GBP"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -451,7 +451,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "Jalen Hurd",
-			"pos": "SFO"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -463,7 +463,7 @@
 		"team": "Natty Guice",
 		"player": {
 			"name": "Bruce Anderson",
-			"pos": "IND"
+			"pos": "RB"
 		},
 		"traded_from": "The John Dorseys"
 	},
@@ -475,7 +475,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Rodney Anderson",
-			"pos": "CIN"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -487,7 +487,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "KeeSean Johnson",
-			"pos": "ARI"
+			"pos": "WR"
 		},
 		"traded_from": "Arrowhead Hero"
 	},
@@ -499,7 +499,7 @@
 		"team": "Natty Guice",
 		"player": {
 			"name": "Damarea Crockett",
-			"pos": "GBP"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -511,7 +511,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Lil'Jordan Humphrey",
-			"pos": "NOS"
+			"pos": "WR"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -523,7 +523,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "David Sills",
-			"pos": "NYG"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -535,7 +535,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Myles Gaskin",
-			"pos": "MIA"
+			"pos": "RB"
 		},
 		"traded_from": "Meat Jerking Beef Boys"
 	},
@@ -547,7 +547,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Trayveon Williams",
-			"pos": "CIN"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -559,7 +559,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Qadree Ollison",
-			"pos": "ATL"
+			"pos": "RB"
 		},
 		"traded_from": "Old No"
 	},
@@ -571,7 +571,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Darius Slayton",
-			"pos": "NYG"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -583,7 +583,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "Jonathan Taylor",
-			"pos": "IND"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -595,7 +595,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Clyde Edwards-Helaire",
-			"pos": "KCC"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -607,7 +607,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Joe Burrow",
-			"pos": "CIN"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -619,7 +619,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "D'Andre Swift",
-			"pos": "DET"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -631,7 +631,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Cam Akers",
-			"pos": "LAR"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -643,7 +643,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "J.K. Dobbins",
-			"pos": "BAL"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -655,7 +655,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "Jerry Jeudy",
-			"pos": "DEN"
+			"pos": "WR"
 		},
 		"traded_from": "Hot Chubb Time Machine"
 	},
@@ -667,7 +667,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "CeeDee Lamb",
-			"pos": "DAL"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -679,7 +679,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Jalen Reagor",
-			"pos": "PHI"
+			"pos": "WR"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -691,7 +691,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Ke'Shawn Vaughn",
-			"pos": "TBB"
+			"pos": "RB"
 		},
 		"traded_from": "Too Hot To Handle"
 	},
@@ -703,7 +703,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Justin Jefferson",
-			"pos": "MIN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -715,7 +715,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Henry Ruggs",
-			"pos": "LVR"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -727,7 +727,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "Michael Pittman",
-			"pos": "IND"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -739,7 +739,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Tua Tagovailoa",
-			"pos": "MIA"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -751,7 +751,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Tee Higgins",
-			"pos": "CIN"
+			"pos": "WR"
 		},
 		"traded_from": "Vinegar Strokes"
 	},
@@ -763,7 +763,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Denzel Mims",
-			"pos": "NYJ"
+			"pos": "WR"
 		},
 		"traded_from": "ISU Pornstar"
 	},
@@ -775,7 +775,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "Zack Moss",
-			"pos": "BUF"
+			"pos": "RB"
 		},
 		"traded_from": "Natty Guice"
 	},
@@ -787,7 +787,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Brandon Aiyuk",
-			"pos": "SFO"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -799,7 +799,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Antonio Gibson",
-			"pos": "WAS"
+			"pos": "RB"
 		},
 		"traded_from": "Hot Chubb Time Machine"
 	},
@@ -811,7 +811,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Devin Asiasi",
-			"pos": "NEP"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -823,7 +823,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Chase Claypool",
-			"pos": "PIT"
+			"pos": "WR"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -835,7 +835,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "KJ Hamler",
-			"pos": "DEN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -847,7 +847,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "AJ Dillon",
-			"pos": "GBP"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -859,7 +859,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Laviska Shenault",
-			"pos": "JAC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -871,7 +871,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "Lynn Bowden",
-			"pos": "MIA"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -883,7 +883,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Bryan Edwards",
-			"pos": "LVR"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -895,7 +895,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Eno Benjamin",
-			"pos": "ARI"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -907,7 +907,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Darrynton Evans",
-			"pos": "TEN"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -919,7 +919,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Cole Kmet",
-			"pos": "CHI"
+			"pos": "TE"
 		},
 		"traded_from": "Natty Guice"
 	},
@@ -931,7 +931,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Joshua Kelley",
-			"pos": "LAC"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -943,7 +943,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Thaddeus Moss",
-			"pos": "WAS"
+			"pos": "TE"
 		},
 		"traded_from": "Hot Chubb Time Machine"
 	},
@@ -955,7 +955,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Tyler Johnson",
-			"pos": "TBB"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -967,7 +967,7 @@
 		"team": "Autodraft Jesus",
 		"player": {
 			"name": "Anthony McFarland",
-			"pos": "PIT"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -979,7 +979,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Lamical Perine",
-			"pos": "NYJ"
+			"pos": "RB"
 		},
 		"traded_from": "Too Hot To Handle"
 	},
@@ -991,7 +991,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Van Jefferson",
-			"pos": "LAR"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1003,7 +1003,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Devin Duvernay",
-			"pos": "BAL"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1015,7 +1015,7 @@
 		"team": "KalJ",
 		"player": {
 			"name": "DeeJay Dallas",
-			"pos": "SEA"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1027,7 +1027,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Antonio Gandy-Golden",
-			"pos": "WAS"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1039,7 +1039,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "K.J. Osborn",
-			"pos": "MIN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1051,7 +1051,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Raymond Calais",
-			"pos": "LAR"
+			"pos": "RB"
 		},
 		"traded_from": "ISU Pornstar"
 	},
@@ -1063,7 +1063,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Michael Warren",
-			"pos": "WAS"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1075,7 +1075,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Adam Trautman",
-			"pos": "NOS"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -1087,7 +1087,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Joe Reed",
-			"pos": "LAC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1099,7 +1099,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Collin Johnson",
-			"pos": "JAC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1111,7 +1111,7 @@
 		"team": "Autodraft Jesus",
 		"player": {
 			"name": "John Hightower",
-			"pos": "PHI"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1123,7 +1123,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Isaiah Coulter",
-			"pos": "HOU"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1135,7 +1135,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Justin Herbert",
-			"pos": "LAC"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -1147,7 +1147,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Jalen Hurts",
-			"pos": "PHI"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -1159,7 +1159,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "Najee Harris",
-			"pos": "PIT"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1171,7 +1171,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Kyle Pitts",
-			"pos": "ATL"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -1183,7 +1183,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Ja'Marr Chase",
-			"pos": "CIN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1195,7 +1195,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Travis Etienne",
-			"pos": "JAC"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1207,7 +1207,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Javonte Williams",
-			"pos": "DEN"
+			"pos": "RB"
 		},
 		"traded_from": "Too Hot To Handle"
 	},
@@ -1219,7 +1219,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Michael Carter",
-			"pos": "NYJ"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1231,7 +1231,7 @@
 		"team": "Autodraft Jesus",
 		"player": {
 			"name": "DeVonta Smith",
-			"pos": "PHI"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1243,7 +1243,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Jaylen Waddle",
-			"pos": "MIA"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1255,7 +1255,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Rashod Bateman",
-			"pos": "BAL"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1267,7 +1267,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Trevor Lawrence",
-			"pos": "JAC"
+			"pos": "QB"
 		},
 		"traded_from": "San Fierro 69'ers"
 	},
@@ -1279,7 +1279,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Rondale Moore",
-			"pos": "ARI"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1291,7 +1291,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Elijah Moore",
-			"pos": "NYJ"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1303,7 +1303,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "D'Wayne Eskridge",
-			"pos": "SEA"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1315,7 +1315,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Trey Sermon",
-			"pos": "SFO"
+			"pos": "RB"
 		},
 		"traded_from": "Hot Chubb Time Machine"
 	},
@@ -1327,7 +1327,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Amari Rodgers",
-			"pos": "GBP"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1339,7 +1339,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Terrace Marshall",
-			"pos": "CAR"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1351,7 +1351,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Trey Lance",
-			"pos": "SFO"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -1363,7 +1363,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Chuba Hubbard",
-			"pos": "CAR"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1375,7 +1375,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Justin Fields",
-			"pos": "CHI"
+			"pos": "QB"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -1387,7 +1387,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Dyami Brown",
-			"pos": "WAS"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1399,7 +1399,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Zach Wilson",
-			"pos": "NYJ"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -1411,7 +1411,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Kenneth Gainwell",
-			"pos": "PHI"
+			"pos": "RB"
 		},
 		"traded_from": "San Fierro 69'ers"
 	},
@@ -1423,7 +1423,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Kadarius Toney",
-			"pos": "NYG"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1435,7 +1435,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Josh Palmer",
-			"pos": "LAC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1447,7 +1447,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "Amon-Ra St. Brown",
-			"pos": "DET"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1459,7 +1459,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Tutu Atwell",
-			"pos": "LAR"
+			"pos": "WR"
 		},
 		"traded_from": "Hot Chubb Time Machine"
 	},
@@ -1471,7 +1471,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Gerrid Doaks",
-			"pos": "MIA"
+			"pos": "RB"
 		},
 		"traded_from": "ISU Pornstar"
 	},
@@ -1483,7 +1483,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Rhamondre Stevenson",
-			"pos": "NEP"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1495,7 +1495,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Mac Jones",
-			"pos": "NEP"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -1507,7 +1507,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Jermar Jefferson",
-			"pos": "DET"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1519,7 +1519,7 @@
 		"team": "Autodraft Jesus",
 		"player": {
 			"name": "Pat Freiermuth",
-			"pos": "PIT"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -1531,7 +1531,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Nico Collins",
-			"pos": "HOU"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1543,7 +1543,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Hunter Long",
-			"pos": "MIA"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -1555,7 +1555,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Elijah Mitchell",
-			"pos": "SFO"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1567,7 +1567,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Larry Rountree",
-			"pos": "LAC"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1579,7 +1579,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Kene Nwangwu",
-			"pos": "MIN"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1591,7 +1591,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "Tylan Wallace",
-			"pos": "BAL"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1603,7 +1603,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Anthony Schwartz",
-			"pos": "CLE"
+			"pos": "WR"
 		},
 		"traded_from": "Hot Chubb Time Machine"
 	},
@@ -1615,7 +1615,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Dez Fitzpatrick",
-			"pos": "TEN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1627,7 +1627,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Cornell Powell",
-			"pos": "KCC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1639,7 +1639,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Kellen Mond",
-			"pos": "MIN"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -1651,7 +1651,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Pooka Williams",
-			"pos": "FA"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1663,7 +1663,7 @@
 		"team": "Autodraft Jesus",
 		"player": {
 			"name": "Javian Hawkins",
-			"pos": "FA"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1675,7 +1675,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Khalil Herbert",
-			"pos": "CHI"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1687,7 +1687,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Kylin Hill",
-			"pos": "GBP"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1699,7 +1699,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Kylen Granson",
-			"pos": "IND"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -1711,7 +1711,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Brevin Jordan",
-			"pos": "HOU"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -1723,7 +1723,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Seth Williams",
-			"pos": "DEN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1735,7 +1735,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Breece Hall",
-			"pos": "NYJ"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1747,7 +1747,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Kenneth Walker III",
-			"pos": "SEA"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1759,7 +1759,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Drake London",
-			"pos": "ATL"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1771,7 +1771,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Treylon Burks",
-			"pos": "TEN"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1783,7 +1783,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "Skyy Moore",
-			"pos": "KCC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1795,7 +1795,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Christian Watson",
-			"pos": "GBP"
+			"pos": "WR"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -1807,7 +1807,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Garrett Wilson",
-			"pos": "NYJ"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1819,7 +1819,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "James Cook",
-			"pos": "BUF"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1831,7 +1831,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Jameson Williams",
-			"pos": "DET"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1843,7 +1843,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Chris Olave",
-			"pos": "NOS"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1855,7 +1855,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "George Pickens",
-			"pos": "PIT"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1867,7 +1867,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "David Bell",
-			"pos": "CLE"
+			"pos": "WR"
 		},
 		"traded_from": "San Fierro 69'ers"
 	},
@@ -1879,7 +1879,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Jahan Dotson",
-			"pos": "WAS"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1891,7 +1891,7 @@
 		"team": "Autodraft Jesus",
 		"player": {
 			"name": "Isaiah Spiller",
-			"pos": "LAC"
+			"pos": "RB"
 		},
 		"traded_from": "Arrowhead Hero"
 	},
@@ -1903,7 +1903,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Rachaad White",
-			"pos": "TBB"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1915,7 +1915,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "John Metchie",
-			"pos": "HOU"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1927,7 +1927,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "Trey McBride",
-			"pos": "ARI"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -1939,7 +1939,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Dameon Pierce",
-			"pos": "HOU"
+			"pos": "RB"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -1951,7 +1951,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Zamir White",
-			"pos": "LVR"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1963,7 +1963,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Alec Pierce",
-			"pos": "IND"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -1975,7 +1975,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Brian Robinson",
-			"pos": "WAS"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1987,7 +1987,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Hassan Haskins",
-			"pos": "TEN"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -1999,7 +1999,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Malik Willis",
-			"pos": "TEN"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -2011,7 +2011,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Keaontay Ingram",
-			"pos": "ARI"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2023,7 +2023,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Jelani Woods",
-			"pos": "IND"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -2035,7 +2035,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Tyler Allgeier",
-			"pos": "ATL"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2047,7 +2047,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Justyn Ross",
-			"pos": "KCC"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -2059,7 +2059,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Kenny Pickett",
-			"pos": "PIT"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -2071,7 +2071,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "Tyrion Davis-Price",
-			"pos": "SFO"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2083,7 +2083,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Jalen Tolbert",
-			"pos": "DAL"
+			"pos": "WR"
 		},
 		"traded_from": "Autodraft Jesus"
 	},
@@ -2095,7 +2095,7 @@
 		"team": "Hot Chubb Time Machine",
 		"player": {
 			"name": "Wan'Dale Robinson",
-			"pos": "NYG"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -2107,7 +2107,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Charlie Kolar",
-			"pos": "BAL"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -2119,7 +2119,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Romeo Doubs",
-			"pos": "GBP"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -2131,7 +2131,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Jerome Ford",
-			"pos": "CLE"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2143,7 +2143,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Cade Otton",
-			"pos": "TBB"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -2155,7 +2155,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Khalil Shakir",
-			"pos": "BUF"
+			"pos": "WR"
 		},
 		"traded_from": "San Fierro 69'ers"
 	},
@@ -2167,7 +2167,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Tyquan Thornton",
-			"pos": "NEP"
+			"pos": "WR"
 		},
 		"traded_from": "ISU Pornstar"
 	},
@@ -2179,7 +2179,7 @@
 		"team": "Arrowhead Hero",
 		"player": {
 			"name": "Velus Jones",
-			"pos": "CHI"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -2191,7 +2191,7 @@
 		"team": "Too Hot To Handle",
 		"player": {
 			"name": "Kyren Williams",
-			"pos": "LAR"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2203,7 +2203,7 @@
 		"team": "Monty Express",
 		"player": {
 			"name": "Greg Dulcich",
-			"pos": "DEN"
+			"pos": "TE"
 		},
 		"traded_from": null
 	},
@@ -2215,7 +2215,7 @@
 		"team": "THEWHITEHAMMER",
 		"player": {
 			"name": "Desmond Ridder",
-			"pos": "ATL"
+			"pos": "QB"
 		},
 		"traded_from": null
 	},
@@ -2227,7 +2227,7 @@
 		"team": "Autodraft Jesus",
 		"player": {
 			"name": "Pierre Strong Jr.",
-			"pos": "NEP"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2239,7 +2239,7 @@
 		"team": "ISU Pornstar",
 		"player": {
 			"name": "Danny Gray",
-			"pos": "SFO"
+			"pos": "WR"
 		},
 		"traded_from": "Hot Chubb Time Machine"
 	},
@@ -2251,7 +2251,7 @@
 		"team": "Vinegar Strokes",
 		"player": {
 			"name": "Snoop Conner",
-			"pos": "JAC"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2263,7 +2263,7 @@
 		"team": "The Sheriff",
 		"player": {
 			"name": "Calvin Austin III",
-			"pos": "PIT"
+			"pos": "WR"
 		},
 		"traded_from": null
 	},
@@ -2275,7 +2275,7 @@
 		"team": "Old No.7",
 		"player": {
 			"name": "Tyler Badie",
-			"pos": "DEN"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2287,7 +2287,7 @@
 		"team": "Meat Jerking Beef Boys",
 		"player": {
 			"name": "Abram Smith",
-			"pos": "FA"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2299,7 +2299,7 @@
 		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Kevin Harris",
-			"pos": "NEP"
+			"pos": "RB"
 		},
 		"traded_from": null
 	},
@@ -2368,7 +2368,7 @@
 		"round": 1,
 		"pick_no": 6,
 		"pick": "1.6",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Jordan Addison",
 			"pos": "WR"
@@ -2464,7 +2464,7 @@
 		"round": 2,
 		"pick_no": 14,
 		"pick": "2.2",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Michael Mayer",
 			"pos": "TE"
@@ -2596,7 +2596,7 @@
 		"round": 3,
 		"pick_no": 25,
 		"pick": "3.1",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Josh Downs",
 			"pos": "WR"
@@ -2824,7 +2824,7 @@
 		"round": 4,
 		"pick_no": 44,
 		"pick": "4.8",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Lew Nichols",
 			"pos": "RB"
@@ -3064,7 +3064,7 @@
 		"round": 2,
 		"pick_no": 16,
 		"pick": "2.4",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Ricky Pearsall",
 			"pos": "WR"
@@ -3304,7 +3304,7 @@
 		"round": 3,
 		"pick_no": 36,
 		"pick": "3.12",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Javon Baker",
 			"pos": "WR"
@@ -3352,7 +3352,7 @@
 		"round": 4,
 		"pick_no": 40,
 		"pick": "4.4",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Malik Washington",
 			"pos": "WR"
@@ -3544,7 +3544,7 @@
 		"round": 1,
 		"pick_no": 8,
 		"pick": "1.8",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "TreVeyon Henderson",
 			"pos": "RB"
@@ -3688,7 +3688,7 @@
 		"round": 2,
 		"pick_no": 20,
 		"pick": "2.8",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Bhayshul Tuten",
 			"pos": "RB"
@@ -3808,7 +3808,7 @@
 		"round": 3,
 		"pick_no": 30,
 		"pick": "3.6",
-		"team": "San Fierro 69\u2019ers",
+		"team": "San Fierro 69’ers",
 		"player": {
 			"name": "Terrance Ferguson",
 			"pos": "TE"

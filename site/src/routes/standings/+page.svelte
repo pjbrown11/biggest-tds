@@ -34,6 +34,7 @@
 								<th class="px-4 py-2">Place</th>
 								<th class="px-4 py-2">Team</th>
 								<th class="px-4 py-2">Owner</th>
+								<th class="px-4 py-2">Division</th>
 								<th class="px-4 py-2">Record</th>
 								<th class="px-4 py-2">Avg Pts</th>
 								<th class="px-4 py-2">vs League Avg</th>
@@ -48,8 +49,14 @@
 										: ''} border-b last:border-b-0"
 								>
 									<td class="px-4 py-2">{t.finalPlace}</td>
-									<td class="px-4 py-2">{t.team}</td>
+									<td class="px-4 py-2">{t.team} </td>
 									<td class="px-4 py-2">{t.owner}</td>
+									<td class="flex items-center px-4 py-2">
+										{t.division}
+										{#if t.regDivisionPlace === 1}
+											<img class="ml-1 size-6 min-w-6" src="/div-win.svg" alt="divison winner" />
+										{/if}
+									</td>
 									<td class="px-4 py-2">{t.regWins}-{t.regLosses}</td>
 									<td class="px-4 py-2">{t.regAvgPtsFor}</td>
 									<td
@@ -75,7 +82,7 @@
 				<div class="border-brand-red -mx-4 border-y-4 bg-white md:hidden">
 					{#each season.teams as t, i}
 						<div
-							class="px-4 py-2 {$highlightedFranchiseId === t.franchiseId
+							class="px-4 py-3 {$highlightedFranchiseId === t.franchiseId
 								? 'bg-black font-bold text-white lg:text-xl'
 								: i % 2 === 0
 									? 'bg-gray-100'
@@ -86,13 +93,21 @@
 									<div class="bg-brand-red flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold text-white">
 										{t.finalPlace}
 									</div>
-									<div>{t.team}</div>
+									<div>
+										{t.team}
+										<span class="text-xs font-normal lowercase {$highlightedFranchiseId !== t.franchiseId ? 'text-gray-500' : ''}"
+											>| {t.division}
+
+											{#if t.regDivisionPlace === 1}
+												<img class="mb-1 inline size-4 min-w-4" src="/div-win.svg" alt="divison winner" />
+											{/if}
+										</span>
+									</div>
 								</div>
 								<div>
 									{t.regWins}-{t.regLosses}
 								</div>
 							</div>
-
 							<div class="mt-1 flex justify-between text-sm">
 								<div class="pl-8">
 									Avg Pts: {t.regAvgPtsFor}
