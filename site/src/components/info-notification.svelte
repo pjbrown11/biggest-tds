@@ -5,7 +5,7 @@
 <div
 	class="flex max-w-2xl items-start rounded border-l-4 p-4 text-gray-900 {cssString}  relative {isSuccess
 		? 'border-green-700 bg-green-100'
-		: 'border-indigo-600 bg-indigo-100'}"
+		: 'border-black bg-brand-gold'}"
 	role="alert"
 >
 	{#if isSuccess}
@@ -25,7 +25,7 @@
 		</svg>
 	{:else}
 		<svg
-			class="absolute -top-5 right-4 h-10 w-10 flex-shrink-0 rounded-full bg-gray-50 fill-indigo-600 lg:-top-6 lg:h-12 lg:w-12 {iconCssString}"
+			class="absolute -top-5 right-4 h-10 w-10 flex-shrink-0 rounded-full bg-gray-50 fill-black lg:-top-6 lg:h-12 lg:w-12 {iconCssString}"
 			viewBox="0 0 24 24"
 			xmlns="http://www.w3.org/2000/svg"
 		>
