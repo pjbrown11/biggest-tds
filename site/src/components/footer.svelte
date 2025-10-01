@@ -36,22 +36,22 @@
 	];
 </script>
 
-<footer class="bg-brand-orange border-brand-red border-t-4 px-4 py-24 text-sm">
+<footer class="bg-brand-orange border-brand-red mt-36 border-t-4 px-4 py-24 text-sm">
 	<div class="mx-auto max-w-7xl">
 		<div class="grid grid-cols-3 gap-12 px-8 2xl:px-0">
-			<div class="col-span-3 xl:col-span-1">
-				<h3 class="mb-4 text-xl font-bold uppercase tracking-wider">League Links</h3>
-				{#each leagues as league}
-					<div class="mb-3">
-						<a href={league.url} target="_blank" class="link font-normal">{league.year} {league.sleeperId ? "Sleeper" : "MFL"}</a>
-					</div>
-				{/each}
-			</div>
 			<div class="col-span-3 xl:col-span-1">
 				<h3 class="mb-4 text-xl font-bold uppercase tracking-wider">Site Pages</h3>
 				{#each pageList as page}
 					<div class="mb-3">
 						<a href={page.path} class="link font-normal">{page.name}</a>
+					</div>
+				{/each}
+			</div>
+			<div class="col-span-3 xl:col-span-1">
+				<h3 class="mb-4 text-xl font-bold uppercase tracking-wider">League Links</h3>
+				{#each leagues as league}
+					<div class="mb-3">
+						<a href={league.url} target="_blank" class="link font-normal">{league.year} {league.sleeperId ? "Sleeper" : "MFL"}</a>
 					</div>
 				{/each}
 			</div>
