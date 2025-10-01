@@ -1,14 +1,90 @@
 <script>
 	import PageWrapper from "$components/page-wrapper.svelte";
 
-	import standings from "../../data/standings/standings-historical.json";
+	let { data } = $props();
 </script>
 
-<PageWrapper header="Standings">
-	<p>The Standings page goes here</p>
+<PageWrapper header="Standings" isFullWidth={false}>
+	<div class="space-y-12">
+		{#each data.seasons as season}
+			<div>
+				<h2 class="border-brand-red bg-brand-red -mx-4 px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4 md:bg-auto">
+					{season.year} - League Avg: {season.leagueAvg}
+				</h2>
 
-	<pre class="text-xs">
+				<div class="border-brand-red hidden overflow-x-auto rounded-b-xl border-4 border-t-0 pl-4 pt-2 md:block">
+					<table class="w-full text-left text-sm">
+						<thead class="bg-gray-100 text-xs uppercase">
+							<tr>
+								<th class="px-4 py-2">Place</th>
+								<th class="px-4 py-2">Team</th>
+								<th class="px-4 py-2">Owner</th>
+								<th class="px-4 py-2">Record</th>
+								<th class="px-4 py-2">Avg Pts</th>
+								<th class="px-4 py-2">vs League Avg</th>
+								<th class="px-4 py-2">Best Game</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each season.teams as t}
+								<tr class="border-b last:border-b-0">
+									<td class="px-4 py-2">{t.finalPlace}</td>
+									<td class="px-4 py-2">{t.team}</td>
+									<td class="px-4 py-2">{t.owner}</td>
+									<td class="px-4 py-2">{t.regWins}-{t.regLosses}</td>
+									<td class="px-4 py-2">{t.regAvgPtsFor}</td>
+									<td
+										class="px-4 py-2 font-semibold {t.plusMinus > 0
+											? 'text-green-600'
+											: t.plusMinus < 0
+												? 'text-red-600'
+												: 'text-gray-600'}"
+									>
+										{t.plusMinus > 0 ? `+${t.plusMinus}` : t.plusMinus}
+									</td>
+									<td
+										class="px-4 py-2 {t.isBestGameLeader
+											? 'inline-block rounded-lg font-bold tracking-wider text-green-700 outline-4 outline-green-700'
+											: ''}">{t.bestGamePts}</td
+									>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
 
-		{JSON.stringify(standings, null, 2)}
-	</pre>
+				<div class="border-brand-red -mx-4 border-y-4 bg-white md:hidden">
+					{#each season.teams as t, i}
+						<div class="px-4 py-2 {i % 2 === 0 ? 'bg-gray-100' : 'bg-white'}">
+							<div class="flex items-center justify-between font-bold">
+								<div class="flex items-center space-x-2">
+									<!-- Circle number -->
+									<div class="bg-brand-red flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold text-white">
+										{t.finalPlace}
+									</div>
+									<div>{t.team}</div>
+								</div>
+								<div>
+									{t.regWins}-{t.regLosses}
+								</div>
+							</div>
+
+							<div class="mt-1 flex justify-between text-sm">
+								<div class="pl-8">
+									Avg Pts: {t.regAvgPtsFor}
+									<span class="font-bold {t.plusMinus > 0 ? 'text-green-600' : t.plusMinus < 0 ? 'text-red-600' : 'text-gray-600'}">
+										({t.plusMinus > 0 ? `+${t.plusMinus}` : t.plusMinus})
+									</span>
+								</div>
+								<div class="text-sm {t.isBestGameLeader ? 'block rounded-lg bg-green-700 px-2 py-1 font-bold tracking-wider text-white' : ''}">
+									Best Game:
+									{t.bestGamePts}
+								</div>
+							</div>
+						</div>
+					{/each}
+				</div>
+			</div>
+		{/each}
+	</div>
 </PageWrapper>
