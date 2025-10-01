@@ -33,7 +33,7 @@
 							</h3>
 							<div class="space-y-2">
 								{#each season.rounds[round] as pick}
-									<div class="relative rounded-lg border-2 border-gray-200 bg-white px-3 py-2">
+									<div class="relative flex min-h-24 items-center rounded-lg border-2 border-gray-200 bg-white px-3 py-2">
 										<!-- Draft pick circle -->
 										<div class="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2">
 											<div class="flex h-9 w-9 items-center justify-center rounded-lg bg-black text-xs font-bold text-white">
@@ -42,9 +42,9 @@
 										</div>
 
 										<!-- Card content -->
-										<div class="ml-5">
+										<div class="ml-5 w-full">
 											<div class="flex justify-between font-bold">
-												<span>{pick.player.name}</span>
+												<span>{pick.player.name} </span>
 												<span>{pick.player.pos}</span>
 											</div>
 
@@ -56,15 +56,49 @@
 											</div>
 
 											<!-- Enriched flags -->
-											<div class="z-10 mt-1 flex flex-wrap gap-2 text-xs font-semibold">
+											<div class="z-10 flex flex-wrap gap-2 text-xs font-semibold">
 												{#if pick.player.isLegendary}
-													<span class="rounded bg-green-700 px-2 py-0.5 text-white">Legendary</span>
+													<div class="mt-2 flex items-center">
+														<a
+															class="no-global-styling"
+															href="https://www.fantasypros.com/nfl/rankings/dynasty-overall.php"
+															target="_blank"
+															rel="noopener noreferrer nofollow"
+														>
+															<span class="rounded bg-green-700 px-2 py-0.5 text-white">Legendary</span><span
+																class="ml-1 text-green-700">Ovr Dyntasy Rank {pick.player.rank}</span
+															>
+														</a>
+													</div>
 												{:else if pick.player.isGoodValue}
-													<span class="rounded bg-blue-700 px-2 py-0.5 text-white">Good Value</span>
+													<div class="mt-2 flex items-center">
+														<a
+															class="no-global-styling"
+															href="https://www.fantasypros.com/nfl/rankings/dynasty-overall.php"
+															target="_blank"
+															rel="noopener noreferrer nofollow"
+														>
+															<span class="rounded bg-blue-700 px-2 py-0.5 text-white">Value</span><span
+																class="ml-1 text-blue-700">Ovr Dyntasy Rank {pick.player.rank}</span
+															>
+														</a>
+													</div>
 												{:else if pick.player.isBust}
-													<span class="rounded bg-red-700 px-2 py-0.5 text-white">Bust</span>
+													<div class="mt-2 flex items-center">
+														<a
+															class="no-global-styling"
+															href="https://www.fantasypros.com/nfl/rankings/dynasty-overall.php"
+															target="_blank"
+															rel="noopener noreferrer nofollow"
+														>
+															<span class="rounded bg-red-700 px-2 py-0.5 text-white">Bust</span><span class="ml-1 text-red-700"
+																>Ovr Dyntasy Rank {pick.player.rank}</span
+															>
+														</a>
+													</div>
 												{/if}
 											</div>
+											<!-- <div class="">Rank {pick.player.rank}</div> -->
 										</div>
 									</div>
 								{/each}
