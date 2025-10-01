@@ -2,7 +2,7 @@
 	import LineChart from "$components/line-chart.svelte";
 	import PageWrapper from "$components/page-wrapper.svelte";
 	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id";
-	import originalDraft from "../data/draft/draft_original.json";
+	import originalDraft from "../data/drafts/draft-original.json";
 	import standings from "../data/standings/standings-historical.json";
 
 	function getChamps({ standings }) {

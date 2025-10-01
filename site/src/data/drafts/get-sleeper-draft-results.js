@@ -79,7 +79,7 @@ async function main() {
 		allDrafts.push(...results);
 	}
 
-	fs.writeFileSync("sleeper_draft_results.json", JSON.stringify(allDrafts, null, 2));
+	fs.writeFileSync("sleeper-draft-results.json", JSON.stringify(allDrafts, null, 2));
 	console.log(`✅ Saved ${allDrafts.length} draft picks (with traded_from + round.pick notation) across ${leagueIds.length} seasons`);
 }
 
