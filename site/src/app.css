@@ -37,9 +37,13 @@
 		@apply outline-4 outline-offset-4 outline-black;
 	}
 
+	a.link {
+		@apply hover:text-brand-red;
+	}
+
 	a.link,
 	button.link {
-		@apply text-blue-700 underline underline-offset-8;
+		@apply text-black underline underline-offset-8;
 	}
 
 	.outline-btn-red {

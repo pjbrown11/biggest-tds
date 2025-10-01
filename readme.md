@@ -6,4 +6,4 @@ cd site then npm install
 
 ../
 
-npm run dev build
+npm run dev-site

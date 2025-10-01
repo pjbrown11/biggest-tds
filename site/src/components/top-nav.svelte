@@ -1,6 +1,6 @@
 <script>
 	import { mobileMenu } from "$stores/mobile-menu";
-	import { draw } from "svelte/transition";
+	import { draw, fly } from "svelte/transition";
 	import { quintOut } from "svelte/easing";
 	import RouteList from "./route-list.svelte";
 	import { page } from "$app/stores";
@@ -11,9 +11,11 @@
 <svelte:window bind:scrollY={y} />
 
 <nav
-	class="fixed top-0 z-50 w-full overflow-visible bg-gray-100 transition-all {(y === 0) & ($page.url?.pathname === '/')
+	class="fixed top-0 z-50 w-full overflow-visible bg-gray-100 transition-all {y === 0 && $page.url?.pathname === '/'
 		? ''
-		: 'border-b-4 border-brand-blue'}"
+		: $page.url?.pathname && y >= 0
+			? 'border-brand-red border-b-4'
+			: ''}"
 >
 	<div class="mx-auto max-w-7xl px-4">
 		<div class="relative flex h-16 items-center justify-between">
@@ -60,28 +62,34 @@
 			</div>
 			<div class="flex flex-1 items-center justify-center lg:items-stretch lg:justify-between">
 				<div class="flex flex-shrink-0 items-center">
-					<div class="block lg:hidden">
-						<a onclick={mobileMenu.close} href="/" class="no-global-styling flex flex-shrink-0 items-center pl-4">
-							<img
-								class="h-12 w-auto transition-all duration-500
+					{#if $page.url?.pathname && y >= 0}
+						{#if y !== 0 || $page.url?.pathname !== "/"}
+							<div transition:fly={{ y: -50, duration: 300 }} class="block lg:hidden">
+								<a onclick={mobileMenu.close} href="/" class="no-global-styling flex flex-shrink-0 items-center pl-4">
+									<img
+										class="h-12 w-auto transition-all duration-500
 								"
-								src="/logo-emblem-optimized.svg"
-								alt="GOAT Starter"
-							/>
-						</a>
-					</div>
-					<div class="hidden lg:block">
-						<a onclick={mobileMenu.close} href="/" class="no-global-styling flex items-center">
-							<img
-								class="h-12 w-auto transition-all duration-500
-								"
-								src="/logo-emblem-optimized.svg"
-								alt="GOAT Starter"
-							/>
-						</a>
-					</div>
+										src="/logo-emblem-optimized.svg"
+										alt="GOAT Starter"
+									/>
+								</a>
+							</div>
+						{/if}
+						{#if y !== 0 || $page.url?.pathname !== "/"}
+							<div transition:fly={{ y: -50, duration: 300 }} class="hidden lg:block">
+								<a onclick={mobileMenu.close} href="/" class="no-global-styling flex items-center">
+									<img
+										class="h-12 w-auto transition-all duration-500
+							"
+										src="/logo-emblem-optimized.svg"
+										alt="GOAT Starter"
+									/>
+								</a>
+							</div>
+						{/if}
+					{/if}
 				</div>
-				<div class="hidden sm:ml-6 lg:block">
+				<div class="hidden items-center sm:ml-6 lg:flex">
 					<div class="flex space-x-1 lg:space-x-4">
 						<RouteList />
 					</div>

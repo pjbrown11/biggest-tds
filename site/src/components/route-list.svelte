@@ -5,9 +5,22 @@
 	let { isMobile } = $props();
 
 	let allRoutes = [
-		{ url: "/about/", name: "About" },
-		{ url: "/contact/", name: "Contact" },
-		{ url: "/dashboard/", name: "Dashboard" },
+		{
+			name: "Standings",
+			url: "/standings/",
+		},
+		{
+			name: "Drafts",
+			url: "/drafts/",
+		},
+		{
+			name: "Trades",
+			url: "/trades/",
+		},
+		{
+			name: "Franchises",
+			url: "/franchises/",
+		},
 	];
 
 	function isActiveRoute({ currentUrl, route }) {
@@ -25,16 +38,13 @@
 	<a
 		href={route.url}
 		onclick={mobileMenu.close}
-		class="no-global-styling block rounded-full px-3 py-3 transition-all ease-out xl:px-5 {isActiveRoute({
+		class="border-offset-4 block rounded-xl border-4 bg-black px-3 py-2 font-bold uppercase tracking-wider text-white xl:px-5 {isActiveRoute({
 			currentUrl: $page.url.pathname,
 			route,
 		})
-			? 'text-white'
-			: 'text-brand-blue'} {isMobile ? 'my-4 text-xl' : 'text-sm'} font-bold uppercase tracking-wider {!$page.url.pathname.includes(route.url)
-			? 'relative underline underline-offset-8 before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:origin-right before:scale-x-0 before:bg-brand-green-600 before:transition-transform before:duration-300 hover:no-underline hover:before:origin-left hover:before:scale-x-100'
-			: ''}"
-		class:bg-brand-blue-600={isActiveRoute({ currentUrl: $page.url.pathname, route })}
-		class:hover:bg-brand-blue-600={isActiveRoute({ currentUrl: $page.url.pathname, route })}
+			? 'border-black '
+			: 'border-brand-red hover:bg-brand-red hover:border-black'} {isMobile ? 'my-4 text-xl' : 'text-sm'}"
+		class:bg-brand-red={isActiveRoute({ currentUrl: $page.url.pathname, route })}
 		>{route.name}
 	</a>
 {/each}
