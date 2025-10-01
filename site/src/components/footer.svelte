@@ -54,6 +54,7 @@
 						<a href={league.url} target="_blank" class="link font-normal">{league.year} {league.sleeperId ? "Sleeper" : "MFL"}</a>
 					</div>
 				{/each}
+				<p class="mt-4 inline-block rounded-lg p-2 text-xs text-gray-700 outline-4 outline-gray-300 lg:hidden">Sleeper links don't work on mobile</p>
 			</div>
 			<div class="col-span-3 mt-12 flex-col items-start justify-start xl:col-span-1 xl:mt-0">
 				<img src="/logo-optimized.svg" class="mx-auto w-full max-w-sm" alt="logo" />

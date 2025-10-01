@@ -47,12 +47,13 @@
 
 		const winners = Object.keys(counts)
 			.filter((fid) => counts[fid] === max)
-			.map((fid) => `${counts[fid]} - ${getLatestTeamNameByFranchiseId({ franchiseId: fid })}`);
+			.map((fid) => `${counts[fid]} | ${getLatestTeamNameByFranchiseId({ franchiseId: fid })}`);
 
 		return winners;
 	}
 
 	function getMostDivisionTitles({ standings }) {
+		console.log("mathing");
 		const counts = standings.reduce((acc, entry) => {
 			if (entry.regDivisionPlace === 1) {
 				acc[entry.franchiseId] = (acc[entry.franchiseId] || 0) + 1;
@@ -66,7 +67,7 @@
 			.filter((fid) => counts[fid] === max)
 			.map(
 				(fid) =>
-					`${counts[fid]} - ${getLatestTeamNameByFranchiseId({
+					`${counts[fid]} | ${getLatestTeamNameByFranchiseId({
 						franchiseId: fid,
 					})}`,
 			);
