@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+@config "../../tailwind.config.js";
+
+@import "tailwindcss";
+
+/* 2️⃣ Base styles */
+@layer base {
+	html {
+		overflow-y: scroll;
+		@apply bg-gray-100;
+	}
+
+	body {
+		font-family: "Source Sans 3", sans-serif;
+	}
+
+	input[type="number"]::-webkit-outer-spin-button,
+	input[type="number"]::-webkit-inner-spin-button,
+	input[type="number"] {
+		-webkit-appearance: none;
+		margin: 0;
+		appearance: textfield !important;
+		-moz-appearance: textfield !important;
+	}
+}
+
+/* 4️⃣ Buttons */
+@layer base {
+	button,
+	a {
+		@apply transition-all duration-300 hover:cursor-pointer;
+	}
+
+	button:focus-visible,
+	a:focus-visible {
+		@apply outline-4 outline-offset-4 outline-black;
+	}
+
+	a.link,
+	button.link {
+		@apply text-blue-700 underline underline-offset-8;
+	}
+
+	.outline-btn-red {
+		@apply relative inline-block rounded-full bg-red-700 px-8 py-4 text-white outline-[3px] outline-offset-4 outline-red-700 transition-all duration-300 hover:bg-red-900;
+	}
+
+	.outline-btn-green {
+		@apply relative inline-block rounded-full bg-green-700 px-8 py-4 text-white outline-[3px] outline-offset-4 outline-green-700 transition-all duration-300 hover:bg-green-900;
+	}
+
+	.outline-btn-blue {
+		@apply relative inline-block rounded-full bg-blue-700 px-8 py-4 text-white outline-[3px] outline-offset-4 outline-blue-700 transition-all duration-300 hover:bg-gray-100 hover:text-blue-700;
+	}
+
+	.outline-btn-light {
+		@apply relative inline-block rounded-full bg-white px-8 py-4 text-black outline-[3px] outline-offset-4 outline-white transition-all duration-300 hover:bg-blue-700 hover:text-white;
+	}
+
+	.outline-btn-dark {
+		@apply relative inline-block rounded-full bg-slate-900 px-8 py-4 text-white outline-[3px] outline-offset-4 outline-slate-900 transition-all duration-300 hover:bg-gray-100 hover:text-slate-900;
+	}
+
+	.outline-btn-red:focus,
+	.outline-btn-green:focus,
+	.outline-btn-blue:focus,
+	.outline-btn-light:focus,
+	.outline-btn-dark:focus {
+		@apply outline-4 outline-offset-4 outline-black;
+	}
+
+	a:not(.no-global-styling),
+	button:not(.no-global-styling) {
+		@apply font-bold uppercase tracking-wider;
+	}
+
+	button.no-global-styling,
+	a.no-global-styling {
+		text-align: unset;
+	}
+
+	label:not(.no-global-styling),
+	div.label {
+		@apply text-sm font-bold uppercase tracking-wider;
+	}
+
+	label span.optional {
+		@apply text-xs font-normal lowercase tracking-normal;
+	}
+
+	input:not(.no-global-styling),
+	textarea:not(.no-global-styling),
+	select:not(.no-global-styling) {
+		@apply block w-full rounded-lg border-2 border-gray-300 bg-white p-2.5 text-sm;
+	}
+
+	input:not(.no-global-styling):focus,
+	textarea:not(.no-global-styling):focus,
+	select:not(.no-global-styling):focus {
+		@apply border-blue-700 ring-4 ring-blue-700;
+	}
+
+	.input-wrapper label.invalid {
+		@apply text-red-700;
+	}
+
+	.input-wrapper input,
+	.input-wrapper textarea,
+	.input-wrapper select {
+		@apply mt-1;
+	}
+
+	.input-wrapper option:not(.text-gray-400) {
+		@apply text-black;
+	}
+
+	.input-wrapper input.invalid,
+	.input-wrapper textarea.invalid,
+	.input-wrapper select.invalid {
+		@apply border-red-700;
+	}
+
+	.invalid-message {
+		@apply absolute mt-0.5 text-xs text-red-700;
+	}
+
+	.help-text {
+		@apply absolute mt-0.5 text-xs text-blue-700;
+	}
+}

@@ -1,0 +1,2438 @@
+[
+	{
+		"trade_id": "MFL-2018-1",
+		"season": "2018",
+		"date": "2019-04-17",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Alvin Kamara",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Allen Lazard",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "JuJu Smith-Schuster",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2019)"
+					}
+				]
+			},
+			{
+				"team": "Too Hot To Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "Saquon Barkley",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "A.J. Green",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "James Washington",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2019)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-2",
+		"season": "2018",
+		"date": "2019-04-16",
+		"teams": [
+			{
+				"team": "The John Dorseys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Nelson Agholor",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Too Hot To Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "Golden Tate",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2019, from Autodraft Jesus)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-3",
+		"season": "2018",
+		"date": "2019-04-16",
+		"teams": [
+			{
+				"team": "Old No.7",
+				"received": [
+					{
+						"type": "player",
+						"name": "DeSean Jackson",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Eric Ebron",
+						"pos": "TE"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-4",
+		"season": "2018",
+		"date": "2018-11-18",
+		"teams": [
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jeff Heuerman",
+						"pos": "TE"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jaylen Samuels",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-5",
+		"season": "2018",
+		"date": "2018-10-18",
+		"teams": [
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Matt Breida",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "Old No.7",
+				"received": [
+					{
+						"type": "player",
+						"name": "Emmanuel Sanders",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-6",
+		"season": "2018",
+		"date": "2018-09-27",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Antonio Brown",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "The John Dorseys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Nick Chubb",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2019)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2019)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2019)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2020)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-7",
+		"season": "2018",
+		"date": "2018-09-26",
+		"teams": [
+			{
+				"team": "Arrowhead Hero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Devonta Freeman",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Larry Fitzgerald",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "The John Dorseys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Tarik Cohen",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Tre'Quan Smith",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2019)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2019)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-8",
+		"season": "2018",
+		"date": "2018-09-26",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Kerryon Johnson",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "player",
+						"name": "James White",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-9",
+		"season": "2018",
+		"date": "2018-09-18",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jared Goff",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "David Johnson",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Carson Wentz",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Derrick Henry",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2019)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-10",
+		"season": "2018",
+		"date": "2018-08-30",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Joe Mixon",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Ito Smith",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Mike Evans",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jerick McKinnon",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Tyreek Hill",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Laquon Treadwell",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-11",
+		"season": "2018",
+		"date": "2018-08-29",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Nick Chubb",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Michael Thomas",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Tittsburgh Feelers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jimmy Garoppolo",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Dion Lewis",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Evan Engram",
+						"pos": "TE"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-12",
+		"season": "2018",
+		"date": "2018-08-29",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jimmy Garoppolo",
+						"pos": "QB"
+					}
+				]
+			},
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Andrew Luck",
+						"pos": "QB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-13",
+		"season": "2018",
+		"date": "2018-08-29",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Geronimo Allison",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Deon Cain",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Christian Kirk",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Anthony Miller",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jimmy Garoppolo",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Malcolm Brown",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Minnesota Vikings",
+						"pos": "DEF"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-14",
+		"season": "2018",
+		"date": "2018-08-29",
+		"teams": [
+			{
+				"team": "Tittsburgh Feelers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Sammy Watkins",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2019, from Tittsburgh Feelers)"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Derrick Henry",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-15",
+		"season": "2018",
+		"date": "2018-08-27",
+		"teams": [
+			{
+				"team": "Tittsburgh Feelers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Derrick Henry",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Sammy Watkins",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2019, from Tittsburgh Feelers)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2018-16",
+		"season": "2018",
+		"date": "2018-08-25",
+		"teams": [
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jordan Wilkins",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Peyton Barber",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-1",
+		"season": "2019",
+		"date": "2019-11-28",
+		"teams": [
+			{
+				"team": "Too Hot To Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "Sony Michel",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "Natty Guice",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2020, from Autodraft Jesus)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-2",
+		"season": "2019",
+		"date": "2019-11-27",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Michael Gallup",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Dak Prescott",
+						"pos": "QB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-3",
+		"season": "2019",
+		"date": "2019-11-27",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Leonard Fournette",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Michael Gallup",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Arrowhead Hero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Antonio Brown",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2020, from Too Hot To Handle)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-4",
+		"season": "2019",
+		"date": "2019-11-26",
+		"teams": [
+			{
+				"team": "ISU Pornstar",
+				"received": [
+					{
+						"type": "player",
+						"name": "Ryan Fitzpatrick",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Mason Crosby",
+						"pos": "PK"
+					},
+					{
+						"type": "player",
+						"name": "Jacksonville Jaguars",
+						"pos": "DEF"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2021, from Too Hot To Handle)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2020, from Too Hot To Handle)"
+					}
+				]
+			},
+			{
+				"team": "Too Hot To Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jamison Crowder",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Harrison Butker",
+						"pos": "PK"
+					},
+					{
+						"type": "player",
+						"name": "San Francisco 49ers",
+						"pos": "DEF"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2020, from ISU Pornstar)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2020, from ISU Pornstar)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-5",
+		"season": "2019",
+		"date": "2019-09-26",
+		"teams": [
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jordan Howard",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "D.J. Chark",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Courtland Sutton",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-6",
+		"season": "2019",
+		"date": "2019-09-20",
+		"teams": [
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "D.J. Moore",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "KalJ",
+				"received": [
+					{
+						"type": "player",
+						"name": "Mohamed Sanu",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2020, from Hot Chubb Time Machine)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2020, from Natty Guice)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-7",
+		"season": "2019",
+		"date": "2019-09-05",
+		"teams": [
+			{
+				"team": "Natty Guice",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2020, from Autodraft Jesus)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2020, from Hot Chubb Time Machine)"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Courtland Sutton",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2020, from Natty Guice)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2020, from Natty Guice)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-8",
+		"season": "2019",
+		"date": "2019-09-04",
+		"teams": [
+			{
+				"team": "Too Hot To Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "David Johnson",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2020, from Autodraft Jesus)"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Dalvin Cook",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2020, from Too Hot To Handle)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-9",
+		"season": "2019",
+		"date": "2019-08-30",
+		"teams": [
+			{
+				"team": "Too Hot To Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "Josh Gordon",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Chris Carson",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-10",
+		"season": "2019",
+		"date": "2019-08-10",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Dak Prescott",
+						"pos": "QB"
+					}
+				]
+			},
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Mitchell Trubisky",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Tony Pollard",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-11",
+		"season": "2019",
+		"date": "2019-05-06",
+		"teams": [
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2019, 4.11)"
+					}
+				]
+			},
+			{
+				"team": "Old No.7",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2019, 4.09)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-12",
+		"season": "2019",
+		"date": "2019-04-24",
+		"teams": [
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Evan Engram",
+						"pos": "TE"
+					}
+				]
+			},
+			{
+				"team": "Natty Guice",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2019, 4.03)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2020, from Hot Chubb Time Machine)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2019-13",
+		"season": "2019",
+		"date": "2019-04-20",
+		"teams": [
+			{
+				"team": "Natty Guice",
+				"received": [
+					{
+						"type": "player",
+						"name": "Kirk Cousins",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Ronald Jones",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "Too Hot To Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jimmy Garoppolo",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Kalen Ballage",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2020-1",
+		"season": "2020",
+		"date": "2020-11-28",
+		"teams": [
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Deebo Samuel",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Chase Edmonds",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2021, Autodraft Jesus)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2020-2",
+		"season": "2020",
+		"date": "2020-10-27",
+		"teams": [
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2021, Autodraft Jesus)"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Odell Beckham",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2020-3",
+		"season": "2020",
+		"date": "2020-09-29",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "D.J. Moore",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "JuJu Smith-Schuster",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2020-4",
+		"season": "2020",
+		"date": "2020-09-22",
+		"teams": [
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Leonard Fournette",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Kenyan Drake",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Jarvis Landry",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2020-5",
+		"season": "2020",
+		"date": "2020-05-19",
+		"teams": [
+			{
+				"team": "Old No.7",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2021, Hot Chubb Time Machine)"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Derek Carr",
+						"pos": "QB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2020-6",
+		"season": "2020",
+		"date": "2020-05-14",
+		"teams": [
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jarvis Landry",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Tarik Cohen",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Tre'Quan Smith",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2021, Hot Chubb Time Machine)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2020-7",
+		"season": "2020",
+		"date": "2020-05-06",
+		"teams": [
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Draft Pick 2.03 (2020)"
+					}
+				]
+			},
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Draft Pick 2.09 (2020)"
+					},
+					{
+						"type": "pick",
+						"name": "Draft Pick 3.07 (2020)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2021, San Fierro 69'ers)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-1",
+		"season": "2021",
+		"date": "2022-02-10",
+		"teams": [
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2022)"
+					}
+				]
+			},
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "JuJu Smith-Schuster",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-2",
+		"season": "2021",
+		"date": "2021-12-02",
+		"teams": [
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Devin Singletary",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-3",
+		"season": "2021",
+		"date": "2021-11-21",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Amari Cooper",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					}
+				]
+			},
+			{
+				"team": "Arrowhead Hero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Quez Watkins",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2022)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2023)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-4",
+		"season": "2021",
+		"date": "2021-10-13",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2022)"
+					}
+				]
+			},
+			{
+				"team": "ISU Pornstar",
+				"received": [
+					{
+						"type": "player",
+						"name": "Tyler Conklin",
+						"pos": "TE"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-5",
+		"season": "2021",
+		"date": "2021-09-10",
+		"teams": [
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2022)"
+					}
+				]
+			},
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Latavius Murray",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-6",
+		"season": "2021",
+		"date": "2021-09-03",
+		"teams": [
+			{
+				"team": "ISU Pornstar",
+				"received": [
+					{
+						"type": "player",
+						"name": "Mark Ingram",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Odell Beckham",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Javonte Williams",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Darius Slayton",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-7",
+		"season": "2021",
+		"date": "2021-08-30",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Brandin Cooks",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "O.J. Howard",
+						"pos": "TE"
+					}
+				]
+			},
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Corey Davis",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Pat Freiermuth",
+						"pos": "TE"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-8",
+		"season": "2021",
+		"date": "2021-08-29",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Tyler Boyd",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Tavon Austin",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Ka'imi Fairbairn",
+						"pos": "PK"
+					}
+				]
+			},
+			{
+				"team": "ISU Pornstar",
+				"received": [
+					{
+						"type": "player",
+						"name": "Tevin Coleman",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Sterling Shepard",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Jonnu Smith",
+						"pos": "TE"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-9",
+		"season": "2021",
+		"date": "2021-08-24",
+		"teams": [
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Diontae Johnson",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Michael Pittman",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Marquez Callaway",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Chase Claypool",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Sterling Shepard",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Keelan Cole",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-10",
+		"season": "2021",
+		"date": "2021-06-08",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Elijah Moore",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Curtis Samuel",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-11",
+		"season": "2021",
+		"date": "2021-06-03",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Josh Allen",
+						"pos": "QB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2022)"
+					}
+				]
+			},
+			{
+				"team": "Arrowhead Hero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jared Goff",
+						"pos": "QB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2022)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2022)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-12",
+		"season": "2021",
+		"date": "2021-05-18",
+		"teams": [
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Kirk Cousins",
+						"pos": "QB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2021)"
+					}
+				]
+			},
+			{
+				"team": "ISU Pornstar",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2021)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2022)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-13",
+		"season": "2021",
+		"date": "2021-05-18",
+		"teams": [
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jarvis Landry",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2021)"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Phillip Lindsay",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Parris Campbell",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-14",
+		"season": "2021",
+		"date": "2021-05-17",
+		"teams": [
+			{
+				"team": "Meat Jerking Beef Boys",
+				"received": [
+					{
+						"type": "player",
+						"name": "Tyler Higbee",
+						"pos": "TE"
+					}
+				]
+			},
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Darrell Henderson",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "MFL-2021-15",
+		"season": "2021",
+		"date": "2021-05-07",
+		"teams": [
+			{
+				"team": "San Fierro 69'ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "D'Andre Swift",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "ISU Pornstar",
+				"received": [
+					{
+						"type": "player",
+						"name": "Aaron Jones",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2021)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "846156124498534400",
+		"season": "2022",
+		"date": "2022-06-24",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Dallas Goedert",
+						"pos": "TE"
+					}
+				]
+			},
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Isaiah Spiller",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "870300604382232576",
+		"season": "2022",
+		"date": "2022-08-30",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Quez Watkins",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Larry Rountree",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Kadarius Toney",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "ArrowheadHero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Isaiah McKenzie",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Michael Gallup",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Romeo Doubs",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "876243976733253632",
+		"season": "2022",
+		"date": "2022-09-15",
+		"teams": [
+			{
+				"team": "San Fierro 69’ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Chase Edmonds",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2023)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2024)"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Deebo Samuel",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "876130225094782976",
+		"season": "2022",
+		"date": "2022-09-15",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Alexander Mattison",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Darnell Mooney",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2023)"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Michael Thomas",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "876529215753838592",
+		"season": "2022",
+		"date": "2022-09-16",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Russell Wilson",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Damien Harris",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2025)"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "James Robinson",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "879240680227155968",
+		"season": "2022",
+		"date": "2022-09-24",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Wan'Dale Robinson",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Tyler Boyd",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Nico Collins",
+						"pos": "WR"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "886319651938955264",
+		"season": "2022",
+		"date": "2022-10-13",
+		"teams": [
+			{
+				"team": "San Fierro 69’ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jeff Wilson",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2024)"
+					}
+				]
+			},
+			{
+				"team": "WHITEHAMMER1",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "891030640714285056",
+		"season": "2022",
+		"date": "2022-10-26",
+		"teams": [
+			{
+				"team": "Too Hot to Handle",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2023)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2024)"
+					}
+				]
+			},
+			{
+				"team": "San Fierro 69’ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Austin Ekeler",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "905255119783215104",
+		"season": "2022",
+		"date": "2022-12-04",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Logan Thomas",
+						"pos": "TE"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2023)"
+					}
+				]
+			},
+			{
+				"team": "ArrowheadHero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Taysom Hill",
+						"pos": "TE"
+					},
+					{
+						"type": "player",
+						"name": "Brian Robinson",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "905971193822429184",
+		"season": "2022",
+		"date": "2022-12-06",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					}
+				]
+			},
+			{
+				"team": "ArrowheadHero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Isiah Pacheco",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "906240141524426752",
+		"season": "2022",
+		"date": "2022-12-07",
+		"teams": [
+			{
+				"team": "San Fierro 69’ers",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					}
+				]
+			},
+			{
+				"team": "WHITEHAMMER1",
+				"received": [
+					{
+						"type": "player",
+						"name": "Justin Fields",
+						"pos": "QB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "906557644305821696",
+		"season": "2022",
+		"date": "2022-12-08",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "player",
+						"name": "Kyle Pitts",
+						"pos": "TE"
+					}
+				]
+			},
+			{
+				"team": "Hot Chubb Time Machine",
+				"received": [
+					{
+						"type": "player",
+						"name": "Cole Kmet",
+						"pos": "TE"
+					},
+					{
+						"type": "player",
+						"name": "Gabe Davis",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "962429308948033536",
+		"season": "2023",
+		"date": "2023-05-11",
+		"teams": [
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "player",
+						"name": "Trent Sherfield",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2023)"
+					}
+				]
+			},
+			{
+				"team": "Too Hot to Handle",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2023)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "1018021324003921920",
+		"season": "2023",
+		"date": "2023-10-12",
+		"teams": [
+			{
+				"team": "Too Hot to Handle",
+				"received": [
+					{
+						"type": "player",
+						"name": "Garrett Wilson",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Krispy Krusties",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2024)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "1020504904026214400",
+		"season": "2023",
+		"date": "2023-10-18",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Calvin Austin",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2024)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2024)"
+					}
+				]
+			},
+			{
+				"team": "San Fierro 69’ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Mike Evans",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2025)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "1026508688405766144",
+		"season": "2023",
+		"date": "2023-11-04",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Joshua Dobbs",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Breece Hall",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Kendre Miller",
+						"pos": "RB"
+					}
+				]
+			},
+			{
+				"team": "cornporkNbeans",
+				"received": [
+					{
+						"type": "player",
+						"name": "Brandin Cooks",
+						"pos": "WR"
+					},
+					{
+						"type": "player",
+						"name": "Dak Prescott",
+						"pos": "QB"
+					},
+					{
+						"type": "player",
+						"name": "Joe Mixon",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "1027637057843224576",
+		"season": "2023",
+		"date": "2023-11-07",
+		"teams": [
+			{
+				"team": "Autodraft Jesus",
+				"received": [
+					{
+						"type": "player",
+						"name": "Cole Kmet",
+						"pos": "TE"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2025)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2024)"
+					}
+				]
+			},
+			{
+				"team": "Krispy Krusties",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2024)"
+					},
+					{
+						"type": "pick",
+						"name": "Round 1 Pick (2024)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "1093360386146914304",
+		"season": "2024",
+		"date": "2024-05-06",
+		"teams": [
+			{
+				"team": "Vinegar Strokes",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2024)"
+					}
+				]
+			},
+			{
+				"team": "Krispy Krusties",
+				"received": [
+					{
+						"type": "player",
+						"name": "Kenneth Gainwell",
+						"pos": "RB"
+					},
+					{
+						"type": "player",
+						"name": "Chuba Hubbard",
+						"pos": "RB"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "1142316396068802560",
+		"season": "2024",
+		"date": "2024-09-19",
+		"teams": [
+			{
+				"team": "The Sheriff",
+				"received": [
+					{
+						"type": "pick",
+						"name": "Round 3 Pick (2025)"
+					}
+				]
+			},
+			{
+				"team": "ArrowheadHero",
+				"received": [
+					{
+						"type": "player",
+						"name": "Carson Steele",
+						"pos": "RB"
+					},
+					{
+						"type": "pick",
+						"name": "Round 4 Pick (2025)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"trade_id": "1170529361456427008",
+		"season": "2024",
+		"date": "2024-12-05",
+		"teams": [
+			{
+				"team": "San Fierro 69’ers",
+				"received": [
+					{
+						"type": "player",
+						"name": "Nico Collins",
+						"pos": "WR"
+					}
+				]
+			},
+			{
+				"team": "Krispy Krusties",
+				"received": [
+					{
+						"type": "player",
+						"name": "Jordan Addison",
+						"pos": "WR"
+					},
+					{
+						"type": "pick",
+						"name": "Round 2 Pick (2025)"
+					}
+				]
+			}
+		]
+	}
+]

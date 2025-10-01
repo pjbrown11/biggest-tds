@@ -1,0 +1,27 @@
+{
+	"name": "goat-starter",
+	"version": "1.0.0",
+	"description": "Goat Starter",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://gitlab.com/pjbrown11/goat-starter.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/pjbrown11/goat-starter/issues"
+	},
+	"type": "module",
+	"homepage": "https://gitlab.com/pjbrown11/goat-starter#readme",
+	"scripts": {
+		"build-site": "cd site && npm run build",
+		"dev-site": "cd site && npm run dev -- --open"
+	},
+	"devDependencies": {
+		"cross-env": "7.0.3",
+		"prettier": "3.6.2",
+		"prettier-plugin-svelte": "3.4.0",
+		"prettier-plugin-tailwindcss": "0.6.14"
+	}
+}

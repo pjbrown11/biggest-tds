@@ -1,0 +1,3170 @@
+[
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Todd Gurley",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Ezekiel Elliott",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Saquon Barkley",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Le'Veon Bell",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "David Johnson",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "DeAndre Hopkins",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Carson Wentz",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Antonio Brown",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Kareem Hunt",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Leonard Fournette",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Odell Beckham",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Alvin Kamara",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Dalvin Cook",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Michael Thomas",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Melvin Gordon",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Christian McCaffrey",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Devonta Freeman",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Tyreek Hill",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Keenan Allen",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Julio Jones",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Davante Adams",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "A.J. Green",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Mike Evans",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Rob Gronkowski",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "LeSean McCoy",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Joe Mixon",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Jordan Howard",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Aaron Rodgers",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Jarvis Landry",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Stefon Diggs",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Jerick McKinnon",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Larry Fitzgerald",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Travis Kelce",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Amari Cooper",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Allen Robinson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "JuJu Smith-Schuster",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Deshaun Watson",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Brandin Cooks",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Royce Freeman",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "T.Y. Hilton",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Kenyan Drake",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Derrick Henry",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Zach Ertz",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Alshon Jeffery",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Doug Baldwin",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Corey Davis",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Adam Thielen",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Alex Collins",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 49,
+		"pick": "5.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Chris Hogan",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 50,
+		"pick": "5.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Josh Gordon",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 51,
+		"pick": "5.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Demaryius Thomas",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 52,
+		"pick": "5.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Jay Ajayi",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 53,
+		"pick": "5.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Kerryon Johnson",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 54,
+		"pick": "5.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Lamar Miller",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 55,
+		"pick": "5.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Evan Engram",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 56,
+		"pick": "5.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Golden Tate",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 57,
+		"pick": "5.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Marshawn Lynch",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 58,
+		"pick": "5.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Will Fuller",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 59,
+		"pick": "5.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Sony Michel",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 5,
+		"pick_no": 60,
+		"pick": "5.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Ronald Jones",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 61,
+		"pick": "6.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Rashaad Penny",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 62,
+		"pick": "6.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Sammy Watkins",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 63,
+		"pick": "6.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Duke Johnson",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 64,
+		"pick": "6.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Mark Ingram",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 65,
+		"pick": "6.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Russell Wilson",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 66,
+		"pick": "6.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Trey Burton",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 67,
+		"pick": "6.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Cam Newton",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 68,
+		"pick": "6.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Tom Brady",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 69,
+		"pick": "6.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Greg Olsen",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 70,
+		"pick": "6.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Robby Anderson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 71,
+		"pick": "6.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Marvin Jones",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 6,
+		"pick_no": 72,
+		"pick": "6.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Drew Brees",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 73,
+		"pick": "7.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Michael Crabtree",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 74,
+		"pick": "7.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Marlon Mack",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 75,
+		"pick": "7.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Rex Burkhead",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 76,
+		"pick": "7.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Jordy Nelson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 77,
+		"pick": "7.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Kyle Rudolph",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 78,
+		"pick": "7.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Isaiah Crowell",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 79,
+		"pick": "7.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Jordan Reed",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 80,
+		"pick": "7.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Jamaal Williams",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 81,
+		"pick": "7.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Tevin Coleman",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 82,
+		"pick": "7.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Tarik Cohen",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 83,
+		"pick": "7.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Nick Chubb",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 7,
+		"pick_no": 84,
+		"pick": "7.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Robert Woods",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 85,
+		"pick": "8.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Chris Carson",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 86,
+		"pick": "8.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Derrius Guice",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 87,
+		"pick": "8.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Calvin Ridley",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 88,
+		"pick": "8.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Mike Williams",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 89,
+		"pick": "8.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Marquise Goodwin",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 90,
+		"pick": "8.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Dion Lewis",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 91,
+		"pick": "8.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Devin Funchess",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 92,
+		"pick": "8.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Cooper Kupp",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 93,
+		"pick": "8.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Julian Edelman",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 94,
+		"pick": "8.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Carlos Hyde",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 95,
+		"pick": "8.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Jimmy Graham",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 8,
+		"pick_no": 96,
+		"pick": "8.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "D.J. Moore",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 97,
+		"pick": "9.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "DeVante Parker",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 98,
+		"pick": "9.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Sterling Shepard",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 99,
+		"pick": "9.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Delanie Walker",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 100,
+		"pick": "9.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Jamison Crowder",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 101,
+		"pick": "9.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Dez Bryant",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 102,
+		"pick": "9.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Kelvin Benjamin",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 103,
+		"pick": "9.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Jimmy Garoppolo",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 104,
+		"pick": "9.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "David Njoku",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 105,
+		"pick": "9.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Randall Cobb",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 106,
+		"pick": "9.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Jack Doyle",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 107,
+		"pick": "9.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "O.J. Howard",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 9,
+		"pick_no": 108,
+		"pick": "9.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Nelson Agholor",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 109,
+		"pick": "10.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Josh Doctson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 110,
+		"pick": "10.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Chris Thompson",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 111,
+		"pick": "10.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Patrick Mahomes",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 112,
+		"pick": "10.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Philip Rivers",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 113,
+		"pick": "10.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Rob Kelley",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 114,
+		"pick": "10.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Andrew Luck",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 115,
+		"pick": "10.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Corey Clement",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 116,
+		"pick": "10.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Jared Goff",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 117,
+		"pick": "10.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Ty Montgomery",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 118,
+		"pick": "10.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Matthew Stafford",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 119,
+		"pick": "10.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Emmanuel Sanders",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 10,
+		"pick_no": 120,
+		"pick": "10.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Philadelphia Eagles",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 121,
+		"pick": "11.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Pierre Garcon",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 122,
+		"pick": "11.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Anthony Miller",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 123,
+		"pick": "11.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "James White",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 124,
+		"pick": "11.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Jacksonville Jaguars",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 125,
+		"pick": "11.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Latavius Murray",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 126,
+		"pick": "11.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Los Angeles Rams",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 127,
+		"pick": "11.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Minnesota Vikings",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 128,
+		"pick": "11.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Mohamed Sanu",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 129,
+		"pick": "11.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Marqise Lee",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 130,
+		"pick": "11.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Allen Hurns",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 131,
+		"pick": "11.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Aaron Jones",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 11,
+		"pick_no": 132,
+		"pick": "11.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "John Ross",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 133,
+		"pick": "12.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Kirk Cousins",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 134,
+		"pick": "12.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Matt Ryan",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 135,
+		"pick": "12.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "T.J. Yeldon",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 136,
+		"pick": "12.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Cameron Meredith",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 137,
+		"pick": "12.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "James Washington",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 138,
+		"pick": "12.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Los Angeles Chargers",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 139,
+		"pick": "12.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Justin Tucker",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 140,
+		"pick": "12.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Tyler Eifert",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 141,
+		"pick": "12.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Kenny Stills",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 142,
+		"pick": "12.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "John Brown",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 143,
+		"pick": "12.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Christian Kirk",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 12,
+		"pick_no": 144,
+		"pick": "12.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Ben Roethlisberger",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 145,
+		"pick": "13.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "C.J. Anderson",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 146,
+		"pick": "13.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Peyton Barber",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 147,
+		"pick": "13.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Alfred Morris",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 148,
+		"pick": "13.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Marcus Mariota",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 149,
+		"pick": "13.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Rishard Matthews",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 150,
+		"pick": "13.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "James Conner",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 151,
+		"pick": "13.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Greg Zuerlein",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 152,
+		"pick": "13.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Giovani Bernard",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 153,
+		"pick": "13.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Derek Carr",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 154,
+		"pick": "13.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Michael Gallup",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 155,
+		"pick": "13.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Courtland Sutton",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 13,
+		"pick_no": 156,
+		"pick": "13.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Kenny Golladay",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 157,
+		"pick": "14.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "D'Onta Foreman",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 158,
+		"pick": "14.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Chris Godwin",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 159,
+		"pick": "14.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Tyler Lockett",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 160,
+		"pick": "14.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "George Kittle",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 161,
+		"pick": "14.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Houston Texans",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 162,
+		"pick": "14.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Devontae Booker",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 163,
+		"pick": "14.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Danny Amendola",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 164,
+		"pick": "14.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Martavis Bryant",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 165,
+		"pick": "14.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Bilal Powell",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 166,
+		"pick": "14.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Jordan Wilkins",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 167,
+		"pick": "14.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Spencer Ware",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 14,
+		"pick_no": 168,
+		"pick": "14.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Stephen Gostkowski",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 169,
+		"pick": "15.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Charles Clay",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 170,
+		"pick": "15.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Jameis Winston",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 171,
+		"pick": "15.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Tyrell Williams",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 172,
+		"pick": "15.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Hayden Hurst",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 173,
+		"pick": "15.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Javorius Allen",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 174,
+		"pick": "15.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Baker Mayfield",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 175,
+		"pick": "15.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Theo Riddick",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 176,
+		"pick": "15.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Chris Boswell",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 177,
+		"pick": "15.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Matt Breida",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 178,
+		"pick": "15.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Antonio Callaway",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 179,
+		"pick": "15.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Samaje Perine",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 15,
+		"pick_no": 180,
+		"pick": "15.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Hunter Henry",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 181,
+		"pick": "16.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Nyheim Hines",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 182,
+		"pick": "16.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Elijah McGuire",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 183,
+		"pick": "16.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Mike Gesicki",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 184,
+		"pick": "16.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Kalen Ballage",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 185,
+		"pick": "16.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "D.J. Chark",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 186,
+		"pick": "16.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Jermaine Kearse",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 187,
+		"pick": "16.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "John Kelly",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 188,
+		"pick": "16.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "DeSean Jackson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 189,
+		"pick": "16.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Harrison Butker",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 190,
+		"pick": "16.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Lamar Jackson",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 191,
+		"pick": "16.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Dak Prescott",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 16,
+		"pick_no": 192,
+		"pick": "16.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Ted Ginn Jr.",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 193,
+		"pick": "17.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Adrian Peterson",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 194,
+		"pick": "17.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Geronimo Allison",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 195,
+		"pick": "17.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Mitchell Trubisky",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 196,
+		"pick": "17.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Chris Ivory",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 197,
+		"pick": "17.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Cole Beasley",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 198,
+		"pick": "17.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Paul Richardson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 199,
+		"pick": "17.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Wil Lutz",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 200,
+		"pick": "17.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Sam Darnold",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 201,
+		"pick": "17.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Taywan Taylor",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 202,
+		"pick": "17.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Keelan Cole",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 203,
+		"pick": "17.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Dante Pettis",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 17,
+		"pick_no": 204,
+		"pick": "17.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Ryan Grant",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 205,
+		"pick": "18.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Keke Coutee",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 206,
+		"pick": "18.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Jonathan Williams",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 207,
+		"pick": "18.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Tre'Quan Smith",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 208,
+		"pick": "18.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Josh Rosen",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 209,
+		"pick": "18.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Jordan Lasley",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 210,
+		"pick": "18.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Denver Broncos",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 211,
+		"pick": "18.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Brandon Marshall",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 212,
+		"pick": "18.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Dede Westbrook",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 213,
+		"pick": "18.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Eric Decker",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 214,
+		"pick": "18.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Corey Grant",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 215,
+		"pick": "18.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Rod Smith",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 18,
+		"pick_no": 216,
+		"pick": "18.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Kenneth Dixon",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 217,
+		"pick": "19.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Cordarrelle Patterson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 218,
+		"pick": "19.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Ito Smith",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 219,
+		"pick": "19.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Ricky Seals-Jones",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 220,
+		"pick": "19.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Mike Wallace",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 221,
+		"pick": "19.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Terrance Williams",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 222,
+		"pick": "19.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Cameron Brate",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 223,
+		"pick": "19.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Carolina Panthers",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 224,
+		"pick": "19.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Rashard Higgins",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 225,
+		"pick": "19.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Eric Ebron",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 226,
+		"pick": "19.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "LeGarrette Blount",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 227,
+		"pick": "19.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Alex Smith",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 19,
+		"pick_no": 228,
+		"pick": "19.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Austin Ekeler",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 229,
+		"pick": "20.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Antonio Gates",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 230,
+		"pick": "20.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Gerald Everett",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 231,
+		"pick": "20.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Josh Allen",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 232,
+		"pick": "20.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Chad Williams",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 233,
+		"pick": "20.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Albert Wilson",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 234,
+		"pick": "20.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Dan Bailey",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 235,
+		"pick": "20.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Eli Manning",
+			"pos": "QB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 236,
+		"pick": "20.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Jake Elliott",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 237,
+		"pick": "20.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Tavon Austin",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 238,
+		"pick": "20.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Chase Edmonds",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 239,
+		"pick": "20.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "J'Mon Moore",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 20,
+		"pick_no": 240,
+		"pick": "20.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Doug Martin",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 241,
+		"pick": "21.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Corey Coleman",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 242,
+		"pick": "21.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Austin Seferian-Jenkins",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 243,
+		"pick": "21.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Jacob Hollister",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 244,
+		"pick": "21.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Taylor Gabriel",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 245,
+		"pick": "21.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Vance McDonald",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 246,
+		"pick": "21.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Matt Prater",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 247,
+		"pick": "21.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Pittsburgh Steelers",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 248,
+		"pick": "21.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Robert Turbin",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 249,
+		"pick": "21.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Quincy Enunwa",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 250,
+		"pick": "21.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Kansas City Chiefs",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 251,
+		"pick": "21.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Equanimeous St. Brown",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 21,
+		"pick_no": 252,
+		"pick": "21.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Bo Scarbrough",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 253,
+		"pick": "22.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Adam Vinatieri",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 254,
+		"pick": "22.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Jeremy Hill",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 255,
+		"pick": "22.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Robbie Gould",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 256,
+		"pick": "22.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Mason Crosby",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 257,
+		"pick": "22.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Geoff Swaim",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 258,
+		"pick": "22.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Donte Moncrief",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 259,
+		"pick": "22.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Baltimore Ravens",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 260,
+		"pick": "22.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Ameer Abdullah",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 261,
+		"pick": "22.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Austin Hooper",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 262,
+		"pick": "22.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "New England Patriots",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 263,
+		"pick": "22.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Jaylen Samuels",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 22,
+		"pick_no": 264,
+		"pick": "22.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Jake Butt",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 265,
+		"pick": "23.1",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Kevin White",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 266,
+		"pick": "23.2",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Deon Cain",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 267,
+		"pick": "23.3",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Wayne Gallman",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 268,
+		"pick": "23.4",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Jonathan Stewart",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 269,
+		"pick": "23.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Kendall Wright",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 270,
+		"pick": "23.6",
+		"team": "Monty Express",
+		"player": {
+			"name": "Mark Walton",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 271,
+		"pick": "23.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Laquon Treadwell",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 272,
+		"pick": "23.8",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Travaris Cadet",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 273,
+		"pick": "23.9",
+		"team": "Old No.7",
+		"player": {
+			"name": "Brice Butler",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 274,
+		"pick": "23.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Josh Lambo",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 275,
+		"pick": "23.11",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Tennessee Titans",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 23,
+		"pick_no": 276,
+		"pick": "23.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Jared Cook",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 277,
+		"pick": "24.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Green Bay Packers",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 278,
+		"pick": "24.2",
+		"team": "Tittsburgh Feelers",
+		"player": {
+			"name": "Daniel Carlson",
+			"pos": "PK"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 279,
+		"pick": "24.3",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Buffalo Bills",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 280,
+		"pick": "24.4",
+		"team": "Old No.7",
+		"player": {
+			"name": "Atlanta Falcons",
+			"pos": "Def"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 281,
+		"pick": "24.5",
+		"team": "The John Dorseys",
+		"player": {
+			"name": "Jaron Brown",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 282,
+		"pick": "24.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Christine Michael",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 283,
+		"pick": "24.7",
+		"team": "Monty Express",
+		"player": {
+			"name": "Travis Benjamin",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 284,
+		"pick": "24.8",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Amara Darboh",
+			"pos": "WR"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 285,
+		"pick": "24.9",
+		"team": "Franchise 10",
+		"player": {
+			"name": "Frank Gore",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 286,
+		"pick": "24.1",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Dallas Goedert",
+			"pos": "TE"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 287,
+		"pick": "24.11",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Paul Perkins",
+			"pos": "RB"
+		}
+	},
+	{
+		"season": "2018",
+		"round": 24,
+		"pick_no": 288,
+		"pick": "24.12",
+		"team": "2 Much Johnson 4 You",
+		"player": {
+			"name": "Terrelle Pryor",
+			"pos": "WR"
+		}
+	}
+]

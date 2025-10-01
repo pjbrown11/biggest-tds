@@ -1,0 +1,506 @@
+{
+	"1": [
+		{
+			"year": 2018,
+			"owner": "Kalvin",
+			"team": "2 Much Johnson 4 You"
+		},
+		{
+			"year": 2019,
+			"owner": "Kalvin",
+			"team": "KalJ"
+		},
+		{
+			"year": 2020,
+			"owner": "Kalvin",
+			"team": "KalJ"
+		},
+		{
+			"year": 2021,
+			"owner": "Jonathan",
+			"team": "THEWHITEHAMMER"
+		},
+		{
+			"year": 2022,
+			"owner": "Jonathan",
+			"team": "WHITEHAMMER1"
+		},
+		{
+			"year": 2023,
+			"owner": "Jonathan",
+			"team": "WHITEHAMMER1"
+		},
+		{
+			"year": 2024,
+			"owner": "Jonathan",
+			"team": "WHITEHAMMER1"
+		},
+		{
+			"year": 2025,
+			"owner": "Jonathan",
+			"team": "WHITEHAMMER1"
+		}
+	],
+	"2": [
+		{
+			"year": 2018,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		},
+		{
+			"year": 2019,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		},
+		{
+			"year": 2020,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		},
+		{
+			"year": 2021,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		},
+		{
+			"year": 2022,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		},
+		{
+			"year": 2023,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		},
+		{
+			"year": 2024,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		},
+		{
+			"year": 2025,
+			"owner": "Derek",
+			"team": "Arrowhead Hero"
+		}
+	],
+	"3": [
+		{
+			"year": 2018,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		},
+		{
+			"year": 2019,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		},
+		{
+			"year": 2020,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		},
+		{
+			"year": 2021,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		},
+		{
+			"year": 2022,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		},
+		{
+			"year": 2023,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		},
+		{
+			"year": 2024,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		},
+		{
+			"year": 2025,
+			"owner": "Paul",
+			"team": "Audodraft Jesus"
+		}
+	],
+	"4": [
+		{
+			"year": 2018,
+			"owner": "Keaton",
+			"team": "Franchise 10"
+		},
+		{
+			"year": 2019,
+			"owner": "Corey",
+			"team": "ISU Pornstar"
+		},
+		{
+			"year": 2020,
+			"owner": "Corey",
+			"team": "ISU Pornstar"
+		},
+		{
+			"year": 2021,
+			"owner": "Corey",
+			"team": "ISU Pornstar"
+		},
+		{
+			"year": 2022,
+			"owner": "Corey",
+			"team": "cornporkNbeans"
+		},
+		{
+			"year": 2023,
+			"owner": "Corey",
+			"team": "cornporkNbeans"
+		},
+		{
+			"year": 2024,
+			"owner": "Corey",
+			"team": "cornporkNbeans"
+		},
+		{
+			"year": 2025,
+			"owner": "Corey",
+			"team": "cornporkNbeans"
+		}
+	],
+	"5": [
+		{
+			"year": 2018,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		},
+		{
+			"year": 2019,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		},
+		{
+			"year": 2020,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		},
+		{
+			"year": 2021,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		},
+		{
+			"year": 2022,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		},
+		{
+			"year": 2023,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		},
+		{
+			"year": 2024,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		},
+		{
+			"year": 2025,
+			"owner": "Tyler",
+			"team": "Meat Jerking Beef Boys"
+		}
+	],
+	"6": [
+		{
+			"year": 2018,
+			"owner": "Scott",
+			"team": "Monty Express"
+		},
+		{
+			"year": 2019,
+			"owner": "Scott",
+			"team": "Monty Express"
+		},
+		{
+			"year": 2020,
+			"owner": "Scott",
+			"team": "Monty Express"
+		},
+		{
+			"year": 2021,
+			"owner": "Scott",
+			"team": "Monty Express"
+		},
+		{
+			"year": 2022,
+			"owner": "Scott",
+			"team": "Monty Express"
+		},
+		{
+			"year": 2023,
+			"owner": "Scott",
+			"team": "Monty Express"
+		},
+		{
+			"year": 2024,
+			"owner": "Scott",
+			"team": "Monty Express"
+		},
+		{
+			"year": 2025,
+			"owner": "Scott",
+			"team": "Monty Express"
+		}
+	],
+	"7": [
+		{
+			"year": 2018,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		},
+		{
+			"year": 2019,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		},
+		{
+			"year": 2020,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		},
+		{
+			"year": 2021,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		},
+		{
+			"year": 2022,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		},
+		{
+			"year": 2023,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		},
+		{
+			"year": 2024,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		},
+		{
+			"year": 2025,
+			"owner": "Russ",
+			"team": "Old No. 7"
+		}
+	],
+	"8": [
+		{
+			"year": 2018,
+			"owner": "Kyle",
+			"team": "The John Dorseys"
+		},
+		{
+			"year": 2019,
+			"owner": "Kyle",
+			"team": "Hot Chubb Time Machine"
+		},
+		{
+			"year": 2020,
+			"owner": "Kyle",
+			"team": "Hot Chubb Time Machine"
+		},
+		{
+			"year": 2021,
+			"owner": "Kyle",
+			"team": "Hot Chubb Time Machine"
+		},
+		{
+			"year": 2022,
+			"owner": "Kyle",
+			"team": "Hot Chubb Time Machine"
+		},
+		{
+			"year": 2023,
+			"owner": "Nick",
+			"team": "Krispy Krusties"
+		},
+		{
+			"year": 2024,
+			"owner": "Nick",
+			"team": "Krispy Krusties"
+		},
+		{
+			"year": 2025,
+			"owner": "Nick",
+			"team": "Krispy Krusties"
+		}
+	],
+	"9": [
+		{
+			"year": 2018,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		},
+		{
+			"year": 2019,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		},
+		{
+			"year": 2020,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		},
+		{
+			"year": 2021,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		},
+		{
+			"year": 2022,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		},
+		{
+			"year": 2023,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		},
+		{
+			"year": 2024,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		},
+		{
+			"year": 2025,
+			"owner": "Matt",
+			"team": "The Sheriff"
+		}
+	],
+	"10": [
+		{
+			"year": 2018,
+			"owner": "Mitch",
+			"team": "Tittsburgh Feelers"
+		},
+		{
+			"year": 2019,
+			"owner": "Mitch",
+			"team": "Natty Guice"
+		},
+		{
+			"year": 2020,
+			"owner": "Mitch",
+			"team": "San Fierro 69'ers"
+		},
+		{
+			"year": 2021,
+			"owner": "Mitch",
+			"team": "San Fierro 69'ers"
+		},
+		{
+			"year": 2022,
+			"owner": "Mitch",
+			"team": "San Fierro 69'ers"
+		},
+		{
+			"year": 2023,
+			"owner": "Mitch",
+			"team": "San Fierro 69'ers"
+		},
+		{
+			"year": 2024,
+			"owner": "Mitch",
+			"team": "San Fierro 69'ers"
+		},
+		{
+			"year": 2025,
+			"owner": "Mitch",
+			"team": "San Fierro 69'ers"
+		}
+	],
+	"11": [
+		{
+			"year": 2018,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		},
+		{
+			"year": 2019,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		},
+		{
+			"year": 2020,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		},
+		{
+			"year": 2021,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		},
+		{
+			"year": 2022,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		},
+		{
+			"year": 2023,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		},
+		{
+			"year": 2024,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		},
+		{
+			"year": 2025,
+			"owner": "Jon",
+			"team": "Too Hot To Handle"
+		}
+	],
+	"12": [
+		{
+			"year": 2018,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		},
+		{
+			"year": 2019,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		},
+		{
+			"year": 2020,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		},
+		{
+			"year": 2021,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		},
+		{
+			"year": 2022,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		},
+		{
+			"year": 2023,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		},
+		{
+			"year": 2024,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		},
+		{
+			"year": 2025,
+			"owner": "TJ",
+			"team": "Vinegar Strokes"
+		}
+	]
+}

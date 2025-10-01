@@ -1,0 +1,4034 @@
+[
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.01",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Josh Jacobs",
+			"pos": "OAK"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.02",
+		"team": "KalJ",
+		"player": {
+			"name": "DK Metcalf",
+			"pos": "SEA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.03",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "N'Keal Harry",
+			"pos": "NEP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.04",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "David Montgomery",
+			"pos": "CHI"
+		},
+		"traded_from": "The Sheriff"
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.05",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Miles Sanders",
+			"pos": "PHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.06",
+		"team": "Natty Guice",
+		"player": {
+			"name": "Parris Campbell",
+			"pos": "IND"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.07",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Kyler Murray",
+			"pos": "ARI"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Mecole Hardman",
+			"pos": "KCC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.09",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Darrell Henderson",
+			"pos": "LAR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.1",
+		"team": "Monty Express",
+		"player": {
+			"name": "Marquise Brown",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "Old No.7",
+		"player": {
+			"name": "A.J. Brown",
+			"pos": "TEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Noah Fant",
+			"pos": "DEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.01",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Hakeem Butler",
+			"pos": "ARI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.02",
+		"team": "KalJ",
+		"player": {
+			"name": "T.J. Hockenson",
+			"pos": "DET"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.03",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Deebo Samuel",
+			"pos": "SFO"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.04",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Devin Singletary",
+			"pos": "BUF"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.05",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Damien Harris",
+			"pos": "NEP"
+		},
+		"traded_from": "Arrowhead Hero"
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.06",
+		"team": "Natty Guice",
+		"player": {
+			"name": "Miles Boykin",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.07",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Andy Isabella",
+			"pos": "ARI"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Justice Hill",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.09",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "JJ Arcega-Whiteside",
+			"pos": "PHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.1",
+		"team": "Monty Express",
+		"player": {
+			"name": "Bryce Love",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "Old No.7",
+		"player": {
+			"name": "Benny Snell",
+			"pos": "PIT"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Diontae Johnson",
+			"pos": "PIT"
+		},
+		"traded_from": "Too Hot To Handle"
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.01",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Dexter Williams",
+			"pos": "GBP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.02",
+		"team": "KalJ",
+		"player": {
+			"name": "Dwayne Haskins",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.03",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Alexander Mattison",
+			"pos": "MIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.04",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Ryquell Armstead",
+			"pos": "JAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.05",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Kelvin Harmon",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.06",
+		"team": "Natty Guice",
+		"player": {
+			"name": "Irv Smith Jr.",
+			"pos": "MIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.07",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Terry McLaurin",
+			"pos": "WAS"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Darwin Thompson",
+			"pos": "KCC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.09",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Riley Ridley",
+			"pos": "CHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.1",
+		"team": "Monty Express",
+		"player": {
+			"name": "Gary Jennings",
+			"pos": "MIA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "Old No.7",
+		"player": {
+			"name": "Hunter Renfrow",
+			"pos": "OAK"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Elijah Holyfield",
+			"pos": "PHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.01",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Jace Sternberger",
+			"pos": "GBP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.02",
+		"team": "KalJ",
+		"player": {
+			"name": "Jalen Hurd",
+			"pos": "SFO"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.03",
+		"team": "Natty Guice",
+		"player": {
+			"name": "Bruce Anderson",
+			"pos": "IND"
+		},
+		"traded_from": "The John Dorseys"
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.04",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Rodney Anderson",
+			"pos": "CIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.05",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "KeeSean Johnson",
+			"pos": "ARI"
+		},
+		"traded_from": "Arrowhead Hero"
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.06",
+		"team": "Natty Guice",
+		"player": {
+			"name": "Damarea Crockett",
+			"pos": "GBP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.07",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Lil'Jordan Humphrey",
+			"pos": "NOS"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "David Sills",
+			"pos": "NYG"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.09",
+		"team": "Old No.7",
+		"player": {
+			"name": "Myles Gaskin",
+			"pos": "MIA"
+		},
+		"traded_from": "Meat Jerking Beef Boys"
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.1",
+		"team": "Monty Express",
+		"player": {
+			"name": "Trayveon Williams",
+			"pos": "CIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Qadree Ollison",
+			"pos": "ATL"
+		},
+		"traded_from": "Old No"
+	},
+	{
+		"season": "2019",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Darius Slayton",
+			"pos": "NYG"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.01",
+		"team": "KalJ",
+		"player": {
+			"name": "Jonathan Taylor",
+			"pos": "IND"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.02",
+		"team": "Monty Express",
+		"player": {
+			"name": "Clyde Edwards-Helaire",
+			"pos": "KCC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.03",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Joe Burrow",
+			"pos": "CIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.04",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "D'Andre Swift",
+			"pos": "DET"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.05",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Cam Akers",
+			"pos": "LAR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.06",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "J.K. Dobbins",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.07",
+		"team": "KalJ",
+		"player": {
+			"name": "Jerry Jeudy",
+			"pos": "DEN"
+		},
+		"traded_from": "Hot Chubb Time Machine"
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.08",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "CeeDee Lamb",
+			"pos": "DAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.09",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Jalen Reagor",
+			"pos": "PHI"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.1",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Ke'Shawn Vaughn",
+			"pos": "TBB"
+		},
+		"traded_from": "Too Hot To Handle"
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "Old No.7",
+		"player": {
+			"name": "Justin Jefferson",
+			"pos": "MIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Henry Ruggs",
+			"pos": "LVR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.01",
+		"team": "KalJ",
+		"player": {
+			"name": "Michael Pittman",
+			"pos": "IND"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.02",
+		"team": "Monty Express",
+		"player": {
+			"name": "Tua Tagovailoa",
+			"pos": "MIA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.03",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Tee Higgins",
+			"pos": "CIN"
+		},
+		"traded_from": "Vinegar Strokes"
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.04",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Denzel Mims",
+			"pos": "NYJ"
+		},
+		"traded_from": "ISU Pornstar"
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.05",
+		"team": "KalJ",
+		"player": {
+			"name": "Zack Moss",
+			"pos": "BUF"
+		},
+		"traded_from": "Natty Guice"
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.06",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Brandon Aiyuk",
+			"pos": "SFO"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.07",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Antonio Gibson",
+			"pos": "WAS"
+		},
+		"traded_from": "Hot Chubb Time Machine"
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.08",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Devin Asiasi",
+			"pos": "NEP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.09",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Chase Claypool",
+			"pos": "PIT"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "KJ Hamler",
+			"pos": "DEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "Old No.7",
+		"player": {
+			"name": "AJ Dillon",
+			"pos": "GBP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Laviska Shenault",
+			"pos": "JAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.01",
+		"team": "KalJ",
+		"player": {
+			"name": "Lynn Bowden",
+			"pos": "MIA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.02",
+		"team": "Monty Express",
+		"player": {
+			"name": "Bryan Edwards",
+			"pos": "LVR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.03",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Eno Benjamin",
+			"pos": "ARI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.04",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Darrynton Evans",
+			"pos": "TEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.05",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Cole Kmet",
+			"pos": "CHI"
+		},
+		"traded_from": "Natty Guice"
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.06",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Joshua Kelley",
+			"pos": "LAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.07",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Thaddeus Moss",
+			"pos": "WAS"
+		},
+		"traded_from": "Hot Chubb Time Machine"
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.08",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Tyler Johnson",
+			"pos": "TBB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.09",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Anthony McFarland",
+			"pos": "PIT"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.1",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Lamical Perine",
+			"pos": "NYJ"
+		},
+		"traded_from": "Too Hot To Handle"
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "Old No.7",
+		"player": {
+			"name": "Van Jefferson",
+			"pos": "LAR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Devin Duvernay",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.01",
+		"team": "KalJ",
+		"player": {
+			"name": "DeeJay Dallas",
+			"pos": "SEA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.02",
+		"team": "Monty Express",
+		"player": {
+			"name": "Antonio Gandy-Golden",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.03",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "K.J. Osborn",
+			"pos": "MIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.04",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Raymond Calais",
+			"pos": "LAR"
+		},
+		"traded_from": "ISU Pornstar"
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.05",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Michael Warren",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.06",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Adam Trautman",
+			"pos": "NOS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.07",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Joe Reed",
+			"pos": "LAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.08",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Collin Johnson",
+			"pos": "JAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.09",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "John Hightower",
+			"pos": "PHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.1",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Isaiah Coulter",
+			"pos": "HOU"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "Old No.7",
+		"player": {
+			"name": "Justin Herbert",
+			"pos": "LAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2020",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Jalen Hurts",
+			"pos": "PHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.01",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "Najee Harris",
+			"pos": "PIT"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.02",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Kyle Pitts",
+			"pos": "ATL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.03",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Ja'Marr Chase",
+			"pos": "CIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "Travis Etienne",
+			"pos": "JAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.05",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Javonte Williams",
+			"pos": "DEN"
+		},
+		"traded_from": "Too Hot To Handle"
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.06",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Michael Carter",
+			"pos": "NYJ"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.07",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "DeVonta Smith",
+			"pos": "PHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.08",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Jaylen Waddle",
+			"pos": "MIA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.09",
+		"team": "Old No.7",
+		"player": {
+			"name": "Rashod Bateman",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.1",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Trevor Lawrence",
+			"pos": "JAC"
+		},
+		"traded_from": "San Fierro 69'ers"
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Rondale Moore",
+			"pos": "ARI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Elijah Moore",
+			"pos": "NYJ"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.01",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "D'Wayne Eskridge",
+			"pos": "SEA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.02",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Trey Sermon",
+			"pos": "SFO"
+		},
+		"traded_from": "Hot Chubb Time Machine"
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.03",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Amari Rodgers",
+			"pos": "GBP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "Terrace Marshall",
+			"pos": "CAR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.05",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Trey Lance",
+			"pos": "SFO"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.06",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Chuba Hubbard",
+			"pos": "CAR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.07",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Justin Fields",
+			"pos": "CHI"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.08",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Dyami Brown",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.09",
+		"team": "Old No.7",
+		"player": {
+			"name": "Zach Wilson",
+			"pos": "NYJ"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.1",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Kenneth Gainwell",
+			"pos": "PHI"
+		},
+		"traded_from": "San Fierro 69'ers"
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Kadarius Toney",
+			"pos": "NYG"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Josh Palmer",
+			"pos": "LAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.01",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "Amon-Ra St. Brown",
+			"pos": "DET"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.02",
+		"team": "Old No.7",
+		"player": {
+			"name": "Tutu Atwell",
+			"pos": "LAR"
+		},
+		"traded_from": "Hot Chubb Time Machine"
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.03",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Gerrid Doaks",
+			"pos": "MIA"
+		},
+		"traded_from": "ISU Pornstar"
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "Rhamondre Stevenson",
+			"pos": "NEP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.05",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Mac Jones",
+			"pos": "NEP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.06",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Jermar Jefferson",
+			"pos": "DET"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.07",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Pat Freiermuth",
+			"pos": "PIT"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.08",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Nico Collins",
+			"pos": "HOU"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.09",
+		"team": "Old No.7",
+		"player": {
+			"name": "Hunter Long",
+			"pos": "MIA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.1",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Elijah Mitchell",
+			"pos": "SFO"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Larry Rountree",
+			"pos": "LAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Kene Nwangwu",
+			"pos": "MIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.01",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "Tylan Wallace",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.02",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Anthony Schwartz",
+			"pos": "CLE"
+		},
+		"traded_from": "Hot Chubb Time Machine"
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.03",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Dez Fitzpatrick",
+			"pos": "TEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "Cornell Powell",
+			"pos": "KCC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.05",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Kellen Mond",
+			"pos": "MIN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.06",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Pooka Williams",
+			"pos": "FA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.07",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Javian Hawkins",
+			"pos": "FA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.08",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Khalil Herbert",
+			"pos": "CHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.09",
+		"team": "Old No.7",
+		"player": {
+			"name": "Kylin Hill",
+			"pos": "GBP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.1",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Kylen Granson",
+			"pos": "IND"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Brevin Jordan",
+			"pos": "HOU"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2021",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Seth Williams",
+			"pos": "DEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.01",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Breece Hall",
+			"pos": "NYJ"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.02",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Kenneth Walker III",
+			"pos": "SEA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.03",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Drake London",
+			"pos": "ATL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "Treylon Burks",
+			"pos": "TEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.05",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "Skyy Moore",
+			"pos": "KCC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.06",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Christian Watson",
+			"pos": "GBP"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.07",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Garrett Wilson",
+			"pos": "NYJ"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "James Cook",
+			"pos": "BUF"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.09",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Jameson Williams",
+			"pos": "DET"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.1",
+		"team": "Old No.7",
+		"player": {
+			"name": "Chris Olave",
+			"pos": "NOS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "George Pickens",
+			"pos": "PIT"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "David Bell",
+			"pos": "CLE"
+		},
+		"traded_from": "San Fierro 69'ers"
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.01",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Jahan Dotson",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.02",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Isaiah Spiller",
+			"pos": "LAC"
+		},
+		"traded_from": "Arrowhead Hero"
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.03",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Rachaad White",
+			"pos": "TBB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "John Metchie",
+			"pos": "HOU"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.05",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "Trey McBride",
+			"pos": "ARI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.06",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Dameon Pierce",
+			"pos": "HOU"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.07",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Zamir White",
+			"pos": "LVR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Alec Pierce",
+			"pos": "IND"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.09",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Brian Robinson",
+			"pos": "WAS"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.1",
+		"team": "Old No.7",
+		"player": {
+			"name": "Hassan Haskins",
+			"pos": "TEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Malik Willis",
+			"pos": "TEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Keaontay Ingram",
+			"pos": "ARI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.01",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Jelani Woods",
+			"pos": "IND"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.02",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Tyler Allgeier",
+			"pos": "ATL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.03",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Justyn Ross",
+			"pos": "KCC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "Kenny Pickett",
+			"pos": "PIT"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.05",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "Tyrion Davis-Price",
+			"pos": "SFO"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.06",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Jalen Tolbert",
+			"pos": "DAL"
+		},
+		"traded_from": "Autodraft Jesus"
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.07",
+		"team": "Hot Chubb Time Machine",
+		"player": {
+			"name": "Wan'Dale Robinson",
+			"pos": "NYG"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Charlie Kolar",
+			"pos": "BAL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.09",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Romeo Doubs",
+			"pos": "GBP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.1",
+		"team": "Old No.7",
+		"player": {
+			"name": "Jerome Ford",
+			"pos": "CLE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Cade Otton",
+			"pos": "TBB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Khalil Shakir",
+			"pos": "BUF"
+		},
+		"traded_from": "San Fierro 69'ers"
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.01",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Tyquan Thornton",
+			"pos": "NEP"
+		},
+		"traded_from": "ISU Pornstar"
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.02",
+		"team": "Arrowhead Hero",
+		"player": {
+			"name": "Velus Jones",
+			"pos": "CHI"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.03",
+		"team": "Too Hot To Handle",
+		"player": {
+			"name": "Kyren Williams",
+			"pos": "LAR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.04",
+		"team": "Monty Express",
+		"player": {
+			"name": "Greg Dulcich",
+			"pos": "DEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.05",
+		"team": "THEWHITEHAMMER",
+		"player": {
+			"name": "Desmond Ridder",
+			"pos": "ATL"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.06",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Pierre Strong Jr.",
+			"pos": "NEP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.07",
+		"team": "ISU Pornstar",
+		"player": {
+			"name": "Danny Gray",
+			"pos": "SFO"
+		},
+		"traded_from": "Hot Chubb Time Machine"
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.08",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Snoop Conner",
+			"pos": "JAC"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.09",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Calvin Austin III",
+			"pos": "PIT"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.1",
+		"team": "Old No.7",
+		"player": {
+			"name": "Tyler Badie",
+			"pos": "DEN"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Abram Smith",
+			"pos": "FA"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2022",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "San Fierro 69'ers",
+		"player": {
+			"name": "Kevin Harris",
+			"pos": "NEP"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.1",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Bijan Robinson",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.2",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Jahmyr Gibbs",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.3",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Jaxon Smith-Njigba",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.4",
+		"team": "The Sheriff",
+		"player": {
+			"name": "De'Von Achane",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Bryce Young",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.6",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Jordan Addison",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.7",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Quentin Johnston",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.8",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Zay Flowers",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.9",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Anthony Richardson",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Kendre Miller",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Zach Charbonnet",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Roschon Johnson",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.1",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Dalton Kincaid",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.2",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Michael Mayer",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.3",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "C.J. Stroud",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.4",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Jonathan Mingo",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.5",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Rashee Rice",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.6",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Sam LaPorta",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.7",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Tyjae Spears",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.8",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Jayden Reed",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.9",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Deuce Vaughn",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Jalin Hyatt",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Marvin Mims",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Tank Bigsby",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.1",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Josh Downs",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.2",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Chase Brown",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.3",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Luke Musgrave",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.4",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Cedric Tillman",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Zach Evans",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.6",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Israel Abanikanda",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.7",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Darnell Washington",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.8",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Kayshon Boutte",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.9",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Eric Gray",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Xavier Hutchinson",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Evan Hull",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Tank Dell",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.1",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "DeWayne McBride",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.2",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Tyler Scott",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.3",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Mohamed Ibrahim",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.4",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Sean Tucker",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.5",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Hendon Hooker",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.6",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Michael Wilson",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.7",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Tre Tucker",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.8",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Lew Nichols",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.9",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Antoine Green",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Parker Washington",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Will Levis",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2023",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Tucker Kraft",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.1",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Marvin Harrison",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.2",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Malik Nabers",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.3",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Rome Odunze",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.4",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Xavier Worthy",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.5",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Brock Bowers",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.6",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Keon Coleman",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.7",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Jonathon Brooks",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.8",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Brian Thomas",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.9",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Blake Corum",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Caleb Williams",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Ladd McConkey",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "J.J. McCarthy",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.1",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Jayden Daniels",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.2",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Trey Benson",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.3",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Adonai Mitchell",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.4",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Ricky Pearsall",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.5",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Drake Maye",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.6",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Xavier Legette",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.7",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "MarShawn Lloyd",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.8",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Malachi Corley",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.9",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Troy Franklin",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Ja'Lynn Polk",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Jaylen Wright",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Jermaine Burton",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.1",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Will Shipley",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.2",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Bo Nix",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.3",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Roman Wilson",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.4",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Luke McCaffrey",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.5",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Devontez Walker",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.6",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Bucky Irving",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.7",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Ja'Tavion Sanders",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.8",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Ray Davis",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.9",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Kimani Vidal",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Ben Sinnott",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Michael Penix",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Javon Baker",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.1",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Cade Stover",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.2",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Audric Estime",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.3",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Brenden Rice",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.4",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Malik Washington",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.5",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Isaac Guerendo",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.6",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Jared Wiley",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.7",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Jalen McMillan",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.8",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Tyrone Tracy",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.9",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Frank Gore",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.10",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Braelon Allen",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Erick All",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2024",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Theo Johnson",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 1,
+		"pick": "1.1",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Ashton Jeanty",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 2,
+		"pick": "1.2",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Omarion Hampton",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 3,
+		"pick": "1.3",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Quinshon Judkins",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 4,
+		"pick": "1.4",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Tetairoa McMillan",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 5,
+		"pick": "1.5",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Travis Hunter",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 6,
+		"pick": "1.6",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "RJ Harvey",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 7,
+		"pick": "1.7",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Kaleb Johnson",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 8,
+		"pick": "1.8",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "TreVeyon Henderson",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 9,
+		"pick": "1.9",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Cam Skattebo",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 10,
+		"pick": "1.10",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Tyler Warren",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 11,
+		"pick": "1.11",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Cam Ward",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 1,
+		"pick_no": 12,
+		"pick": "1.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Colston Loveland",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 13,
+		"pick": "2.1",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Jayden Higgins",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 14,
+		"pick": "2.2",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Matthew Golden",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 15,
+		"pick": "2.3",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Dylan Sampson",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 16,
+		"pick": "2.4",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Emeka Egbuka",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 17,
+		"pick": "2.5",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Luther Burden",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 18,
+		"pick": "2.6",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Tre' Harris",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 19,
+		"pick": "2.7",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Jack Bech",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 20,
+		"pick": "2.8",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Bhayshul Tuten",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 21,
+		"pick": "2.9",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Jaylin Noel",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 22,
+		"pick": "2.10",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Jaydon Blue",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 23,
+		"pick": "2.11",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Mason Taylor",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 2,
+		"pick_no": 24,
+		"pick": "2.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Kyle Williams",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 25,
+		"pick": "3.1",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Elijah Arroyo",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 26,
+		"pick": "3.2",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Elic Ayomanor",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 27,
+		"pick": "3.3",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Devin Neal",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 28,
+		"pick": "3.4",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Harold Fannin",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 29,
+		"pick": "3.5",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Jalen Royals",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 30,
+		"pick": "3.6",
+		"team": "San Fierro 69\u2019ers",
+		"player": {
+			"name": "Terrance Ferguson",
+			"pos": "TE"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 31,
+		"pick": "3.7",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Jordan James",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 32,
+		"pick": "3.8",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Tez Johnson",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 33,
+		"pick": "3.9",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Ollie Gordon",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 34,
+		"pick": "3.10",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Jarquez Hunter",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 35,
+		"pick": "3.11",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Damien Martinez",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 3,
+		"pick_no": 36,
+		"pick": "3.12",
+		"team": "The Sheriff",
+		"player": {
+			"name": "DJ Giddens",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 37,
+		"pick": "4.1",
+		"team": "Vinegar Strokes",
+		"player": {
+			"name": "Trevor Etienne",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 38,
+		"pick": "4.2",
+		"team": "Monty~Python Express",
+		"player": {
+			"name": "Woody Marks",
+			"pos": "RB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 39,
+		"pick": "4.3",
+		"team": "Meat Jerking Beef Boys",
+		"player": {
+			"name": "Quinn Ewers",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 40,
+		"pick": "4.4",
+		"team": "Autodraft Jesus",
+		"player": {
+			"name": "Jaxson Dart",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 41,
+		"pick": "4.5",
+		"team": "Krispy Krusties",
+		"player": {
+			"name": "Will Howard",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 42,
+		"pick": "4.6",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Jalen Milroe",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 43,
+		"pick": "4.7",
+		"team": "Old No. 7",
+		"player": {
+			"name": "Tai Felton",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 44,
+		"pick": "4.8",
+		"team": "Too Hot to Handle",
+		"player": {
+			"name": "Savion Williams",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 45,
+		"pick": "4.9",
+		"team": "cornporkNbeans",
+		"player": {
+			"name": "Isaiah Bond",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 46,
+		"pick": "4.10",
+		"team": "The Sheriff",
+		"player": {
+			"name": "Shedeur Sanders",
+			"pos": "QB"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 47,
+		"pick": "4.11",
+		"team": "WHITEHAMMER1",
+		"player": {
+			"name": "Tory Horton",
+			"pos": "WR"
+		},
+		"traded_from": null
+	},
+	{
+		"season": "2025",
+		"round": 4,
+		"pick_no": 48,
+		"pick": "4.12",
+		"team": "ArrowheadHero",
+		"player": {
+			"name": "Brashard Smith",
+			"pos": "RB"
+		},
+		"traded_from": null
+	}
+]

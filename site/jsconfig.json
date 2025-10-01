@@ -1,0 +1,33 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+		"moduleResolution": "bundler",
+		"baseUrl": ".",
+		"paths": {
+			"$components/*": [
+				"src/components/*"
+			],
+			"$stores/*": [
+				"src/stores/*"
+			],
+			"$helpers/*": [
+				"src/helpers/*"
+			],
+			"$data/*": [
+				"src/data/*"
+			]
+		}
+	},
+	// "include": [
+	// 	"src/**/*.d.ts",
+	// 	"src/**/*.js",
+	// 	"src/**/*.svelte"
+	// ],
+	// Path aliases are handled by https://svelte.dev/docs/kit/configuration#alias
+	// except $lib which is handled by https://svelte.dev/docs/kit/configuration#files
+	//
+	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
+	// from the referenced tsconfig.json - TypeScript does not merge them in
+}
