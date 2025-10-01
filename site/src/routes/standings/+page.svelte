@@ -1,13 +1,28 @@
 <script>
 	import PageWrapper from "$components/page-wrapper.svelte";
+	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id.js";
+	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
 
 	let { data } = $props();
 </script>
 
 <PageWrapper header="Standings" isFullWidth={false}>
+	<div class="ml-auto block lg:flex xl:float-right xl:-mt-12">
+		<div class="input-wrapper">
+			<label for="highlight">Highlight a Franchise</label>
+			<select bind:value={$highlightedFranchiseId} id="highlight">
+				<option class="text-gray-400" value="">Select Franchise</option>
+				{#each data.teamListWithIds as team}
+					<option value={team.franchiseId}>
+						{team.latestTeamName}
+					</option>
+				{/each}
+			</select>
+		</div>
+	</div>
 	<div class="space-y-12">
 		{#each data.seasons as season}
-			<div>
+			<div class="mt-6 xl:mt-12">
 				<h2 class="border-brand-red bg-brand-red -mx-4 px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4 md:bg-auto">
 					{season.year} - League Avg: {season.leagueAvg}
 				</h2>
@@ -27,7 +42,11 @@
 						</thead>
 						<tbody>
 							{#each season.teams as t}
-								<tr class="border-b last:border-b-0">
+								<tr
+									class="{$highlightedFranchiseId === t.franchiseId
+										? 'bg-black font-bold text-white lg:text-xl'
+										: ''} border-b last:border-b-0"
+								>
 									<td class="px-4 py-2">{t.finalPlace}</td>
 									<td class="px-4 py-2">{t.team}</td>
 									<td class="px-4 py-2">{t.owner}</td>
@@ -55,10 +74,15 @@
 
 				<div class="border-brand-red -mx-4 border-y-4 bg-white md:hidden">
 					{#each season.teams as t, i}
-						<div class="px-4 py-2 {i % 2 === 0 ? 'bg-gray-100' : 'bg-white'}">
+						<div
+							class="px-4 py-2 {$highlightedFranchiseId === t.franchiseId
+								? 'bg-black font-bold text-white lg:text-xl'
+								: i % 2 === 0
+									? 'bg-gray-100'
+									: 'bg-white'}"
+						>
 							<div class="flex items-center justify-between font-bold">
 								<div class="flex items-center space-x-2">
-									<!-- Circle number -->
 									<div class="bg-brand-red flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold text-white">
 										{t.finalPlace}
 									</div>
