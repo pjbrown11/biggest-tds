@@ -3,6 +3,9 @@
 	import InfoNotification from "$components/info-notification.svelte";
 	import PageWrapper from "$components/page-wrapper.svelte";
 	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
+	import { isShowingPlayerRanks } from "$stores/is-showing-player-ranks.js";
+	import { fly } from "svelte/transition";
+
 	let { data } = $props();
 </script>
 
@@ -29,7 +32,20 @@
 			</div>
 		</InfoNotification>
 		<div class="mt-4 block xl:mt-0">
-			<HighlightFranchise />
+			<div>
+				<HighlightFranchise />
+			</div>
+			<div class="mt-4">
+				<div class="flex max-w-max items-center px-2">
+					<input
+						id="ranks"
+						type="checkbox"
+						bind:checked={$isShowingPlayerRanks}
+						class="h-4 min-h-4 w-4 min-w-4 rounded-sm border-gray-300 bg-gray-100 text-blue-600 hover:cursor-pointer focus:ring-2 focus:ring-blue-500"
+					/>
+					<label for="ranks" class="no-global-styling inline-block min-w-full px-2 text-sm hover:cursor-pointer">Always show player ranks </label>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="space-y-12">
@@ -88,7 +104,7 @@
 															rel="noopener noreferrer nofollow"
 														>
 															<span class="rounded bg-green-700 px-2 py-0.5 text-white">Legendary</span><span
-																class="ml-1 text-green-700">Ovr Dyntasy Rank {pick.player.rank}</span
+																class="ml-1 text-green-700">Dyntasy Rank {pick.player.rank}</span
 															>
 														</a>
 													</div>
@@ -101,7 +117,7 @@
 															rel="noopener noreferrer nofollow"
 														>
 															<span class="rounded bg-blue-700 px-2 py-0.5 text-white">Value</span><span
-																class="ml-1 text-blue-700">Ovr Dyntasy Rank {pick.player.rank}</span
+																class="ml-1 text-blue-700">Dyntasy Rank {pick.player.rank}</span
 															>
 														</a>
 													</div>
@@ -114,7 +130,7 @@
 															rel="noopener noreferrer nofollow"
 														>
 															<span class="rounded bg-red-700 px-2 py-0.5 text-white">Dart Miss</span><span
-																class="ml-1 text-red-700">Ovr Dyntasy Rank {pick.player.rank}</span
+																class="ml-1 text-red-700">Dyntasy Rank {pick.player.rank}</span
 															>
 														</a>
 													</div>
@@ -127,9 +143,13 @@
 															rel="noopener noreferrer nofollow"
 														>
 															<span class="rounded bg-red-700 px-2 py-0.5 text-white">Bust</span><span class="ml-1 text-red-700"
-																>Ovr Dyntasy Rank {pick.player.rank || "∞"}</span
+																>Dyntasy Rank {pick.player.rank || "∞"}</span
 															>
 														</a>
+													</div>
+												{:else if $isShowingPlayerRanks}
+													<div transition:fly class="mt-2 rounded-lg bg-brand-gold px-2 py-1">
+														Dyntasy Rank {pick.player.rank || "∞"}
 													</div>
 												{/if}
 											</div>
