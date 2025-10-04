@@ -14,18 +14,18 @@
 		const isGoodValue = pick.round >= 2 && match?.rank <= 100;
 		const isLegendary = pick.round >= 2 && match?.rank <= 25; -->
 			<p>BUST = draft pick within 6 years from now, is first rounder, ovr rank over 150</p>
-			<p>GOOD VALUE = round 2-4, ovr rank less than 100</p>
-			<p>LEGENDARY = round 2-4, ovr rank less than 25</p>
+			<p>GOOD VALUE = round 2, over rank less than 75 or round 3-4, ovr rank less than 100</p>
+			<p>LEGENDARY = round 3-4, ovr rank less than 25</p>
 		</InfoNotification>
 	</div>
 	<div class="space-y-12">
 		{#each data.seasons as season}
 			<div>
-				<h2 class="border-brand-red bg-brand-red -mx-4 px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4">
+				<h2 class="-mx-4 border-brand-red bg-brand-red px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4">
 					{season.season} Draft
 				</h2>
 
-				<div class="border-brand-red -mx-4 grid grid-cols-1 gap-6 rounded-b-xl border-t-0 p-4 pl-6 md:mx-0 md:border-4 lg:grid-cols-4">
+				<div class="-mx-4 grid grid-cols-1 gap-6 rounded-b-xl border-t-0 border-brand-red p-4 pl-6 md:mx-0 md:border-4 lg:grid-cols-4">
 					{#each Object.keys(season.rounds).sort((a, b) => a - b) as round}
 						<div>
 							<h3 class="mb-2 text-sm font-bold uppercase text-gray-700">
@@ -83,6 +83,19 @@
 															>
 														</a>
 													</div>
+												{:else if pick.player.isMiss}
+													<div class="mt-2 flex items-center">
+														<a
+															class="no-global-styling"
+															href="https://www.fantasypros.com/nfl/rankings/dynasty-overall.php"
+															target="_blank"
+															rel="noopener noreferrer nofollow"
+														>
+															<span class="rounded bg-red-700 px-2 py-0.5 text-white">Dart Miss</span><span
+																class="ml-1 text-red-700">Ovr Dyntasy Rank {pick.player.rank}</span
+															>
+														</a>
+													</div>
 												{:else if pick.player.isBust}
 													<div class="mt-2 flex items-center">
 														<a
@@ -92,7 +105,7 @@
 															rel="noopener noreferrer nofollow"
 														>
 															<span class="rounded bg-red-700 px-2 py-0.5 text-white">Bust</span><span class="ml-1 text-red-700"
-																>Ovr Dyntasy Rank {pick.player.rank}</span
+																>Ovr Dyntasy Rank {pick.player.rank || "∞"}</span
 															>
 														</a>
 													</div>

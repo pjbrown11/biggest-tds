@@ -112,11 +112,13 @@ export async function load() {
 
 		// Evaluation flags
 		const isRecent = Number(season) >= new Date().getFullYear() - 6;
+		const isCurrentYear = Number(season) === new Date().getFullYear();
 		const isEarlyRound = pick.round === 1;
 		const isTop50 = !!(match && match.rank <= 50);
-		const isBust = isRecent && isEarlyRound ? !match || match.rank > 150 : false;
-		const isGoodValue = pick.round >= 2 && match?.rank <= 100;
-		const isLegendary = pick.round >= 2 && match && match?.rank <= 25;
+		const isBust = isRecent && !isCurrentYear && isEarlyRound ? !match || match.rank > 150 : false;
+		const isMiss = (pick.round === 2 && !match) || (pick.round === 2 && match && match?.rank >= 150)
+		const isGoodValue = (pick.round === 2 && match && match?.rank <= 75) || pick.round > 2 && match && match?.rank <= 100;
+		const isLegendary = pick.round > 2 && match && match?.rank <= 25;
 
 		const enrichedPick = {
 			...pick,
@@ -125,6 +127,7 @@ export async function load() {
 				rank: match ? match.rank : null,
 				isTop50,
 				isBust,
+				isMiss,
 				isGoodValue,
 				isLegendary,
 			},
