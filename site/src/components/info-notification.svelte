@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="flex max-w-2xl items-start rounded border-l-4 p-4 text-gray-900 {cssString}  relative {isSuccess
+	class="flex max-w-2xl items-start rounded border-l-4 p-2 text-gray-900 xl:p-4 {cssString} relative {isSuccess
 		? 'border-green-700 bg-green-100'
 		: 'border-black bg-brand-gold'}"
 	role="alert"

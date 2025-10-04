@@ -7,25 +7,34 @@
 <PageWrapper header="Draft Results" isFullWidth={false}>
 	<div class="mb-4">
 		<InfoNotification header="Badge Definitions">
-			<!-- const isRecent = Number(season) >= new Date().getFullYear() - 6;
-		const isEarlyRound = pick.round === 1;
-		const isTop50 = !!(match && match.rank <= 50);
-		const isBust = isRecent && isEarlyRound ? !match || match.rank > 150 : false;
-		const isGoodValue = pick.round >= 2 && match?.rank <= 100;
-		const isLegendary = pick.round >= 2 && match?.rank <= 25; -->
-			<p>BUST = draft pick within 6 years from now, is first rounder, ovr rank over 150</p>
-			<p>GOOD VALUE = round 2, over rank less than 75 or round 3-4, ovr rank less than 100</p>
-			<p>LEGENDARY = round 3-4, ovr rank less than 25</p>
-		</InfoNotification>
+			<div class="mt-2 text-xs">
+				<div class="mb-2 flex items-center">
+					<div class="mr-1 inline-block min-w-24 rounded bg-red-700 px-2 py-1 text-center font-bold font-semibold text-white xl:mr-2">Bust</div>
+					<div>1st round pick between 2 and 6 years ago, ovr rank over 150</div>
+				</div>
+				<div class="mb-2 flex items-center">
+					<div class="mr-1 inline-block min-w-24 rounded bg-blue-700 px-2 py-1 text-center font-bold font-semibold text-white xl:mr-2">Value</div>
+					<div>2nd round top 75, 3rd round top 100, 4th round top 125</div>
+				</div>
+
+				<div class="mb-2 flex items-center">
+					<div class="mr-1 inline-block min-w-24 rounded bg-green-700 px-2 py-1 text-center font-bold font-semibold text-white xl:mr-2">
+						Legendary
+					</div>
+
+					<div>3rd/4th round top 25</div>
+				</div>
+			</div></InfoNotification
+		>
 	</div>
 	<div class="space-y-12">
 		{#each data.seasons as season}
 			<div>
-				<h2 class="-mx-4 border-brand-red bg-brand-red px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4">
+				<h2 class="border-brand-red bg-brand-red -mx-4 px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4">
 					{season.season} Draft
 				</h2>
 
-				<div class="-mx-4 grid grid-cols-1 gap-6 rounded-b-xl border-t-0 border-brand-red p-4 pl-6 md:mx-0 md:border-4 lg:grid-cols-4">
+				<div class="border-brand-red -mx-4 grid grid-cols-1 gap-6 rounded-b-xl border-t-0 p-4 pl-6 md:mx-0 md:border-4 lg:grid-cols-4">
 					{#each Object.keys(season.rounds).sort((a, b) => a - b) as round}
 						<div>
 							<h3 class="mb-2 text-sm font-bold uppercase text-gray-700">

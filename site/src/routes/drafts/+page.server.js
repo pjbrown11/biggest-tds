@@ -1,14 +1,16 @@
 import draftsRaw from "../../data/drafts/draft-rookies-historical.json";
 import puppeteer from "puppeteer";
 import Fuse from "fuse.js";
+import { writeFile } from "node:fs/promises";
 
-// --- Normalize player names (lowercase, strip suffixes, punctuation) ---
-function normalizeName(name) {
+// --- Normalize into one flat string (lowercase, strip punctuation/suffixes, remove spaces) ---
+function normalizeFlat(name) {
 	return name
 		.toLowerCase()
 		.replace(/\./g, "")
 		.replace(/'/g, "")
 		.replace(/ jr$| sr$| iii$| ii$| iv$/g, "")
+		.replace(/\s+/g, "") // remove all spaces
 		.trim();
 }
 
@@ -25,6 +27,7 @@ async function fetchDynastyRankings() {
 	// Scroll until stable
 	let prevCount = 0;
 	let same = 0;
+
 	while (same < 3) {
 		const count = await page.$$eval("tr.player-row", (rows) => rows.length);
 		if (count === prevCount) {
@@ -53,47 +56,40 @@ async function fetchDynastyRankings() {
 	// Add normalized fields
 	return players.map((p) => ({
 		...p,
-		nameNorm: normalizeName(p.name),
-		lastName: normalizeName(p.name.split(" ").pop()),
+		nameFlat: normalizeFlat(p.name),
 	}));
 }
 
 // --- Matching helper ---
 function createFindMatch(dynastyRankings) {
 	const fuse = new Fuse(dynastyRankings, {
-		keys: ["nameNorm", "lastName"],
-		threshold: 0.25,
-		distance: 100,
-		minMatchCharLength: 2,
+		keys: ["nameFlat"],
+		threshold: 0.05, // extremely strict (only catches tiny typos)
+		distance: 20,
+		minMatchCharLength: 4,
 		ignoreLocation: true,
 		includeScore: true,
 	});
 
 	return function findMatch(playerName, season, pick) {
-		const norm = normalizeName(playerName);
-		const last = normalizeName(playerName.split(" ").pop());
+		const normFlat = normalizeFlat(playerName);
 
-		// 1. Exact full name
-		let exact = dynastyRankings.find((p) => p.nameNorm === norm);
+		// 1. Exact full flat name
+		let exact = dynastyRankings.find((p) => p.nameFlat === normFlat);
 		if (exact) return exact;
 
-		// 2. Exact last name (if unambiguous)
-		const lastMatches = dynastyRankings.filter((p) => p.lastName === last);
-		if (lastMatches.length === 1) return lastMatches[0];
-
-		// 3. Fuse fallback
-		const results = fuse.search(norm);
-		if (results.length === 0) {
-			console.log(`❌ No match for -> ${season} ${pick} ${playerName}`);
-			return null;
+		// 2. Fuse fallback (only near-identical typos)
+		const results = fuse.search(normFlat);
+		if (results.length > 0) {
+			const { item: match, score } = results[0];
+			if (score <= 0.05) {
+				console.log(`🔎 Fuzzy matched: ${playerName} -> ${match.name} (score ${score.toFixed(3)})`);
+				return match;
+			}
 		}
 
-		const { item: match, score } = results[0];
-		if (score <= 0.3) {
-			return match;
-		}
-
-		console.log(`🚫 Rejected fuzzy match: ${playerName} -> ${match.name} (score: ${score.toFixed(2)})`);
+		// 3. No match
+		// console.log(`❌ No match for -> ${season} ${pick} ${playerName}`);
 		return null;
 	};
 }
@@ -102,6 +98,8 @@ function createFindMatch(dynastyRankings) {
 export async function load() {
 	const dynastyRankings = await fetchDynastyRankings();
 	console.log("Scraped count:", dynastyRankings.length);
+
+	await writeFile("dynasty-rankings.debug.json", JSON.stringify(dynastyRankings, null, 2), "utf8");
 
 	const findMatch = createFindMatch(dynastyRankings);
 	const bySeason = {};
@@ -116,8 +114,10 @@ export async function load() {
 		const isEarlyRound = pick.round === 1;
 		const isTop50 = !!(match && match.rank <= 50);
 		const isBust = isRecent && !isCurrentYear && isEarlyRound ? !match || match.rank > 150 : false;
-		const isMiss = (pick.round === 2 && !match) || (pick.round === 2 && match && match?.rank >= 150)
-		const isGoodValue = (pick.round === 2 && match && match?.rank <= 75) || pick.round > 2 && match && match?.rank <= 100;
+		const isGoodValue =
+			(pick.round === 2 && match && match?.rank <= 75) ||
+			(pick.round === 3 && match && match?.rank <= 100) ||
+			(pick.round === 4 && match && match?.rank <= 125);
 		const isLegendary = pick.round > 2 && match && match?.rank <= 25;
 
 		const enrichedPick = {
@@ -127,7 +127,6 @@ export async function load() {
 				rank: match ? match.rank : null,
 				isTop50,
 				isBust,
-				isMiss,
 				isGoodValue,
 				isLegendary,
 			},
