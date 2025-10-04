@@ -24,7 +24,7 @@
 						Legendary
 					</div>
 
-					<div>3rd/4th round top 25</div>
+					<div>3rd round top 25, 4th round top 50</div>
 				</div>
 			</div>
 		</InfoNotification>

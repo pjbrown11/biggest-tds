@@ -2368,7 +2368,7 @@
 		"round": 1,
 		"pick_no": 6,
 		"pick": "1.6",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Jordan Addison",
 			"pos": "WR"
@@ -2397,7 +2397,7 @@
 			"name": "Zay Flowers",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2023",
@@ -2433,7 +2433,7 @@
 			"name": "Zach Charbonnet",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "Autodraft Jesus"
 	},
 	{
 		"season": "2023",
@@ -2464,12 +2464,12 @@
 		"round": 2,
 		"pick_no": 14,
 		"pick": "2.2",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Michael Mayer",
 			"pos": "TE"
 		},
-		"traded_from": null
+		"traded_from": "WHITEHAMMER1"
 	},
 	{
 		"season": "2023",
@@ -2505,7 +2505,7 @@
 			"name": "Rashee Rice",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Meat Jerking Beef Boys"
 	},
 	{
 		"season": "2023",
@@ -2529,7 +2529,7 @@
 			"name": "Tyjae Spears",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "Arrowhead Hero"
 	},
 	{
 		"season": "2023",
@@ -2541,7 +2541,7 @@
 			"name": "Jayden Reed",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2023",
@@ -2577,7 +2577,7 @@
 			"name": "Marvin Mims",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Autodraft Jesus"
 	},
 	{
 		"season": "2023",
@@ -2596,12 +2596,12 @@
 		"round": 3,
 		"pick_no": 25,
 		"pick": "3.1",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Josh Downs",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Too Hot To Handle"
 	},
 	{
 		"season": "2023",
@@ -2685,7 +2685,7 @@
 			"name": "Kayshon Boutte",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2023",
@@ -2697,7 +2697,7 @@
 			"name": "Eric Gray",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "Vinegar Strokes"
 	},
 	{
 		"season": "2023",
@@ -2721,7 +2721,7 @@
 			"name": "Evan Hull",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "Autodraft Jesus"
 	},
 	{
 		"season": "2023",
@@ -2745,7 +2745,7 @@
 			"name": "DeWayne McBride",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "Too Hot To Handle"
 	},
 	{
 		"season": "2023",
@@ -2824,7 +2824,7 @@
 		"round": 4,
 		"pick_no": 44,
 		"pick": "4.8",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Lew Nichols",
 			"pos": "RB"
@@ -2925,7 +2925,7 @@
 			"name": "Xavier Worthy",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2024",
@@ -3064,7 +3064,7 @@
 		"round": 2,
 		"pick_no": 16,
 		"pick": "2.4",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Ricky Pearsall",
 			"pos": "WR"
@@ -3213,7 +3213,7 @@
 			"name": "Luke McCaffrey",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2024",
@@ -3304,12 +3304,12 @@
 		"round": 3,
 		"pick_no": 36,
 		"pick": "3.12",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Javon Baker",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "WHITEHAMMER1"
 	},
 	{
 		"season": "2024",
@@ -3345,14 +3345,14 @@
 			"name": "Brenden Rice",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Autodraft Jesus"
 	},
 	{
 		"season": "2024",
 		"round": 4,
 		"pick_no": 40,
 		"pick": "4.4",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Malik Washington",
 			"pos": "WR"
@@ -3513,7 +3513,7 @@
 			"name": "Travis Hunter",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Krispy Krusties"
 	},
 	{
 		"season": "2025",
@@ -3544,12 +3544,12 @@
 		"round": 1,
 		"pick_no": 8,
 		"pick": "1.8",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "TreVeyon Henderson",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "Too Hot To Handle"
 	},
 	{
 		"season": "2025",
@@ -3573,7 +3573,7 @@
 			"name": "Tyler Warren",
 			"pos": "TE"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2025",
@@ -3645,7 +3645,7 @@
 			"name": "Emeka Egbuka",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Autodraft Jesus"
 	},
 	{
 		"season": "2025",
@@ -3657,7 +3657,7 @@
 			"name": "Luther Burden",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Krispy Krusties"
 	},
 	{
 		"season": "2025",
@@ -3688,12 +3688,12 @@
 		"round": 2,
 		"pick_no": 20,
 		"pick": "2.8",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Bhayshul Tuten",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "Too Hot To Handle"
 	},
 	{
 		"season": "2025",
@@ -3717,7 +3717,7 @@
 			"name": "Jaydon Blue",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2025",
@@ -3753,7 +3753,7 @@
 			"name": "Elijah Arroyo",
 			"pos": "TE"
 		},
-		"traded_from": null
+		"traded_from": "Vinegar Strokes"
 	},
 	{
 		"season": "2025",
@@ -3808,12 +3808,12 @@
 		"round": 3,
 		"pick_no": 30,
 		"pick": "3.6",
-		"team": "San Fierro 69’ers",
+		"team": "San Fierro 69'ers",
 		"player": {
 			"name": "Terrance Ferguson",
 			"pos": "TE"
 		},
-		"traded_from": null
+		"traded_from": "Arrowhead Hero"
 	},
 	{
 		"season": "2025",
@@ -3837,7 +3837,7 @@
 			"name": "Tez Johnson",
 			"pos": "WR"
 		},
-		"traded_from": null
+		"traded_from": "Too Hot To Handle"
 	},
 	{
 		"season": "2025",
@@ -3861,7 +3861,7 @@
 			"name": "Jarquez Hunter",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2025",
@@ -4005,7 +4005,7 @@
 			"name": "Shedeur Sanders",
 			"pos": "QB"
 		},
-		"traded_from": null
+		"traded_from": "San Fierro 69'ers"
 	},
 	{
 		"season": "2025",
@@ -4029,6 +4029,6 @@
 			"name": "Brashard Smith",
 			"pos": "RB"
 		},
-		"traded_from": null
+		"traded_from": "The Sheriff"
 	}
 ]

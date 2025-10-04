@@ -133,7 +133,7 @@ export async function load() {
 			(pick.round === 2 && match && match?.rank <= 75) ||
 			(pick.round === 3 && match && match?.rank <= 100) ||
 			(pick.round === 4 && match && match?.rank <= 125);
-		const isLegendary = pick.round > 2 && match && match?.rank <= 25;
+		const isLegendary = (pick.round === 3 && match && match?.rank <= 25) || (pick.round === 4 && match && match?.rank <= 50);
 
 		const enrichedPick = {
 			...pick,
