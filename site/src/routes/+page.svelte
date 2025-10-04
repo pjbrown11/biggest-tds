@@ -7,7 +7,7 @@
 </script>
 
 <PageWrapper header="" isFullWidth={false}>
-	<div class="grid grid-cols-6 items-stretch gap-4 xl:pt-24">
+	<div class="grid grid-cols-6 items-stretch gap-4 xl:pt-12">
 		<div class="col-span-6 flex lg:col-span-3">
 			<img class="mx-auto w-[80%] self-start" src="/logo-optimized.svg" alt="Biggest TDs logo" />
 		</div>
@@ -28,6 +28,9 @@
 									<div class="ml-8">
 										<div class="text-brand-red text-sm font-bold">{champion.year}</div>
 										<div>{champion.team}</div>
+										{#if champion.year === 2022}
+											<div class="-ml-2 block max-w-max rounded-md bg-brand-gold px-2 py-0.5 text-xs">Hamlin year</div>
+										{/if}
 									</div>
 								</div>
 							{/each}
