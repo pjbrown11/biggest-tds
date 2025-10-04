@@ -1,7 +1,10 @@
 import draftsRaw from "../../data/drafts/draft-rookies-historical.json";
 import puppeteer from "puppeteer";
 import Fuse from "fuse.js";
-import { writeFile } from "node:fs/promises";
+// import { writeFile } from "node:fs/promises";
+import { building, dev } from "$app/environment";
+import localRankings from "./dynasty-rankings-local.json";
+import { getFranchiseIdByTeamName } from "$helpers/get-franchise-id-by-team-name";
 
 // --- Normalize into one flat string (lowercase, strip punctuation/suffixes, remove spaces) ---
 function normalizeFlat(name) {
@@ -96,10 +99,19 @@ function createFindMatch(dynastyRankings) {
 
 // --- Loader ---
 export async function load() {
-	const dynastyRankings = await fetchDynastyRankings();
-	console.log("Scraped count:", dynastyRankings.length);
+	let dynastyRankings = [];
 
-	await writeFile("dynasty-rankings.debug.json", JSON.stringify(dynastyRankings, null, 2), "utf8");
+	if (building && !dev) {
+		// Only scrape during prod build
+		dynastyRankings = await fetchDynastyRankings();
+		console.log("✅ Scraped dynasty rankings:", dynastyRankings.length);
+		// await writeFile("dynasty-rankings-local.json", JSON.stringify(dynastyRankings, null, 2), "utf8");
+	} else {
+		// Local dev → skip scraping
+		console.log("⚡ Skipping dynasty rankings scrape in dev/preview");
+
+		dynastyRankings = localRankings;
+	}
 
 	const findMatch = createFindMatch(dynastyRankings);
 	const bySeason = {};
@@ -107,6 +119,9 @@ export async function load() {
 	for (const pick of draftsRaw) {
 		const season = pick.season;
 		const match = findMatch(pick.player.name, season, pick.pick);
+
+		const franchiseId = getFranchiseIdByTeamName({ team: pick.team });
+		const franchiseIdTradedFrom = getFranchiseIdByTeamName({ team: pick.traded_from });
 
 		// Evaluation flags
 		const isRecent = Number(season) >= new Date().getFullYear() - 6;
@@ -122,6 +137,8 @@ export async function load() {
 
 		const enrichedPick = {
 			...pick,
+			franchiseId,
+			franchiseIdTradedFrom,
 			player: {
 				...pick.player,
 				rank: match ? match.rank : null,

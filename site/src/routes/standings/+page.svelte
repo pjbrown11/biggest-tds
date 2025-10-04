@@ -1,4 +1,5 @@
 <script>
+	import HighlightFranchise from "$components/highlight-franchise.svelte";
 	import PageWrapper from "$components/page-wrapper.svelte";
 	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id.js";
 	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
@@ -8,17 +9,7 @@
 
 <PageWrapper header="Standings" isFullWidth={false}>
 	<div class="ml-auto block lg:flex xl:float-right xl:-mt-12">
-		<div class="input-wrapper">
-			<label for="highlight">Highlight a Franchise</label>
-			<select bind:value={$highlightedFranchiseId} id="highlight">
-				<option class="text-gray-400" value="">Select Franchise</option>
-				{#each data.teamListWithIds as team}
-					<option value={team.franchiseId}>
-						{team.latestTeamName}
-					</option>
-				{/each}
-			</select>
-		</div>
+		<HighlightFranchise />
 	</div>
 	<div class="space-y-12">
 		{#each data.seasons as season}

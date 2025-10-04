@@ -1,31 +1,36 @@
 <script>
+	import HighlightFranchise from "$components/highlight-franchise.svelte";
 	import InfoNotification from "$components/info-notification.svelte";
 	import PageWrapper from "$components/page-wrapper.svelte";
+	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
 	let { data } = $props();
 </script>
 
 <PageWrapper header="Draft Results" isFullWidth={false}>
-	<div class="mb-4">
+	<div class="mb-4 block items-end justify-between lg:flex">
 		<InfoNotification header="Badge Definitions">
 			<div class="mt-2 text-xs">
 				<div class="mb-2 flex items-center">
-					<div class="mr-1 inline-block min-w-24 rounded bg-red-700 px-2 py-1 text-center font-bold font-semibold text-white xl:mr-2">Bust</div>
+					<div class="mr-1 inline-block min-w-24 rounded bg-red-700 px-2 py-1 text-center font-bold font-semibold text-white lg:mr-2">Bust</div>
 					<div>1st round pick between 2 and 6 years ago, ovr rank over 150</div>
 				</div>
 				<div class="mb-2 flex items-center">
-					<div class="mr-1 inline-block min-w-24 rounded bg-blue-700 px-2 py-1 text-center font-bold font-semibold text-white xl:mr-2">Value</div>
+					<div class="mr-1 inline-block min-w-24 rounded bg-blue-700 px-2 py-1 text-center font-bold font-semibold text-white lg:mr-2">Value</div>
 					<div>2nd round top 75, 3rd round top 100, 4th round top 125</div>
 				</div>
 
 				<div class="mb-2 flex items-center">
-					<div class="mr-1 inline-block min-w-24 rounded bg-green-700 px-2 py-1 text-center font-bold font-semibold text-white xl:mr-2">
+					<div class="mr-1 inline-block min-w-24 rounded bg-green-700 px-2 py-1 text-center font-bold font-semibold text-white lg:mr-2">
 						Legendary
 					</div>
 
 					<div>3rd/4th round top 25</div>
 				</div>
-			</div></InfoNotification
-		>
+			</div>
+		</InfoNotification>
+		<div class="mt-4 block xl:mt-0">
+			<HighlightFranchise />
+		</div>
 	</div>
 	<div class="space-y-12">
 		{#each data.seasons as season}
@@ -42,7 +47,15 @@
 							</h3>
 							<div class="space-y-2">
 								{#each season.rounds[round] as pick}
-									<div class="relative flex min-h-24 items-center rounded-lg border-2 border-gray-200 bg-white px-3 py-2">
+									<div
+										class="relative flex min-h-24 items-center rounded-lg border-2 border-gray-200
+										
+										{pick.franchiseId === $highlightedFranchiseId
+											? 'bg-blue-200 outline-4 outline-black'
+											: pick.franchiseIdTradedFrom === $highlightedFranchiseId
+												? 'bg-brand-gold outline-4 outline-black'
+												: 'bg-white'} px-3 py-2"
+									>
 										<!-- Draft pick circle -->
 										<div class="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2">
 											<div class="flex h-9 w-9 items-center justify-center rounded-lg bg-black text-xs font-bold text-white">
