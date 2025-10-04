@@ -491,68 +491,6 @@
 		]
 	},
 	{
-		"trade_id": "MFL-2018-14",
-		"season": "2018",
-		"date": "2018-08-29",
-		"teams": [
-			{
-				"team": "Tittsburgh Feelers",
-				"received": [
-					{
-						"type": "player",
-						"name": "Sammy Watkins",
-						"pos": "WR"
-					},
-					{
-						"type": "pick",
-						"name": "Round 2 Pick (2019, from Tittsburgh Feelers)"
-					}
-				]
-			},
-			{
-				"team": "Autodraft Jesus",
-				"received": [
-					{
-						"type": "player",
-						"name": "Derrick Henry",
-						"pos": "RB"
-					}
-				]
-			}
-		]
-	},
-	{
-		"trade_id": "MFL-2018-15",
-		"season": "2018",
-		"date": "2018-08-27",
-		"teams": [
-			{
-				"team": "Tittsburgh Feelers",
-				"received": [
-					{
-						"type": "player",
-						"name": "Derrick Henry",
-						"pos": "RB"
-					}
-				]
-			},
-			{
-				"team": "Autodraft Jesus",
-				"received": [
-					{
-						"type": "player",
-						"name": "Sammy Watkins",
-						"pos": "WR"
-					},
-					{
-						"type": "pick",
-						"name": "Round 2 Pick (2019, from Tittsburgh Feelers)"
-					}
-				]
-			}
-		]
-	},
-	{
 		"trade_id": "MFL-2018-16",
 		"season": "2018",
 		"date": "2018-08-25",

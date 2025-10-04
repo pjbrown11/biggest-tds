@@ -13,14 +13,14 @@
 	</div>
 	<div class="space-y-12">
 		{#each data.seasons as season}
-			<div class="mt-6 xl:mt-12">
+			<div class="mt-6 bg-white xl:mt-12">
 				<h2 class="border-brand-red bg-brand-red -mx-4 px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4 md:bg-auto">
 					{season.year} - League Avg: {season.leagueAvg}
 				</h2>
 
 				<div class="border-brand-red hidden overflow-x-auto rounded-b-xl border-4 border-t-0 pl-4 pt-2 md:block">
 					<table class="w-full text-left text-sm">
-						<thead class="bg-gray-100 text-xs uppercase">
+						<thead class=" text-xs uppercase">
 							<tr>
 								<th class="px-4 py-2">Place</th>
 								<th class="px-4 py-2">Team</th>
@@ -34,11 +34,7 @@
 						</thead>
 						<tbody>
 							{#each season.teams as t}
-								<tr
-									class="{$highlightedFranchiseId === t.franchiseId
-										? 'bg-black font-bold text-white lg:text-xl'
-										: ''} border-b last:border-b-0"
-								>
+								<tr class="{$highlightedFranchiseId === t.franchiseId ? 'bg-blue-200 font-bold lg:text-xl' : ''} border-b last:border-b-0">
 									<td class="px-4 py-2">{t.finalPlace}</td>
 									<td class="px-4 py-2">{t.team} </td>
 									<td class="px-4 py-2">{t.owner}</td>
