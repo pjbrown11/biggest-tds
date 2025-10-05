@@ -79,8 +79,10 @@
 							<div class="flex items-center justify-between font-bold">
 								<div class="flex items-center space-x-2">
 									<div class="bg-brand-red flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold text-white">
-										{t.finalPlace}
-										<sup class="ml-[1px] text-[8px] font-bold">{getOrdinal(t.finalPlace)}</sup>
+										{t.finalPlace || "-"}
+										{#if t.finalPlace}
+											<sup class="ml-[1px] text-[8px] font-bold">{getOrdinal(t.finalPlace)}</sup>
+										{/if}
 									</div>
 									<div>
 										{t.team}
