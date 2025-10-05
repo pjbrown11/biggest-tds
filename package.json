@@ -15,7 +15,7 @@
 	"type": "module",
 	"homepage": "https://gitlab.com/pjbrown11/goat-starter#readme",
 	"scripts": {
-		"build-site": "cd site && npm run build",
+		"build-site": "cd site/src/data/trades && node get-current-sleeper-trades.js && cd ../standings && node get-sleeper-current-year-standings.js && npm run build",
 		"dev-site": "cd site && npm run dev -- --open"
 	},
 	"devDependencies": {

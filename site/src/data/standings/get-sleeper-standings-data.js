@@ -25,6 +25,7 @@ function calcPF(settings) {
 	const dec = Number(settings.fpts_decimal || 0) / 1000;
 	return base + dec;
 }
+
 function calcPA(settings) {
 	const base = Number(settings.fpts_against || 0);
 	const dec = Number(settings.fpts_against_decimal || 0) / 1000;
@@ -43,10 +44,7 @@ async function main() {
 		rosterInfo.set(r.roster_id, {
 			rid: r.roster_id,
 			division: r.settings?.division ?? 0,
-			team:
-				user?.metadata?.team_name?.trim() ||
-				user?.display_name ||
-				`Team ${r.roster_id}`,
+			team: user?.metadata?.team_name?.trim() || user?.display_name || `Team ${r.roster_id}`,
 			wins: Number(r.settings?.wins ?? 0),
 			losses: Number(r.settings?.losses ?? 0),
 			pfSeason: calcPF(r.settings || {}),
@@ -61,9 +59,7 @@ async function main() {
 	const scoresAgainst = new Map();
 
 	for (let wk = 1; wk <= MAX_WEEKS; wk++) {
-		const matchups = await getJSON(
-			`https://api.sleeper.app/v1/league/${leagueId}/matchups/${wk}`
-		);
+		const matchups = await getJSON(`https://api.sleeper.app/v1/league/${leagueId}/matchups/${wk}`);
 		const grouped = new Map();
 		for (const m of matchups) {
 			if (!grouped.has(m.matchup_id)) grouped.set(m.matchup_id, []);
@@ -85,14 +81,11 @@ async function main() {
 	for (const info of rosterInfo.values()) {
 		const pfWeeks = (scoresFor.get(info.rid) || []).slice(0, REG_WEEKS);
 		const paWeeks = (scoresAgainst.get(info.rid) || []).slice(0, REG_WEEKS);
-		const avg = (arr) =>
-			arr.length ? arr.reduce((a, b) => a + (b || 0), 0) / arr.length : 0;
+		const avg = (arr) => (arr.length ? arr.reduce((a, b) => a + (b || 0), 0) / arr.length : 0);
 		info.regAvgFor = avg(pfWeeks);
 		info.regAvgAgainst = avg(paWeeks);
 		const allWeeks = scoresFor.get(info.rid) || [];
-		info.bestGamePts = allWeeks.length
-			? Math.max(...allWeeks.filter((x) => x !== undefined))
-			: 0;
+		info.bestGamePts = allWeeks.length ? Math.max(...allWeeks.filter((x) => x !== undefined)) : 0;
 	}
 
 	// Division placement (wins, PF, PA tiebreakers)
@@ -125,10 +118,7 @@ async function main() {
 		.sort((a, b) => a.team.localeCompare(b.team));
 
 	// League-wide average regAvgPtsFor
-	const leagueAvg = (
-		rows.reduce((sum, r) => sum + parseFloat(r.regAvgPtsFor), 0) /
-		rows.length
-	).toFixed(2);
+	const leagueAvg = (rows.reduce((sum, r) => sum + parseFloat(r.regAvgPtsFor), 0) / rows.length).toFixed(2);
 
 	rows.push({
 		team: "League Average",
@@ -140,24 +130,12 @@ async function main() {
 		bestGamePts: "",
 	});
 
-	const headers = [
-		"team",
-		"regWins",
-		"regLosses",
-		"regDivisionPlace",
-		"regAvgPtsFor",
-		"regAvgPtsAgainst",
-		"bestGamePts",
-	];
-	const csv = [
-		headers.join(","),
-		...rows.map((r) => headers.map((h) => csvEscape(r[h])).join(",")),
-	].join("\n");
+	const headers = ["team", "regWins", "regLosses", "regDivisionPlace", "regAvgPtsFor", "regAvgPtsAgainst", "bestGamePts"];
+	const csv = [headers.join(","), ...rows.map((r) => headers.map((h) => csvEscape(r[h])).join(","))].join("\n");
 
 	fs.writeFileSync("sleeper_stats.csv", "\uFEFF" + csv, "utf8");
-	console.log(
-		"✅ sleeper_stats.csv written with league average row at the bottom."
-	);
+
+	console.log("✅ sleeper_stats.csv written with league average row at the bottom.");
 }
 
 main().catch((err) => console.error(err));

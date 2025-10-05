@@ -1,6 +1,8 @@
 <script>
+	import HighlightFranchise from "$components/highlight-franchise.svelte";
 	import PageWrapper from "$components/page-wrapper.svelte";
 	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id.js";
+	import { getOrdinal } from "$helpers/get-ordinal.js";
 	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
 
 	let { data } = $props();
@@ -8,28 +10,18 @@
 
 <PageWrapper header="Standings" isFullWidth={false}>
 	<div class="ml-auto block lg:flex xl:float-right xl:-mt-12">
-		<div class="input-wrapper">
-			<label for="highlight">Highlight a Franchise</label>
-			<select bind:value={$highlightedFranchiseId} id="highlight">
-				<option class="text-gray-400" value="">Select Franchise</option>
-				{#each data.teamListWithIds as team}
-					<option value={team.franchiseId}>
-						{team.latestTeamName}
-					</option>
-				{/each}
-			</select>
-		</div>
+		<HighlightFranchise />
 	</div>
 	<div class="space-y-12">
 		{#each data.seasons as season}
-			<div class="mt-6 xl:mt-12">
+			<div class="mt-6 bg-white xl:mt-12">
 				<h2 class="border-brand-red bg-brand-red -mx-4 px-4 py-2 text-lg font-bold text-white md:mx-0 md:rounded-t-xl md:border-b-4 md:bg-auto">
 					{season.year} - League Avg: {season.leagueAvg}
 				</h2>
 
 				<div class="border-brand-red hidden overflow-x-auto rounded-b-xl border-4 border-t-0 pl-4 pt-2 md:block">
 					<table class="w-full text-left text-sm">
-						<thead class="bg-gray-100 text-xs uppercase">
+						<thead class=" text-xs uppercase">
 							<tr>
 								<th class="px-4 py-2">Place</th>
 								<th class="px-4 py-2">Team</th>
@@ -43,11 +35,7 @@
 						</thead>
 						<tbody>
 							{#each season.teams as t}
-								<tr
-									class="{$highlightedFranchiseId === t.franchiseId
-										? 'bg-black font-bold text-white lg:text-xl'
-										: ''} border-b last:border-b-0"
-								>
+								<tr class="{$highlightedFranchiseId === t.franchiseId ? 'bg-blue-200 font-bold lg:text-xl' : ''} border-b last:border-b-0">
 									<td class="px-4 py-2">{t.finalPlace}</td>
 									<td class="px-4 py-2">{t.team} </td>
 									<td class="px-4 py-2">{t.owner}</td>
@@ -82,7 +70,7 @@
 				<div class="border-brand-red -mx-4 border-y-4 bg-white md:hidden">
 					{#each season.teams as t, i}
 						<div
-							class="px-4 py-3 {$highlightedFranchiseId === t.franchiseId
+							class="py-3 pl-3 pr-4 {$highlightedFranchiseId === t.franchiseId
 								? 'bg-black font-bold text-white lg:text-xl'
 								: i % 2 === 0
 									? 'bg-gray-100'
@@ -90,8 +78,11 @@
 						>
 							<div class="flex items-center justify-between font-bold">
 								<div class="flex items-center space-x-2">
-									<div class="bg-brand-red flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold text-white">
-										{t.finalPlace}
+									<div class="bg-brand-red flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold text-white">
+										{t.finalPlace || "-"}
+										{#if t.finalPlace}
+											<sup class="ml-[1px] text-[8px] font-bold">{getOrdinal(t.finalPlace)}</sup>
+										{/if}
 									</div>
 									<div>
 										{t.team}
@@ -109,7 +100,7 @@
 								</div>
 							</div>
 							<div class="mt-1 flex justify-between text-sm">
-								<div class="pl-8">
+								<div class="pl-9">
 									Avg Pts: {t.regAvgPtsFor}
 									<span class="font-bold {t.plusMinus > 0 ? 'text-green-600' : t.plusMinus < 0 ? 'text-red-600' : 'text-gray-600'}">
 										({t.plusMinus > 0 ? `+${t.plusMinus}` : t.plusMinus})
