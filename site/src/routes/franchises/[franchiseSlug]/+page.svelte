@@ -15,7 +15,7 @@
 			sub: `(${data.winPct})`,
 		},
 		{ label: "Championships", value: data.championshipCount || 0 },
-		{ label: "Playoffs Made", value: data.playoffAppearances },
+		{ label: "Playoffs Made", value: `${data.playoffAppearances} / ${data.completedSeasonCount}` },
 		{ label: "Division Titles", value: data.divisionTitles },
 		{ label: "Avg Finish", value: data.avgFinish },
 		{ label: "Trades", value: data.trades?.length || 0 },
@@ -25,7 +25,7 @@
 <PageWrapper header={data.franchiseName}>
 	<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6 xl:my-8">
 		{#each summaryStats as stat}
-			<div class="flex flex-col items-center justify-center rounded-lg border-2 border-gray-200 bg-white p-3 text-center">
+			<div class="relative flex flex-col items-center justify-center rounded-lg border-2 border-gray-200 bg-white p-3 text-center">
 				<p class="text-xs font-bold uppercase tracking-wide text-gray-500">{stat.label}</p>
 				<p class="mt-1 text-lg text-gray-800 xl:text-xl">
 					{stat.value}
@@ -33,6 +33,9 @@
 						<span class="">{stat.sub}</span>
 					{/if}
 				</p>
+				{#if stat.label === "Overall Record"}
+					<div class="absolute -bottom-2 rounded-full border-2 border-gray-200 bg-brand-gold px-2 py-0.5 text-[8px]">through 2024</div>
+				{/if}
 			</div>
 		{/each}
 	</div>

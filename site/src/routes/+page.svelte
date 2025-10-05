@@ -71,4 +71,45 @@
 			</div>
 		</div>
 	</div>
+	<div class="mt-8 lg:hidden">
+		<h2 class="mb-2 text-xl font-bold">Pages</h2>
+		<div class="grid grid-cols-2 gap-4">
+			<div class="col-span-1">
+				<a
+					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
+				py-2 font-bold uppercase
+				tracking-wider text-white hover:border-black xl:px-5"
+					href="/standings/"
+					>Standings
+				</a>
+			</div>
+			<div class="col-span-1">
+				<a
+					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
+				py-2 font-bold uppercase
+				tracking-wider text-white hover:border-black xl:px-5"
+					href="/drafts/"
+					>Drafts
+				</a>
+			</div>
+			<div class="col-span-1">
+				<a
+					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
+				py-2 font-bold uppercase
+				tracking-wider text-white hover:border-black xl:px-5"
+					href="/trades/"
+					>Trades
+				</a>
+			</div>
+			<div class="col-span-1">
+				<a
+					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
+				py-2 font-bold uppercase
+				tracking-wider text-white hover:border-black xl:px-5"
+					href="/franchises/"
+					>Franchises
+				</a>
+			</div>
+		</div>
+	</div>
 </PageWrapper>
