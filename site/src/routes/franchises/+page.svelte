@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import PageWrapper from "$components/page-wrapper.svelte";
 </script>
 
@@ -12,4 +12,17 @@
 	<p>chart of avg pts scored vs league average</p>
 
 	<p>each year summary of win loss, pts, final place</p>
-</PageWrapper>
+</PageWrapper> -->
+
+<script>
+	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
+
+	import { page } from "$app/stores";
+	import { slugify } from "$helpers/slugify";
+</script>
+
+{#each $page.data.teamListWithIds as team}
+	<a href="/franchises/{team.franchiseId}-{slugify(team.latestTeamName)}">
+		{team.latestTeamName}
+	</a>
+{/each}

@@ -79,7 +79,7 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2019, from Autodraft Jesus)"
+						"name": "Round 2 Pick (2019)"
 					}
 				]
 			}
@@ -537,7 +537,7 @@
 				"received": [
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2020, from Autodraft Jesus)"
+						"name": "Round 2 Pick (2020)"
 					}
 				]
 			}
@@ -600,7 +600,7 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 1 Pick (2020, from Too Hot To Handle)"
+						"name": "Round 1 Pick (2020)"
 					}
 				]
 			}
@@ -631,11 +631,11 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 1 Pick (2021, from Too Hot To Handle)"
+						"name": "Round 1 Pick (2021)"
 					},
 					{
 						"type": "pick",
-						"name": "Round 3 Pick (2020, from Too Hot To Handle)"
+						"name": "Round 3 Pick (2020)"
 					}
 				]
 			},
@@ -659,11 +659,11 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2020, from ISU Pornstar)"
+						"name": "Round 2 Pick (2020)"
 					},
 					{
 						"type": "pick",
-						"name": "Round 4 Pick (2020, from ISU Pornstar)"
+						"name": "Round 4 Pick (2020)"
 					}
 				]
 			}
@@ -726,11 +726,11 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 1 Pick (2020, from Hot Chubb Time Machine)"
+						"name": "Round 1 Pick (2020)"
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2020, from Natty Guice)"
+						"name": "Round 2 Pick (2020)"
 					}
 				]
 			}
@@ -746,11 +746,11 @@
 				"received": [
 					{
 						"type": "pick",
-						"name": "Round 1 Pick (2020, from Autodraft Jesus)"
+						"name": "Round 1 Pick (2020)"
 					},
 					{
 						"type": "pick",
-						"name": "Round 3 Pick (2020, from Hot Chubb Time Machine)"
+						"name": "Round 3 Pick (2020)"
 					}
 				]
 			},
@@ -764,11 +764,11 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2020, from Natty Guice)"
+						"name": "Round 2 Pick (2020)"
 					},
 					{
 						"type": "pick",
-						"name": "Round 3 Pick (2020, from Natty Guice)"
+						"name": "Round 3 Pick (2020)"
 					}
 				]
 			}
@@ -789,7 +789,7 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2020, from Autodraft Jesus)"
+						"name": "Round 2 Pick (2020)"
 					}
 				]
 			},
@@ -803,7 +803,7 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 1 Pick (2020, from Too Hot To Handle)"
+						"name": "Round 1 Pick (2020)"
 					}
 				]
 			}
@@ -878,7 +878,7 @@
 				"received": [
 					{
 						"type": "pick",
-						"name": "Round 4 Pick (2019, 4.11)"
+						"name": "Round 4 Pick (2019)"
 					}
 				]
 			},
@@ -887,7 +887,7 @@
 				"received": [
 					{
 						"type": "pick",
-						"name": "Round 4 Pick (2019, 4.09)"
+						"name": "Round 4 Pick (2019)"
 					}
 				]
 			}
@@ -913,11 +913,11 @@
 				"received": [
 					{
 						"type": "pick",
-						"name": "Round 4 Pick (2019, 4.03)"
+						"name": "Round 4 Pick (2019)"
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2020, from Hot Chubb Time Machine)"
+						"name": "Round 2 Pick (2020)"
 					}
 				]
 			}
@@ -1132,7 +1132,7 @@
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2021, Hot Chubb Time Machine)"
+						"name": "Round 2 Pick (2021)"
 					}
 				]
 			}
@@ -1148,7 +1148,7 @@
 				"received": [
 					{
 						"type": "pick",
-						"name": "Draft Pick 2.03 (2020)"
+						"name": "Round 2 Pick (2020)"
 					}
 				]
 			},
@@ -1157,15 +1157,15 @@
 				"received": [
 					{
 						"type": "pick",
-						"name": "Draft Pick 2.09 (2020)"
+						"name": "Round 2 Pick (2020)"
 					},
 					{
 						"type": "pick",
-						"name": "Draft Pick 3.07 (2020)"
+						"name": "Round 3 Pick (2020)"
 					},
 					{
 						"type": "pick",
-						"name": "Round 2 Pick (2021, San Fierro 69'ers)"
+						"name": "Round 2 Pick (2021)"
 					}
 				]
 			}

@@ -2,6 +2,7 @@
 	import HighlightFranchise from "$components/highlight-franchise.svelte";
 	import PageWrapper from "$components/page-wrapper.svelte";
 	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id.js";
+	import { getOrdinal } from "$helpers/get-ordinal.js";
 	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
 
 	let { data } = $props();
@@ -69,7 +70,7 @@
 				<div class="border-brand-red -mx-4 border-y-4 bg-white md:hidden">
 					{#each season.teams as t, i}
 						<div
-							class="px-4 py-3 {$highlightedFranchiseId === t.franchiseId
+							class="py-3 pl-3 pr-4 {$highlightedFranchiseId === t.franchiseId
 								? 'bg-black font-bold text-white lg:text-xl'
 								: i % 2 === 0
 									? 'bg-gray-100'
@@ -77,8 +78,9 @@
 						>
 							<div class="flex items-center justify-between font-bold">
 								<div class="flex items-center space-x-2">
-									<div class="bg-brand-red flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold text-white">
+									<div class="bg-brand-red flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold text-white">
 										{t.finalPlace}
+										<sup class="ml-[1px] text-[8px] font-bold">{getOrdinal(t.finalPlace)}</sup>
 									</div>
 									<div>
 										{t.team}
@@ -96,7 +98,7 @@
 								</div>
 							</div>
 							<div class="mt-1 flex justify-between text-sm">
-								<div class="pl-8">
+								<div class="pl-9">
 									Avg Pts: {t.regAvgPtsFor}
 									<span class="font-bold {t.plusMinus > 0 ? 'text-green-600' : t.plusMinus < 0 ? 'text-red-600' : 'text-gray-600'}">
 										({t.plusMinus > 0 ? `+${t.plusMinus}` : t.plusMinus})
