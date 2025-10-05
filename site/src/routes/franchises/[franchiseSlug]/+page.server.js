@@ -4,6 +4,7 @@ import standingsData from "../../../data/standings/standings-historical.json";
 import tradesHistorical from "../../../data/trades/trades-historical.json";
 import tradesCurrent from "../../../data/trades/trades-current-year.json";
 import leaguesData from "../../../data/leagues.json";
+import draftsData from "../../../data/drafts/draft-rookies-historical.json";
 
 function getFranchiseStats(franchiseId) {
 	const entries = standingsData.filter((entry) => entry.franchiseId === Number(franchiseId));
@@ -60,6 +61,34 @@ function getFranchiseStats(franchiseId) {
 
 	const sortedTrades = franchiseTrades.sort((a, b) => new Date(b.date) - new Date(a.date));
 
+	// --- Group draft picks by season ---
+	const enrichedDrafts = draftsData.map((pick) => ({
+		...pick,
+		franchiseId: getFranchiseIdByTeamName({ team: pick.team }),
+	}));
+
+	const franchisePicks = enrichedDrafts.filter((p) => p.franchiseId === Number(franchiseId));
+
+	const groupedDrafts = franchisePicks.reduce((acc, pick) => {
+		const season = pick.season;
+		if (!acc[season]) acc[season] = [];
+		acc[season].push(pick);
+		return acc;
+	}, {});
+
+	// Sort picks within each season (ascending)
+	for (const season in groupedDrafts) {
+		groupedDrafts[season].sort((a, b) => a.pick_no - b.pick_no);
+	}
+
+	// Sort seasons ascending (oldest → newest)
+	const sortedDrafts = Object.entries(groupedDrafts)
+		.sort(([a], [b]) => Number(a) - Number(b))
+		.reduce((acc, [season, picks]) => {
+			acc[season] = picks;
+			return acc;
+		}, {});
+
 	return {
 		records: enrichedEntries.sort((a, b) => b.year - a.year),
 		championshipCount,
@@ -71,6 +100,7 @@ function getFranchiseStats(franchiseId) {
 		avgFinish,
 		completedSeasonCount: enrichedEntries.length,
 		trades: sortedTrades,
+		drafts: sortedDrafts,
 	};
 }
 

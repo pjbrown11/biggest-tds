@@ -3,10 +3,9 @@
 	import Trade from "$components/trade.svelte";
 	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id";
 	import { getOrdinal } from "$helpers/get-ordinal.js";
+	import { franchiseTab } from "$stores/franchise-tab";
 
 	let { data } = $props();
-
-	console.log(data);
 
 	const summaryStats = [
 		{
@@ -20,6 +19,8 @@
 		{ label: "Avg Finish", value: data.avgFinish },
 		{ label: "Trades", value: data.trades?.length || 0 },
 	];
+
+	const seasonEntries = Object.entries(data.drafts).sort(([seasonA], [seasonB]) => Number(seasonB) - Number(seasonA));
 </script>
 
 <PageWrapper header={data.franchiseName}>
@@ -125,6 +126,25 @@
 							Best Game: {season.bestGamePts}
 						</div>
 					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
+
+	<div class="mt-8">
+		<h2 class="mb-2 text-xl font-bold">Draft List</h2>
+		<div class="grid grid-cols-6 gap-6">
+			{#each seasonEntries as [season, picks]}
+				<div class="col-span-6 md:col-span-3 xl:col-span-2">
+					<h3 class="border-brand-red mb-1 mt-4 inline border-b-2 text-sm font-bold">{season}</h3>
+					<ul class="ml-4 mt-1 list-disc">
+						{#each picks as draftPick}
+							<li>
+								{draftPick.pick} | {draftPick.player?.name}
+								{draftPick.player.pos}
+							</li>
+						{/each}
+					</ul>
 				</div>
 			{/each}
 		</div>
