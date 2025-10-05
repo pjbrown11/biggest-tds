@@ -1,10 +1,29 @@
 import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id.js";
 import { getFranchiseIdByTeamName } from "$helpers/get-franchise-id-by-team-name.js";
-import standingsData from "../../../data/standings/standings-historical.json";
 import tradesHistorical from "../../../data/trades/trades-historical.json";
 import tradesCurrent from "../../../data/trades/trades-current-year.json";
 import leaguesData from "../../../data/leagues.json";
 import draftsData from "../../../data/drafts/draft-rookies-historical.json";
+import standingsHistorical from "../../../data/standings/standings-historical.json";
+import standingsCurrent from "../../../data/standings/standings-current-year.json";
+
+const standingsData = [...standingsHistorical, ...standingsCurrent];
+
+// Compute fallback league averages by year from the standings themselves
+const computedLeagueAvgByYear = (() => {
+	const groupedByYear = standingsData.reduce((accumulator, row) => {
+		(accumulator[row.year] ||= []).push(row);
+		return accumulator;
+	}, {});
+
+	const entries = Object.entries(groupedByYear).map(([yearString, rows]) => {
+		const values = rows.map((r) => Number(r.regAvgPtsFor)).filter((n) => Number.isFinite(n));
+		const average = values.length ? values.reduce((a, b) => a + b, 0) / values.length : 0;
+		return [Number(yearString), Math.round(average)];
+	});
+
+	return Object.fromEntries(entries);
+})();
 
 function getFranchiseStats(franchiseId) {
 	const entries = standingsData.filter((entry) => entry.franchiseId === Number(franchiseId));
@@ -18,11 +37,13 @@ function getFranchiseStats(franchiseId) {
 	let totalFinalPlaces = 0;
 	let championshipCount = 0;
 
-	// --- Enrich each season with league average and plus/minus ---
+	// Enrich each season with league average and plus/minus (with fallback)
 	const enrichedEntries = entries.map((season) => {
-		const league = leaguesData.find((l) => l.year === season.year);
-		const leagueAvg = league?.regAvgPtsScored ?? 0;
-		const plusMinus = Math.round(season.regAvgPtsFor - leagueAvg);
+		const leagueRow = leaguesData.find((row) => row.year === season.year);
+		const jsonAvg = Number(leagueRow?.regAvgPtsScored);
+		const leagueAvg = Number.isFinite(jsonAvg) && jsonAvg > 0 ? Math.round(jsonAvg) : (computedLeagueAvgByYear[season.year] ?? 0);
+
+		const plusMinus = Math.round(Number(season.regAvgPtsFor) - leagueAvg);
 
 		if (season.finalPlace === 1) championshipCount++;
 
@@ -47,33 +68,33 @@ function getFranchiseStats(franchiseId) {
 	const winPct = totalGames > 0 ? (totalWins / totalGames).toFixed(3) : "0.000";
 	const avgFinish = (totalFinalPlaces / enrichedEntries.length).toFixed(1);
 
-	// --- Combine and enrich trades ---
+	// Combine and enrich trades
 	const allTrades = [...tradesHistorical, ...tradesCurrent].map((trade) => {
-		const enrichedTeams = trade.teams.map((team) => ({
-			...team,
-			franchiseId: getFranchiseIdByTeamName({ team: team.team }),
+		const enrichedTeams = trade.teams.map((tradeTeam) => ({
+			...tradeTeam,
+			franchiseId: getFranchiseIdByTeamName({ team: tradeTeam.team }),
 		}));
 		return { ...trade, teams: enrichedTeams };
 	});
 
-	// --- Filter trades involving this franchise ---
-	const franchiseTrades = allTrades.filter((trade) => trade.teams.some((team) => team.franchiseId === Number(franchiseId)));
+	// Filter trades involving this franchise
+	const franchiseTrades = allTrades.filter((trade) => trade.teams.some((tradeTeam) => tradeTeam.franchiseId === Number(franchiseId)));
 
 	const sortedTrades = franchiseTrades.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-	// --- Group draft picks by season ---
-	const enrichedDrafts = draftsData.map((pick) => ({
-		...pick,
-		franchiseId: getFranchiseIdByTeamName({ team: pick.team }),
+	// Group draft picks by season
+	const enrichedDrafts = draftsData.map((pickRow) => ({
+		...pickRow,
+		franchiseId: getFranchiseIdByTeamName({ team: pickRow.team }),
 	}));
 
-	const franchisePicks = enrichedDrafts.filter((p) => p.franchiseId === Number(franchiseId));
+	const franchisePicks = enrichedDrafts.filter((pickRow) => pickRow.franchiseId === Number(franchiseId));
 
-	const groupedDrafts = franchisePicks.reduce((acc, pick) => {
-		const season = pick.season;
-		if (!acc[season]) acc[season] = [];
-		acc[season].push(pick);
-		return acc;
+	const groupedDrafts = franchisePicks.reduce((accumulator, pickRow) => {
+		const season = pickRow.season;
+		if (!accumulator[season]) accumulator[season] = [];
+		accumulator[season].push(pickRow);
+		return accumulator;
 	}, {});
 
 	// Sort picks within each season (ascending)
@@ -83,10 +104,10 @@ function getFranchiseStats(franchiseId) {
 
 	// Sort seasons ascending (oldest → newest)
 	const sortedDrafts = Object.entries(groupedDrafts)
-		.sort(([a], [b]) => Number(a) - Number(b))
-		.reduce((acc, [season, picks]) => {
-			acc[season] = picks;
-			return acc;
+		.sort(([yearA], [yearB]) => Number(yearA) - Number(yearB))
+		.reduce((accumulator, [season, picks]) => {
+			accumulator[season] = picks;
+			return accumulator;
 		}, {});
 
 	return {
@@ -98,15 +119,12 @@ function getFranchiseStats(franchiseId) {
 		playoffAppearances,
 		divisionTitles,
 		avgFinish,
-		completedSeasonCount: enrichedEntries.length,
+		completedSeasonCount: leaguesData.filter((row) => row.isComplete).length,
 		trades: sortedTrades,
 		drafts: sortedDrafts,
 	};
 }
 
-/**
- * Server load
- */
 export function load({ params }) {
 	const { franchiseSlug } = params;
 	const parts = franchiseSlug.split("-");

@@ -34,9 +34,9 @@
 						<span class="">{stat.sub}</span>
 					{/if}
 				</p>
-				{#if stat.label === "Overall Record"}
+				<!-- {#if stat.label === "Overall Record"}
 					<div class="absolute -bottom-2 rounded-full border-2 border-gray-200 bg-brand-gold px-2 py-0.5 text-[8px]">through 2024</div>
-				{/if}
+				{/if} -->
 			</div>
 		{/each}
 	</div>
@@ -61,7 +61,7 @@
 					{#each data.records as season}
 						<tr class="border-b last:border-b-0">
 							<td class="px-4 py-2">{season.year}</td>
-							<td class="px-4 py-2">{season.finalPlace}</td>
+							<td class="px-4 py-2">{season.finalPlace || "-"}</td>
 							<td class="px-4 py-2">{season.owner}</td>
 							<td class="flex items-center px-4 py-2">
 								{season.division}

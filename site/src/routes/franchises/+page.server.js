@@ -1,5 +1,8 @@
 import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id.js";
-import standingsData from "../../data/standings/standings-historical.json";
+import standingsHistorical from "../../data/standings/standings-historical.json";
+import standingsCurrent from "../../data/standings/standings-current-year.json";
+
+const standingsData = [...standingsHistorical, ...standingsCurrent];
 
 export function load() {
 	const franchises = Array.from({ length: 12 }, (_, i) => {
