@@ -1,5 +1,6 @@
 <script>
 	import PageWrapper from "$components/page-wrapper.svelte";
+	import Trade from "$components/trade.svelte";
 	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id";
 	import { getOrdinal } from "$helpers/get-ordinal.js";
 
@@ -122,6 +123,14 @@
 						</div>
 					</div>
 				</div>
+			{/each}
+		</div>
+	</div>
+	<div class="mt-8">
+		<h2 class="mb-2 text-xl font-bold">Trade List</h2>
+		<div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+			{#each data.trades as trade}
+				<Trade {trade} />
 			{/each}
 		</div>
 	</div>
