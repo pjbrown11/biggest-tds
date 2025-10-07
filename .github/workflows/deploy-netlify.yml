@@ -18,14 +18,13 @@ jobs:
     build:
         runs-on: ubuntu-latest
         env:
-            NODE_ENV: production
+            # Let Puppeteer cache its downloaded Chrome between runs
+            PUPPETEER_CACHE_DIR: ~/.cache/puppeteer
             PUPPETEER_SKIP_DOWNLOAD: "false"
 
         steps:
             - name: Checkout
               uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
 
             - name: Setup Node
               uses: actions/setup-node@v4
@@ -35,6 +34,14 @@ jobs:
                   cache-dependency-path: |
                       package-lock.json
                       site/package-lock.json
+
+            - name: Cache Puppeteer browser
+              uses: actions/cache@v4
+              with:
+                  path: ~/.cache/puppeteer
+                  key: puppeteer-${{ runner.os }}-chrome-${{ hashFiles('site/package-lock.json') }}
+                  restore-keys: |
+                      puppeteer-${{ runner.os }}-chrome-
 
             - name: Install root deps (if present)
               run: |
@@ -50,86 +57,71 @@ jobs:
                   cd site
                   npx puppeteer browsers install chrome
 
+            # Build + run data scripts via your existing root script
             - name: Build site (runs data scripts + SvelteKit build)
+              env:
+                  NODE_ENV: production
               run: |
                   npm run build-site
 
-            # --- README summary block (auto-detect file casing) ---
-            - name: Update readme (latest build info)
+            # Update README with latest build info (badge + run link)
+            - name: Update README with latest build info
+              if: ${{ always() }}
+              shell: bash
+              env:
+                  REPO: ${{ github.repository }}
+                  REF_NAME: ${{ github.ref_name }}
+                  RUN_ID: ${{ github.run_id }}
               run: |
-                  node << 'EOF'
+                  node - <<'NODE'
                   const fs = require('fs');
-                  const path = require('path');
 
-                  const readJSON = (p) => {
-                    try { return JSON.parse(fs.readFileSync(p,'utf8')); } catch { return []; }
-                  };
+                  const repo = process.env.REPO;
+                  const ref  = process.env.REF_NAME;
+                  const runId = process.env.RUN_ID;
 
-                  const trades = readJSON('site/src/data/trades/trades-current-year.json');
-                  const standings = readJSON('site/src/data/standings/standings-current-year.json');
-                  const rankings = (() => {
-                    const c1 = 'site/src/data/drafts/dynasty-rankings.json';
-                    const c2 = 'site/src/routes/drafts/dynasty-rankings-local.json';
-                    if (fs.existsSync(c1)) return readJSON(c1);
-                    if (fs.existsSync(c2)) return readJSON(c2);
-                    return [];
-                  })();
+                  const badgeUrl = `https://github.com/${repo}/actions/workflows/build-and-deploy.yml/badge.svg?branch=${ref}`;
+                  const runUrl  = `https://github.com/${repo}/actions/runs/${runId}`;
 
-                  const repo = process.env.GITHUB_REPOSITORY || '';
-                  const runId = process.env.GITHUB_RUN_ID || '';
-                  const sha = (process.env.GITHUB_SHA || '').slice(0,7);
-                  const runUrl = repo && runId ? `https://github.com/${repo}/actions/runs/${runId}` : '';
-                  const when = new Date().toISOString().replace('T',' ').replace('Z',' UTC');
+                  const ts = new Date().toISOString();
 
-                  const block = `
-                  <!--build-summary:start-->
-                  **Latest automated build:** ${when}  
-                  **Workflow run:** ${runUrl ? \`[#\${runId}](\${runUrl})\` : runId}  
-                  **Commit:** \`${sha}\`
+                  const block =
+                    '## Latest CI build\n\n' +
+                    `![Build & Deploy (Netlify)](${badgeUrl})\n\n` +
+                    `**When:** ${ts}\n` +
+                    `**Workflow run:** [#${runId}](${runUrl})\n`;
 
-                  **Data snapshot**
-                  - Trades (current year): ${trades.length}
-                  - Standings rows (current year): ${standings.length}
-                  - Dynasty rankings scraped: ${rankings.length}
-                  <!--build-summary:end-->
-                  `.trim();
+                  const file = 'readme.md'; // lowercase filename
+                  const marker = '<!-- CI-BUILD-BLOCK -->';
 
-                  // Find README with any common casing; default to 'readme.md'
-                  const candidates = ['readme.md','README.md','Readme.md'];
-                  const chosen = candidates.find(f => fs.existsSync(f)) || 'readme.md';
-                  const readmePath = path.resolve(chosen);
+                  let md = '';
+                  try { md = fs.readFileSync(file, 'utf8'); } catch {}
 
-                  let readme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath,'utf8') : '# Project\n';
-                  const start = '<!--build-summary:start-->';
-                  const end = '<!--build-summary:end-->';
-
-                  if (readme.includes(start) && readme.includes(end)) {
-                    const pre = readme.split(start)[0];
-                    const post = readme.split(end)[1];
-                    readme = `${pre}${block}${post}`;
+                  if (md.includes(marker)) {
+                    const parts = md.split(marker);
+                    md = parts[0] + marker + '\n\n' + block + '\n';
                   } else {
-                    readme += `\n\n${block}\n`;
+                    md += `\n\n${marker}\n\n${block}\n`;
                   }
 
-                  fs.writeFileSync(readmePath, readme);
-                  console.log('README updated at:', readmePath);
-                  EOF
+                  fs.writeFileSync(file, md, 'utf8');
+                  console.log('README updated.');
+                  NODE
 
+            # Commit only generated data (never the build output) + README
             - name: Commit updated data (if any)
               run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
 
-                  # Stage README regardless of case + generated data
                   git add \
-                    README.md readme.md Readme.md \
                     site/src/data/trades/trades-current-year.json \
                     site/src/data/standings/standings-current-year.json \
-                    site/src/routes/drafts/dynasty-rankings-local.json \
-                    site/src/data/drafts/dynasty-rankings.json || true
+                    site/src/data/drafts/dynasty-rankings.json \
+                    readme.md || true
 
                   if ! git diff --cached --quiet; then
-                    git commit -m "chore(ci): update generated data + build summary [skip ci]"
+                    git commit -m "chore(ci): update generated data + README [skip ci]"
                     git push
                   else
                     echo "No data/README changes to commit."
