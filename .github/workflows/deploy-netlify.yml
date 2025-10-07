@@ -1,0 +1,83 @@
+name: Build & Deploy to Netlify
+
+on:
+    # Manual trigger with a deploy target selector
+    workflow_dispatch:
+        inputs:
+            deploy_env:
+                description: "Where to deploy"
+                type: choice
+                options: [production, draft]
+                default: production
+
+    # Weekly schedule (Mondays 12:00 UTC) — adjust as needed
+    schedule:
+        - cron: "0 12 * * 2"
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write # needed to push commits
+        env:
+            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+            NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Use Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+                  cache: "npm"
+
+            # Install SvelteKit/Vite deps inside your /site project
+            - name: Install deps (site)
+              working-directory: ./site
+              run: npm ci
+
+            # Your root script should:
+            #  - run your data generators
+            #  - then `npm --prefix site run build`
+            - name: Build pipeline
+              run: npm run build-site
+
+            # Commit only generated sources (not the build output)
+            - name: Commit generated data (if any)
+              run: |
+                  git config user.name  "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+
+                  # stage only source data, not the built site
+                  git add site/src/data -A
+
+                  if git diff --cached --quiet; then
+                    echo "No generated changes to commit."
+                  else
+                    git commit -m "chore(data): refresh generated files [skip ci]"
+                    git push
+                  fi
+
+            - name: Deploy to Netlify
+              run: |
+                  ENV="${{ github.event.inputs.deploy_env }}"
+                  if [ -z "$ENV" ]; then ENV="production"; fi  # schedule has no input
+
+                  if [ "$ENV" = "draft" ]; then
+                    npx netlify-cli@latest deploy \
+                      --site "$NETLIFY_SITE_ID" \
+                      --dir "site/build" \
+                      --message "Draft deploy ${GITHUB_SHA}" \
+                      --json
+                  else
+                    npx netlify-cli@latest deploy \
+                      --site "$NETLIFY_SITE_ID" \
+                      --dir "site/build" \
+                      --prod \
+                      --message "Prod deploy ${GITHUB_SHA}" \
+                      --json
+                  fi

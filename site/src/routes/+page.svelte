@@ -23,10 +23,10 @@
 							{#each champs as champion}
 								<div class="relative mb-3 flex items-center">
 									<div class="absolute left-0 flex h-4 w-4 items-center justify-center rounded-full border-2 border-gray-400 bg-white">
-										<div class="bg-brand-red h-2 w-2 rounded-full"></div>
+										<div class="h-2 w-2 rounded-full bg-brand-red"></div>
 									</div>
 									<div class="ml-8">
-										<div class="text-brand-red text-sm font-bold">{champion.year}</div>
+										<div class="text-sm font-bold text-brand-red">{champion.year}</div>
 										<div>{champion.team}</div>
 										{#if champion.year === 2022}
 											<div class="-ml-2 block max-w-max rounded-md bg-brand-gold px-2 py-0.5 text-xs">Hamlin year</div>
@@ -76,36 +76,36 @@
 		<div class="grid grid-cols-2 gap-4">
 			<div class="col-span-1">
 				<a
-					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
-				py-2 font-bold uppercase
-				tracking-wider text-white hover:border-black xl:px-5"
+					class="border-offset-4 block rounded-xl border-4 border-brand-red bg-black px-3 py-2
+				font-bold uppercase tracking-wider
+				text-white hover:border-black hover:bg-brand-red xl:px-5"
 					href="/standings/"
 					>Standings
 				</a>
 			</div>
 			<div class="col-span-1">
 				<a
-					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
-				py-2 font-bold uppercase
-				tracking-wider text-white hover:border-black xl:px-5"
+					class="border-offset-4 block rounded-xl border-4 border-brand-red bg-black px-3 py-2
+				font-bold uppercase tracking-wider
+				text-white hover:border-black hover:bg-brand-red xl:px-5"
 					href="/drafts/"
 					>Drafts
 				</a>
 			</div>
 			<div class="col-span-1">
 				<a
-					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
-				py-2 font-bold uppercase
-				tracking-wider text-white hover:border-black xl:px-5"
+					class="border-offset-4 block rounded-xl border-4 border-brand-red bg-black px-3 py-2
+				font-bold uppercase tracking-wider
+				text-white hover:border-black hover:bg-brand-red xl:px-5"
 					href="/trades/"
 					>Trades
 				</a>
 			</div>
 			<div class="col-span-1">
 				<a
-					class="border-offset-4 hover:bg-brand-red border-brand-red block rounded-xl border-4 border-black bg-black px-3
-				py-2 font-bold uppercase
-				tracking-wider text-white hover:border-black xl:px-5"
+					class="border-offset-4 block rounded-xl border-4 border-brand-red bg-black px-3 py-2
+				font-bold uppercase tracking-wider
+				text-white hover:border-black hover:bg-brand-red xl:px-5"
 					href="/franchises/"
 					>Franchises
 				</a>
