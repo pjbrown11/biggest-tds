@@ -24,13 +24,11 @@ npm run dev-site
     - `site/src/data/standings/standings-current-year.json`
     - `site/src/data/drafts/dynasty-rankings.json`
 
-
 <!-- CI-BUILD-BLOCK -->
 
 ## Latest CI build
 
-![Build & Deploy (Netlify)](https://github.com/pjbrown11/biggest-tds/actions/workflows/build-and-deploy.yml/badge.svg?branch=main)
+[![Build & Deploy (Netlify)](https://github.com/pjbrown11/biggest-tds/actions/workflows/deploy-netlify.yml/badge.svg)](https://github.com/pjbrown11/biggest-tds/actions/workflows/deploy-netlify.yml)
 
 **When:** 2025-10-07T16:33:34.521Z
 **Workflow run:** [#18319518439](https://github.com/pjbrown11/biggest-tds/actions/runs/18319518439)
-
