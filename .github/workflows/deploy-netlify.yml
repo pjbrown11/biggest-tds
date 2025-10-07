@@ -1,83 +1,84 @@
-name: Build & Deploy to Netlify
+name: Build & Deploy (Netlify)
 
 on:
-    # Manual trigger with a deploy target selector
     workflow_dispatch:
         inputs:
-            deploy_env:
-                description: "Where to deploy"
-                type: choice
-                options: [production, draft]
-                default: production
-
-    # Weekly schedule (Mondays 12:00 UTC) — adjust as needed
+            run_deploy:
+                description: "Deploy to Netlify? (true/false)"
+                required: false
+                default: "true"
     schedule:
-        - cron: "0 12 * * 2"
+        # 6:00 AM America/Chicago (Central) on Tuesdays = 11:00 UTC
+        - cron: "0 11 * * TUE"
+
+permissions:
+    contents: write
 
 jobs:
-    build-deploy:
+    build:
         runs-on: ubuntu-latest
-        permissions:
-            contents: write # needed to push commits
         env:
-            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-            NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+            NODE_ENV: production
+            # Ensure Puppeteer downloads a Chrome and caches it
+            PUPPETEER_SKIP_DOWNLOAD: "false"
+            PUPPETEER_CACHE_DIR: ~/.cache/puppeteer
 
         steps:
             - name: Checkout
               uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
 
-            - name: Use Node
+            - name: Setup Node
               uses: actions/setup-node@v4
               with:
                   node-version: "20"
                   cache: "npm"
+                  cache-dependency-path: |
+                      package-lock.json
+                      site/package-lock.json
 
-            # Install SvelteKit/Vite deps inside your /site project
-            - name: Install deps (site)
-              working-directory: ./site
-              run: npm ci
-
-            # Your root script should:
-            #  - run your data generators
-            #  - then `npm --prefix site run build`
-            - name: Build pipeline
-              run: npm run build-site
-
-            # Commit only generated sources (not the build output)
-            - name: Commit generated data (if any)
+            - name: Install root deps (if present)
               run: |
-                  git config user.name  "github-actions[bot]"
+                  if [ -f package-lock.json ]; then npm ci; fi
+
+            - name: Install site deps
+              run: |
+                  cd site
+                  npm ci
+
+            - name: Build site (runs data scripts + svelte build)
+              run: |
+                  npm run build-site
+
+            # Commit only the generated data files (never the build output)
+            - name: Commit updated data (if any)
+              run: |
+                  git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
 
-                  # stage only source data, not the built site
-                  git add site/src/data -A
+                  # Stage ONLY generated JSON data that changes at build time
+                  git add \
+                    site/src/data/trades/trades-current-year.json \
+                    site/src/data/standings/standings-current-year.json \
+                    site/src/routes/drafts/dynasty-rankings-local.json || true
 
-                  if git diff --cached --quiet; then
-                    echo "No generated changes to commit."
-                  else
-                    git commit -m "chore(data): refresh generated files [skip ci]"
+                  if ! git diff --cached --quiet; then
+                    git commit -m "chore(ci): update generated data (trades/standings/rankings) [skip ci]"
                     git push
+                  else
+                    echo "No data changes to commit."
                   fi
+
+            - name: Upload build artifact (optional)
+              uses: actions/upload-artifact@v4
+              with:
+                  name: site-build
+                  path: site/build
 
             - name: Deploy to Netlify
-              run: |
-                  ENV="${{ github.event.inputs.deploy_env }}"
-                  if [ -z "$ENV" ]; then ENV="production"; fi  # schedule has no input
-
-                  if [ "$ENV" = "draft" ]; then
-                    npx netlify-cli@latest deploy \
-                      --site "$NETLIFY_SITE_ID" \
-                      --dir "site/build" \
-                      --message "Draft deploy ${GITHUB_SHA}" \
-                      --json
-                  else
-                    npx netlify-cli@latest deploy \
-                      --site "$NETLIFY_SITE_ID" \
-                      --dir "site/build" \
-                      --prod \
-                      --message "Prod deploy ${GITHUB_SHA}" \
-                      --json
-                  fi
+              if: ${{ github.event_name == 'schedule' || github.event.inputs.run_deploy != 'false' }}
+              uses: netlify/actions/cli@v4
+              with:
+                  args: deploy --dir=site/build --prod --site=$NETLIFY_SITE_ID
+              env:
+                  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
