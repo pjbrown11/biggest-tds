@@ -1,14 +1,18 @@
+// site/src/data/drafts/get-dynasty-rankings.js
 // Run with: node get-dynasty-rankings.js
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import puppeteer, { executablePath as pptrExecPath } from "puppeteer";
+import puppeteer from "puppeteer";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const OUTPUT_PATH = path.resolve(__dirname, "dynasty-rankings.json");
 const URL = "https://www.fantasypros.com/nfl/rankings/dynasty-overall.php";
+
+// Prefer system Chrome (CI) if provided
+const chromePath = process.env.CHROME_PATH || null;
 
 function normalizeFlat(name = "") {
 	return name
@@ -20,13 +24,10 @@ function normalizeFlat(name = "") {
 		.trim();
 }
 
-async function main() {
-	// Prefer system Chrome (set by GitHub Action), fallback to Puppeteer’s local one
-	const chromePath = process.env.CHROME_PATH || process.env.PUPPETEER_EXECUTABLE_PATH || pptrExecPath();
-
+async function scrape() {
 	const browser = await puppeteer.launch({
 		headless: "new",
-		executablePath: chromePath,
+		executablePath: chromePath || undefined,
 		args: ["--no-sandbox", "--disable-setuid-sandbox"],
 	});
 
@@ -35,15 +36,15 @@ async function main() {
 		await page.goto(URL, { waitUntil: "networkidle2" });
 		await page.waitForSelector("tr.player-row");
 
-		// Scroll until the table stabilizes
-		let previousCount = 0;
-		let sameCountSteps = 0;
-		while (sameCountSteps < 3) {
+		// Scroll until stable
+		let prev = 0,
+			same = 0;
+		while (same < 3) {
 			const count = await page.$$eval("tr.player-row", (rows) => rows.length);
-			if (count === previousCount) sameCountSteps++;
+			if (count === prev) same++;
 			else {
-				sameCountSteps = 0;
-				previousCount = count;
+				same = 0;
+				prev = count;
 			}
 			await page.evaluate(() => window.scrollBy(0, window.innerHeight));
 			await new Promise((r) => setTimeout(r, 800));
@@ -68,7 +69,19 @@ async function main() {
 	}
 }
 
-main().catch((err) => {
-	console.error("❌ Failed to scrape dynasty rankings:", err);
-	process.exit(1);
-});
+async function main() {
+	try {
+		await scrape();
+	} catch (err) {
+		console.error("❌ Failed to scrape dynasty rankings:", err?.message || err);
+		if (fs.existsSync(OUTPUT_PATH)) {
+			console.warn("⚠️  Falling back to previously saved dynasty-rankings.json so the build can continue.");
+			// No-op: keep last file
+			return;
+		}
+		// Nothing to fall back to — fail the build
+		process.exit(1);
+	}
+}
+
+main();

@@ -11,12 +11,22 @@ on:
         # 6:00 AM America/Chicago (Central) on Tuesdays = 11:00 UTC
         - cron: "0 11 * * TUE"
 
+# Prevent overlapping runs
+concurrency:
+    group: build-deploy
+    cancel-in-progress: true
+
 permissions:
     contents: write
 
 jobs:
     build:
         runs-on: ubuntu-latest
+        env:
+            NODE_ENV: production
+            # We’re using system Chrome instead of Puppeteer’s download
+            PUPPETEER_SKIP_DOWNLOAD: "true"
+            CHROME_PATH: /usr/bin/google-chrome-stable
 
         steps:
             - name: Checkout
@@ -31,27 +41,27 @@ jobs:
                       package-lock.json
                       site/package-lock.json
 
-            # Install a system Chrome and expose CHROME_PATH
-            - name: Install Google Chrome
-              uses: browser-actions/setup-chrome@v1
-              with:
-                  chrome-version: stable
+            - name: Install Google Chrome (stable)
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y wget gnupg
+                  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-linux-signing-keyring.gpg
+                  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux-signing-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+                  sudo apt-get update
+                  sudo apt-get install -y google-chrome-stable
+                  google-chrome --version
 
             - name: Install root deps (if present)
               run: |
                   if [ -f package-lock.json ]; then npm ci; fi
 
-            - name: Install site deps (incl. dev)
+            - name: Install site deps (include dev for Puppeteer)
               run: |
                   cd site
                   npm ci --include=dev
 
-            # Build + run data scripts via your existing root script
+            # Your root script runs all data fetchers + SvelteKit build
             - name: Build site (runs data scripts + SvelteKit build)
-              env:
-                  # Make sure your scraper can find Chrome
-                  CHROME_PATH: ${{ env.CHROME_PATH }}
-                  NODE_ENV: production
               run: |
                   npm run build-site
 
@@ -82,7 +92,19 @@ jobs:
             - name: Deploy to Netlify
               if: ${{ github.event_name == 'schedule' || github.event.inputs.run_deploy != 'false' }}
               run: |
-                  npx --yes netlify-cli deploy --dir=site/build --prod --site="$NETLIFY_SITE_ID"
+                  npx --yes netlify-cli@17 deploy --dir=site/build --prod --site="$NETLIFY_SITE_ID"
               env:
                   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
                   NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+            - name: Build summary
+              run: |
+                  node -e "const fs=require('fs'); \
+                  const p=(x)=>JSON.parse(fs.readFileSync(x,'utf8')); \
+                  const trades=p('site/src/data/trades/trades-current-year.json'); \
+                  const standings=p('site/src/data/standings/standings-current-year.json'); \
+                  const ranks=p('site/src/data/drafts/dynasty-rankings.json'); \
+                  console.log('📊 Summary:'); \
+                  console.log('• Trades (current year):', trades.length); \
+                  console.log('• Standings rows (current year):', standings.length); \
+                  console.log('• Dynasty rankings scraped:', ranks.length);"
