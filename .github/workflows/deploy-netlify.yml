@@ -72,18 +72,20 @@ jobs:
                   REPO: ${{ github.repository }}
                   REF_NAME: ${{ github.ref_name }}
                   RUN_ID: ${{ github.run_id }}
+                  BADGE_WORKFLOW_FILE: deploy-netlify.yml # <- pin the badge target
               run: |
                   node - <<'NODE'
                   const fs = require('fs');
+                  const path = require('path');
 
-                  const repo = process.env.REPO;
-                  const ref  = process.env.REF_NAME;
-                  const runId = process.env.RUN_ID;
+                  const repo   = process.env.REPO;
+                  const ref    = process.env.REF_NAME;
+                  const runId  = process.env.RUN_ID;
+                  const wfFile = process.env.BADGE_WORKFLOW_FILE || 'deploy-netlify.yml';
 
-                  const badgeUrl = `https://github.com/${repo}/actions/workflows/build-and-deploy.yml/badge.svg?branch=${ref}`;
-                  const runUrl  = `https://github.com/${repo}/actions/runs/${runId}`;
-
-                  const ts = new Date().toISOString();
+                  const badgeUrl = `https://github.com/${repo}/actions/workflows/${wfFile}/badge.svg?branch=${ref}`;
+                  const runUrl   = `https://github.com/${repo}/actions/runs/${runId}`;
+                  const ts       = new Date().toISOString();
 
                   const block =
                     '## Latest CI build\n\n' +
@@ -91,7 +93,7 @@ jobs:
                     `**When:** ${ts}\n` +
                     `**Workflow run:** [#${runId}](${runUrl})\n`;
 
-                  const file = 'readme.md'; // lowercase filename
+                  const file = 'readme.md';
                   const marker = '<!-- CI-BUILD-BLOCK -->';
 
                   let md = '';
@@ -105,7 +107,7 @@ jobs:
                   }
 
                   fs.writeFileSync(file, md, 'utf8');
-                  console.log('README updated.');
+                  console.log(`README updated using workflow file: ${wfFile}`);
                   NODE
 
             # Commit only generated data (never the build output) + README

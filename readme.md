@@ -14,6 +14,8 @@ npm run dev-site
 
 ## CI & Deploy
 
+[![Build & Deploy (Netlify)](https://github.com/pjbrown11/biggest-tds/actions/workflows/deploy-netlify.yml/badge.svg)](https://github.com/pjbrown11/biggest-tds/actions/workflows/deploy-netlify.yml)
+
 - The workflow runs weekly on **Tuesdays at 6:00 AM Central** and can also be triggered manually from **Actions → Build & Deploy (Netlify) → Run workflow**.
 - We install **Google Chrome Stable** in CI and set `CHROME_PATH=/usr/bin/google-chrome-stable`.  
   Our dynasty rankings scraper uses that browser path (and falls back to the last saved file if scraping fails).
