@@ -14,7 +14,6 @@ const leagueIds = [
 ];
 
 const MAX_WEEKS = 18;
-const REGULAR_SEASON_WEEKS = 14; // hard cap to 14
 const OWNERS_JSON_PATH = "../owners.json";
 const OUTPUT_PATH = "./standings-current-year.json";
 
@@ -101,7 +100,7 @@ async function fetchStandingsForLeague(leagueId, ownersJson) {
 	}
 
 	// Stats per roster
-	const statsByRosterId = new Map(); // rosterId -> {...}
+	const statsByRosterId = new Map(); // rosterId -> { games, pf, pa, wins, losses, best }
 	function ensureStats(rosterId) {
 		if (!statsByRosterId.has(rosterId)) {
 			statsByRosterId.set(rosterId, {
@@ -111,33 +110,29 @@ async function fetchStandingsForLeague(leagueId, ownersJson) {
 				wins: 0,
 				losses: 0,
 				best: 0,
-				// extra results vs median (top half)
-				extraWins: 0,
-				extraLosses: 0,
 			});
 		}
 		return statsByRosterId.get(rosterId);
 	}
 
-	// Limit to completed weeks and to the 14-week regular season
-	const currentWeek = Number(nflState?.week) || 0; // "upcoming" week
+	// Use NFL state to cap to completed weeks only
+	const currentWeek = Number(nflState?.week) || 0;
 	const playoffStartWeek = Number(league?.settings?.playoff_week_start) || Infinity;
-	const configuredEnd = Number.isFinite(playoffStartWeek) ? Math.max(1, playoffStartWeek - 1) : Infinity;
-	const regularSeasonEndWeek = Math.min(REGULAR_SEASON_WEEKS, configuredEnd);
-	const weeksLimit = Math.max(0, Math.min(currentWeek - 1, regularSeasonEndWeek));
+	const regularSeasonEndWeek = Number.isFinite(playoffStartWeek) ? Math.max(1, playoffStartWeek - 1) : MAX_WEEKS;
+
+	const weeksLimit = Math.max(0, Math.min(currentWeek - 1, regularSeasonEndWeek, MAX_WEEKS));
 
 	if (weeksLimit === 0) {
-		console.warn(`⚠️  No completed regular-season weeks yet for league ${leagueId}. Averages will be 0.`);
-	} else if (regularSeasonEndWeek !== REGULAR_SEASON_WEEKS) {
-		console.warn(`⚠️  Regular-season end inferred as Week ${regularSeasonEndWeek}. Check Sleeper playoff settings if unexpected.`);
+		console.warn(`⚠️  No completed weeks yet for league ${leagueId}. Averages will be 0.`);
 	}
 
-	// Aggregate completed regular-season weeks only
+	// Aggregate completed weeks only
 	for (let week = 1; week <= weeksLimit; week++) {
 		let matchups = [];
 		try {
 			matchups = await getJSON(`https://api.sleeper.app/v1/league/${leagueId}/matchups/${week}`);
 		} catch {
+			// In rare cases this endpoint can 404 mid-season; just skip the week
 			continue;
 		}
 		if (!Array.isArray(matchups) || matchups.length === 0) continue;
@@ -152,14 +147,8 @@ async function fetchStandingsForLeague(leagueId, ownersJson) {
 			groupsByMatchupId.get(matchup.matchup_id).push(matchup);
 		}
 
-		// collect every roster's weekly score for the extra median result
-		const weeklyScores = [];
-
-		// standard H2H results
+		// sum each paired/grouped matchup
 		for (const group of groupsByMatchupId.values()) {
-			const groupTotal = group.reduce((sum, entry) => sum + (Number(entry.points) || 0), 0);
-			if (groupTotal <= 0) continue; // skip empty/future
-
 			for (const entry of group) {
 				const rosterId = entry.roster_id;
 				if (rosterId == null) continue;
@@ -174,87 +163,57 @@ async function fetchStandingsForLeague(leagueId, ownersJson) {
 				if (myPoints > opponentPoints) stat.wins += 1;
 				else if (myPoints < opponentPoints) stat.losses += 1;
 				if (myPoints > stat.best) stat.best = myPoints;
-
-				weeklyScores.push({ rosterId, points: myPoints });
-			}
-		}
-
-		// award extra result for this week: MEDIAN ONLY (top half)
-		if (weeklyScores.length > 0) {
-			const teamsThisWeek = weeklyScores.length;
-			const winnersNeeded = Math.floor(teamsThisWeek / 2);
-			weeklyScores.sort((a, b) => b.points - a.points || a.rosterId - b.rosterId);
-			const winnersSet = new Set(weeklyScores.slice(0, winnersNeeded).map((r) => r.rosterId));
-			for (const { rosterId } of weeklyScores) {
-				const stat = ensureStats(rosterId);
-				if (winnersSet.has(rosterId)) stat.extraWins += 1;
-				else stat.extraLosses += 1;
 			}
 		}
 	}
 
 	// Build rows
-	const interimRows = [];
-	for (const roster of rosters) {
-		const rosterId = roster.roster_id;
-		const stat = statsByRosterId.get(rosterId) || {
-			games: 0,
-			pf: 0,
-			pa: 0,
-			wins: 0,
-			losses: 0,
-			best: 0,
-			extraWins: 0,
-			extraLosses: 0,
-		};
+	// League-wide divisor = completed regular-season weeks only
+	const divisor = weeksLimit > 0 ? weeksLimit : 1;
+	const avgFor = Number((stat.pf / divisor).toFixed(1));
+	const avgAgainst = Number((stat.pa / divisor).toFixed(1));
+	const bestGame = Number(stat.best.toFixed(1));
 
-		// League-wide divisor = completed regular-season weeks only
-		const divisor = weeksLimit > 0 ? weeksLimit : 1;
-		const avgFor = Number((stat.pf / divisor).toFixed(1));
-		const avgAgainst = Number((stat.pa / divisor).toFixed(1));
-		const bestGame = Number(stat.best.toFixed(1));
+	const sleeperTeamName = rosterIdToTeamName[rosterId] || null;
+	const franchiseId = getFranchiseIdByTeamNameLocal({ ownersJson, team: sleeperTeamName }) ?? null;
 
-		const sleeperTeamName = rosterIdToTeamName[rosterId] || null;
-		const franchiseId = getFranchiseIdByTeamNameLocal({ ownersJson, team: sleeperTeamName }) ?? null;
+	// Prefer manual division map; else Sleeper’s metadata; else null
+	const divisionOverride = franchiseId != null ? DIVISION_MAP_BY_FRANCHISE_ID[franchiseId] : undefined;
+	const finalDivisionName = divisionOverride ?? rosterIdToDivisionMeta[rosterId] ?? null;
 
-		// Prefer manual division map; else Sleeper’s metadata; else null
-		const divisionOverride = franchiseId != null ? DIVISION_MAP_BY_FRANCHISE_ID[franchiseId] : undefined;
-		const finalDivisionName = divisionOverride ?? rosterIdToDivisionMeta[rosterId] ?? null;
+	const { owner, team } =
+		franchiseId != null ? getOwnerAndTeamForYear({ ownersJson, franchiseId, year: seasonYear }) : { owner: null, team: sleeperTeamName };
 
-		const { owner, team } =
-			franchiseId != null ? getOwnerAndTeamForYear({ ownersJson, franchiseId, year: seasonYear }) : { owner: null, team: sleeperTeamName };
+	// ✅ include median-extra results in the main W/L
+	const regWinsTotal = stat.wins + stat.extraWins;
+	const regLossesTotal = stat.losses + stat.extraLosses;
 
-		// ✅ include median-extra results in the main W/L
-		const regWinsTotal = stat.wins + stat.extraWins;
-		const regLossesTotal = stat.losses + stat.extraLosses;
+	interimRows.push({
+		year: seasonYear,
+		owner,
+		team,
+		franchiseId,
+		division: finalDivisionName,
 
-		interimRows.push({
-			year: seasonYear,
-			owner,
-			team,
-			franchiseId,
-			division: finalDivisionName,
+		// now totals (H2H + median)
+		regWins: regWinsTotal,
+		regLosses: regLossesTotal,
+		regDivisionPlace: null, // filled after ranking
 
-			// totals (H2H + median)
-			regWins: regWinsTotal,
-			regLosses: regLossesTotal,
-			regDivisionPlace: null, // filled after ranking
+		regAvgPtsFor: avgFor,
+		regAvgPtsAgainst: avgAgainst,
+		bestGamePts: bestGame,
+		madePlayoffs: null,
+		finalPlace: null,
 
-			regAvgPtsFor: avgFor,
-			regAvgPtsAgainst: avgAgainst,
-			bestGamePts: bestGame,
-			madePlayoffs: null, // in-season unknown
-			finalPlace: null, // in-season unknown
+		// keep these for reference/analytics
+		regExtraWins: stat.extraWins,
+		regExtraLosses: stat.extraLosses,
 
-			// keep these for reference/analytics
-			regExtraWins: stat.extraWins,
-			regExtraLosses: stat.extraLosses,
-
-			// helpers for sorting
-			_pf: stat.pf,
-			_pa: stat.pa,
-		});
-	}
+		// helpers for sorting
+		_pf: stat.pf,
+		_pa: stat.pa,
+	});
 
 	// Rank within division (or overall if none)
 	const anyDivisionPresent = interimRows.some((row) => row.division);
@@ -269,7 +228,7 @@ async function fetchStandingsForLeague(leagueId, ownersJson) {
 
 	for (const groupRows of groupsByBucket.values()) {
 		groupRows.sort((a, b) => {
-			if (b.regWins !== a.regWins) return b.regWins - a.regWins; // wins desc (includes extra)
+			if (b.regWins !== a.regWins) return b.regWins - a.regWins; // wins desc
 			if (b._pf !== a._pf) return b._pf - a._pf; // points-for desc
 			return a.regLosses - b.regLosses; // losses asc
 		});
