@@ -78,7 +78,6 @@ jobs:
               if: ${{ github.event_name == 'schedule' || github.event.inputs.run_deploy != 'false' }}
               uses: netlify/actions/cli@v4
               with:
-                  args: deploy --dir=site/build --prod --site=$NETLIFY_SITE_ID
+                  args: deploy --dir=site/build --prod --site ${{ secrets.NETLIFY_SITE_ID }}
               env:
                   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
