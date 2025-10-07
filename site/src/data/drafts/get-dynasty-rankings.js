@@ -2,7 +2,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import puppeteer from "puppeteer";
+import puppeteer, { executablePath } from "puppeteer";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -23,6 +23,7 @@ function normalizeFlat(name = "") {
 async function main() {
 	const browser = await puppeteer.launch({
 		headless: "new",
+		executablePath: executablePath(),
 		args: ["--no-sandbox", "--disable-setuid-sandbox"],
 	});
 
