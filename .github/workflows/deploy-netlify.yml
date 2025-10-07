@@ -18,9 +18,9 @@ jobs:
     build:
         runs-on: ubuntu-latest
         env:
-            # Ensure Puppeteer downloads a Chrome and caches it
-            PUPPETEER_SKIP_DOWNLOAD: "false"
+            # Let Puppeteer cache its downloaded Chrome between runs
             PUPPETEER_CACHE_DIR: ~/.cache/puppeteer
+            PUPPETEER_SKIP_DOWNLOAD: "false"
 
         steps:
             - name: Checkout
@@ -35,6 +35,14 @@ jobs:
                       package-lock.json
                       site/package-lock.json
 
+            - name: Cache Puppeteer browser
+              uses: actions/cache@v4
+              with:
+                  path: ~/.cache/puppeteer
+                  key: puppeteer-${{ runner.os }}-chrome-${{ hashFiles('site/package-lock.json') }}
+                  restore-keys: |
+                      puppeteer-${{ runner.os }}-chrome-
+
             - name: Install root deps (if present)
               run: |
                   if [ -f package-lock.json ]; then npm ci; fi
@@ -43,6 +51,11 @@ jobs:
               run: |
                   cd site
                   npm ci --include=dev
+
+            - name: Install Chromium for Puppeteer
+              run: |
+                  cd site
+                  npx puppeteer browsers install chrome
 
             # Build + run data scripts via your existing root script
             - name: Build site (runs data scripts + SvelteKit build)
