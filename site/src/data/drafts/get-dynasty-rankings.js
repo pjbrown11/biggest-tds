@@ -1,4 +1,4 @@
-// Run with: node scrape-dynasty-rankings.js
+// Run with: node get-dynasty-rankings.js
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";

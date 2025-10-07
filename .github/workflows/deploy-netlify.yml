@@ -70,7 +70,7 @@ jobs:
                   git add \
                     site/src/data/trades/trades-current-year.json \
                     site/src/data/standings/standings-current-year.json \
-                    site/src/routes/drafts/dynasty-rankings-local.json || true
+                    site/src/data/drafts/dynasty-rankings.json || true
 
                   if ! git diff --cached --quiet; then
                     git commit -m "chore(ci): update generated data (trades/standings/rankings) [skip ci]"
