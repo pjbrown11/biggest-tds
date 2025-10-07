@@ -17,11 +17,6 @@ permissions:
 jobs:
     build:
         runs-on: ubuntu-latest
-        env:
-            NODE_ENV: production
-            PUPPETEER_CACHE_DIR: ~/.cache/puppeteer
-            PUPPETEER_SKIP_DOWNLOAD: "false"
-            PUPPETEER_PRODUCT: chrome
 
         steps:
             - name: Checkout
@@ -36,32 +31,31 @@ jobs:
                       package-lock.json
                       site/package-lock.json
 
-            - name: Cache Puppeteer browser
-              uses: actions/cache@v4
+            # Install a system Chrome and expose CHROME_PATH
+            - name: Install Google Chrome
+              uses: browser-actions/setup-chrome@v1
               with:
-                  path: ~/.cache/puppeteer
-                  key: puppeteer-${{ runner.os }}-chrome-${{ hashFiles('site/package-lock.json') }}
-                  restore-keys: |
-                      puppeteer-${{ runner.os }}-chrome-
+                  chrome-version: stable
 
             - name: Install root deps (if present)
               run: |
                   if [ -f package-lock.json ]; then npm ci; fi
 
-            - name: Install site deps (incl. dev for Puppeteer)
+            - name: Install site deps (incl. dev)
               run: |
                   cd site
                   npm ci --include=dev
 
-            - name: Install Chromium for Puppeteer
-              run: |
-                  cd site
-                  npx puppeteer browsers install chrome
-
+            # Build + run data scripts via your existing root script
             - name: Build site (runs data scripts + SvelteKit build)
+              env:
+                  # Make sure your scraper can find Chrome
+                  CHROME_PATH: ${{ env.CHROME_PATH }}
+                  NODE_ENV: production
               run: |
                   npm run build-site
 
+            # Commit only generated data (never the build output)
             - name: Commit updated data (if any)
               run: |
                   git config user.name "github-actions[bot]"

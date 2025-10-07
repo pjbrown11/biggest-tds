@@ -2,7 +2,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import puppeteer, { executablePath } from "puppeteer";
+import puppeteer, { executablePath as pptrExecPath } from "puppeteer";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,9 +21,12 @@ function normalizeFlat(name = "") {
 }
 
 async function main() {
+	// Prefer system Chrome (set by GitHub Action), fallback to Puppeteer’s local one
+	const chromePath = process.env.CHROME_PATH || process.env.PUPPETEER_EXECUTABLE_PATH || pptrExecPath();
+
 	const browser = await puppeteer.launch({
 		headless: "new",
-		executablePath: executablePath(),
+		executablePath: chromePath,
 		args: ["--no-sandbox", "--disable-setuid-sandbox"],
 	});
 
@@ -37,9 +40,8 @@ async function main() {
 		let sameCountSteps = 0;
 		while (sameCountSteps < 3) {
 			const count = await page.$$eval("tr.player-row", (rows) => rows.length);
-			if (count === previousCount) {
-				sameCountSteps++;
-			} else {
+			if (count === previousCount) sameCountSteps++;
+			else {
 				sameCountSteps = 0;
 				previousCount = count;
 			}
