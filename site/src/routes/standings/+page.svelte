@@ -95,29 +95,31 @@
 									</div>
 									<div>
 										{t.team}
-										<span class="text-xs font-normal lowercase {$highlightedFranchiseId !== t.franchiseId ? 'text-gray-500' : ''}"
-											>| {t.division}
-
-											{#if t.regDivisionPlace === 1}
-												<img class="mb-1 inline size-4 min-w-4" src="/div-win.svg" alt="divison winner" />
-											{/if}
-										</span>
 									</div>
 								</div>
 								<div>
 									{t.regWins}-{t.regLosses}
 								</div>
 							</div>
-							<div class="mt-1 flex justify-between text-sm">
+							<div class="flex justify-between text-sm">
 								<div class="pl-9">
-									Avg Pts: {t.regAvgPtsFor}
+									<span class="text-sm font-normal {$highlightedFranchiseId !== t.franchiseId ? '' : ''}"
+										>{t.division}
+
+										{#if t.regDivisionPlace === 1}
+											<img class="mb-1 inline size-4 min-w-4" src="/div-win.svg" alt="divison winner" />
+										{/if}
+									</span>
+								</div>
+								<div class="text-sm">
+									Avg: {t.regAvgPtsFor}
 									<span class="font-bold {t.plusMinus > 0 ? 'text-green-600' : t.plusMinus < 0 ? 'text-red-600' : 'text-gray-600'}">
 										({t.plusMinus > 0 ? `+${t.plusMinus}` : t.plusMinus})
 									</span>
-								</div>
-								<div class="text-sm {t.isBestGameLeader ? 'block rounded-lg bg-green-700 px-2 py-1 font-bold tracking-wider text-white' : ''}">
-									Best Game:
-									{t.bestGamePts}
+									<span class={t.isBestGameLeader ? "rounded-lg bg-green-700 px-2 py-1 font-bold tracking-wider text-white" : ""}>
+										Best:
+										{t.bestGamePts}
+									</span>
 								</div>
 							</div>
 						</div>

@@ -1,4 +1,6 @@
 <script>
+	import FranchiseAvgPtsChart from "$components/franchise-avg-pts-chart.svelte";
+	import FranchiseFinalPlaceChart from "$components/franchise-final-place-chart.svelte";
 	import PageWrapper from "$components/page-wrapper.svelte";
 	import Trade from "$components/trade.svelte";
 	import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id";
@@ -110,12 +112,7 @@
 							</div>
 							<div>
 								{season.team}
-								<span class="text-xs font-normal lowercase">
-									| {season.division}
-									{#if season.regDivisionPlace === 1}
-										<img class="mb-1 inline size-4 min-w-4" src="/div-win.svg" alt="division winner" />
-									{/if}
-								</span>
+								<div class="text-sm font-normal lowercase"></div>
 							</div>
 						</div>
 						<div>
@@ -123,19 +120,35 @@
 						</div>
 					</div>
 
-					<div class="mt-1 flex justify-between text-sm">
+					<div class="flex justify-between text-sm">
 						<div class="pl-9">
-							Avg Pts: {season.regAvgPtsFor}
+							{season.year} | {season.division}
+							{#if season.regDivisionPlace === 1}
+								<img class="mb-1 inline size-4 min-w-4" src="/div-win.svg" alt="division winner" />
+							{/if}
+						</div>
+						<div class="text-sm {season.isBestGameLeader ? 'block rounded-lg bg-green-700 px-2 py-1 font-bold tracking-wider text-white' : ''}">
+							Avg: {season.regAvgPtsFor}
 							<span class="font-bold {season.plusMinus > 0 ? 'text-green-600' : season.plusMinus < 0 ? 'text-red-600' : 'text-gray-600'}">
 								({season.plusMinus > 0 ? `+${season.plusMinus}` : season.plusMinus})
 							</span>
-						</div>
-						<div class="text-sm {season.isBestGameLeader ? 'block rounded-lg bg-green-700 px-2 py-1 font-bold tracking-wider text-white' : ''}">
-							Best Game: {season.bestGamePts}
+							| Best: {season.bestGamePts}
 						</div>
 					</div>
 				</div>
 			{/each}
+		</div>
+	</div>
+
+	<div class="mt-8">
+		<h2 class="mb-2 text-xl font-bold">Trends</h2>
+		<div class="grid grid-cols-6 gap-6">
+			<div class="col-span-6 lg:col-span-3">
+				<FranchiseAvgPtsChart records={data.records} title={`Avg PPG — ${data.franchiseName}`} />
+			</div>
+			<div class="col-span-6 lg:col-span-3">
+				<FranchiseFinalPlaceChart records={data.records} title={`Final Places — ${data.franchiseName}`} />
+			</div>
 		</div>
 	</div>
 
