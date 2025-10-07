@@ -1,0 +1,90 @@
+name: Build & Deploy (Netlify)
+
+on:
+    workflow_dispatch:
+        inputs:
+            run_deploy:
+                description: "Deploy to Netlify? (true/false)"
+                required: false
+                default: "true"
+    schedule:
+        # 6:00 AM America/Chicago (Central) on Tuesdays = 11:00 UTC
+        - cron: "0 11 * * TUE"
+
+permissions:
+    contents: write
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        env:
+            NODE_ENV: production
+            # Ensure Puppeteer downloads a Chrome and caches it
+            PUPPETEER_SKIP_DOWNLOAD: "false"
+            PUPPETEER_CACHE_DIR: ~/.cache/puppeteer
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+                  cache: "npm"
+                  cache-dependency-path: |
+                      package-lock.json
+                      site/package-lock.json
+
+            - name: Install root deps (if present)
+              run: |
+                  if [ -f package-lock.json ]; then npm ci; fi
+
+            - name: Install site deps
+              run: |
+                  cd site
+                  npm ci
+
+            - name: Build site (runs data scripts + svelte build)
+              run: |
+                  npm run build-site
+
+            # Commit only the generated data files (never the build output)
+            - name: Commit updated data (if any)
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+
+                  # Stage ONLY generated JSON data that changes at build time
+                  git add \
+                    site/src/data/trades/trades-current-year.json \
+                    site/src/data/standings/standings-current-year.json \
+                    site/src/routes/drafts/dynasty-rankings-local.json || true
+
+                  if ! git diff --cached --quiet; then
+                    git commit -m "chore(ci): update generated data (trades/standings/rankings) [skip ci]"
+                    git push
+                  else
+                    echo "No data changes to commit."
+                  fi
+
+            - name: Upload build artifact (optional)
+              uses: actions/upload-artifact@v4
+              with:
+                  name: site-build
+                  path: site/build
+
+            - name: Install Netlify CLI
+              run: npm i -g netlify-cli
+
+            - name: Deploy to Netlify (CLI)
+              if: ${{ github.event_name == 'schedule' || github.event.inputs.run_deploy != 'false' }}
+              env:
+                  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+              run: |
+                  netlify deploy \
+                    --dir="site/build" \
+                    --prod \
+                    --site "${NETLIFY_SITE_ID}" \
+                    --auth "${NETLIFY_AUTH_TOKEN}"
