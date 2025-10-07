@@ -1,16 +1,20 @@
-## GET STARTED
+## Local development
 
-`npm install` from root
+```bash
+# one-time, install deps from root and SvelteKit project (/site)
+npm i
+cd site && npm i && cd ../
 
-`npm install` from /site
+# generate data files needed for development (and prod builds)
+npm run build-site
 
-first time development `npm run build-site` to generate some dependent data files
-
-`npm run dev-site` from root
+# local dev
+npm run dev-site
+```
 
 ## CI & Deploy
 
-[![Build & Deploy (Netlify)](https://github.com/<OWNER>/<REPO>/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions/workflows/build-and-deploy.yml)
+[![Build & Deploy (Netlify)](https://github.com/pjbrown11/biggest-tds/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/pjbrown11/biggest-tds/actions/workflows/build-and-deploy.yml)
 
 - The workflow runs weekly on **Tuesdays at 6:00 AM Central** and can also be triggered manually from **Actions → Build & Deploy (Netlify) → Run workflow**.
 - We install **Google Chrome Stable** in CI and set `CHROME_PATH=/usr/bin/google-chrome-stable`.  
@@ -19,14 +23,3 @@ first time development `npm run build-site` to generate some dependent data file
     - `site/src/data/trades/trades-current-year.json`
     - `site/src/data/standings/standings-current-year.json`
     - `site/src/data/drafts/dynasty-rankings.json`
-
-## Local development
-
-```bash
-# one-time
-npm i
-cd site && npm i
-
-# scrape + build (same command CI uses)
-npm run build-site
-```
