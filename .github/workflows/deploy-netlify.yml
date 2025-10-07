@@ -19,14 +19,13 @@ jobs:
         runs-on: ubuntu-latest
         env:
             NODE_ENV: production
-            # Ensure Puppeteer downloads Chrome during the run
             PUPPETEER_SKIP_DOWNLOAD: "false"
 
         steps:
             - name: Checkout
               uses: actions/checkout@v4
               with:
-                  fetch-depth: 0 # allow committing/pushing back
+                  fetch-depth: 0
 
             - name: Setup Node
               uses: actions/setup-node@v4
@@ -51,13 +50,12 @@ jobs:
                   cd site
                   npx puppeteer browsers install chrome
 
-            # Runs your root script that generates data and builds the SvelteKit app
             - name: Build site (runs data scripts + SvelteKit build)
               run: |
                   npm run build-site
 
-            # ---- README "latest build" summary block ----
-            - name: Update README (latest build info)
+            # --- README summary block (auto-detect file casing) ---
+            - name: Update readme (latest build info)
               run: |
                   node << 'EOF'
                   const fs = require('fs');
@@ -69,12 +67,11 @@ jobs:
 
                   const trades = readJSON('site/src/data/trades/trades-current-year.json');
                   const standings = readJSON('site/src/data/standings/standings-current-year.json');
-                  // Try both potential paths for rankings
-                  const ranks = (() => {
-                    const p1 = 'site/src/data/drafts/dynasty-rankings.json';
-                    const p2 = 'site/src/routes/drafts/dynasty-rankings-local.json';
-                    if (fs.existsSync(p1)) return readJSON(p1);
-                    if (fs.existsSync(p2)) return readJSON(p2);
+                  const rankings = (() => {
+                    const c1 = 'site/src/data/drafts/dynasty-rankings.json';
+                    const c2 = 'site/src/routes/drafts/dynasty-rankings-local.json';
+                    if (fs.existsSync(c1)) return readJSON(c1);
+                    if (fs.existsSync(c2)) return readJSON(c2);
                     return [];
                   })();
 
@@ -87,19 +84,22 @@ jobs:
                   const block = `
                   <!--build-summary:start-->
                   **Latest automated build:** ${when}  
-                  **Workflow run:** ${runUrl ? `[#${runId}](${runUrl})` : runId}  
+                  **Workflow run:** ${runUrl ? \`[#\${runId}](\${runUrl})\` : runId}  
                   **Commit:** \`${sha}\`
 
                   **Data snapshot**
                   - Trades (current year): ${trades.length}
                   - Standings rows (current year): ${standings.length}
-                  - Dynasty rankings scraped: ${ranks.length}
+                  - Dynasty rankings scraped: ${rankings.length}
                   <!--build-summary:end-->
                   `.trim();
 
-                  const readmePath = path.resolve('readme.md');
-                  let readme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf8') : '# Project\n';
+                  // Find README with any common casing; default to 'readme.md'
+                  const candidates = ['readme.md','README.md','Readme.md'];
+                  const chosen = candidates.find(f => fs.existsSync(f)) || 'readme.md';
+                  const readmePath = path.resolve(chosen);
 
+                  let readme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath,'utf8') : '# Project\n';
                   const start = '<!--build-summary:start-->';
                   const end = '<!--build-summary:end-->';
 
@@ -112,17 +112,17 @@ jobs:
                   }
 
                   fs.writeFileSync(readmePath, readme);
-                  console.log('README updated.');
+                  console.log('README updated at:', readmePath);
                   EOF
 
-            # Commit only the generated data + README (never the build output)
             - name: Commit updated data (if any)
               run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
 
+                  # Stage README regardless of case + generated data
                   git add \
-                    README.md \
+                    README.md readme.md Readme.md \
                     site/src/data/trades/trades-current-year.json \
                     site/src/data/standings/standings-current-year.json \
                     site/src/routes/drafts/dynasty-rankings-local.json \
