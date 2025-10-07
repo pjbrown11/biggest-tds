@@ -29,8 +29,8 @@ npm run dev-site
 
 ## Latest CI build
 
-![Build & Deploy (Netlify)](https://github.com/pjbrown11/biggest-tds/actions/workflows/build-and-deploy.yml/badge.svg?branch=main)
+![Build & Deploy (Netlify)](https://github.com/pjbrown11/biggest-tds/actions/workflows/deploy-netlify.yml/badge.svg?branch=main)
 
-**When:** 2025-10-07T16:33:34.521Z
-**Workflow run:** [#18319518439](https://github.com/pjbrown11/biggest-tds/actions/runs/18319518439)
+**When:** 2025-10-07T16:40:15.842Z
+**Workflow run:** [#18319676479](https://github.com/pjbrown11/biggest-tds/actions/runs/18319676479)
 
