@@ -1,6 +1,9 @@
 // +page.server.js
-import standings from "../data/standings/standings-historical.json";
+import standingsHistorical from "../data/standings/standings-historical.json";
+import standingsCurrent from "../data/standings/standings-current-year.json";
 import { getLatestTeamNameByFranchiseId } from "$helpers/get-latest-team-name-by-franchise-id";
+
+const standings = [...standingsHistorical, ...standingsCurrent];
 
 function getChamps() {
 	return standings

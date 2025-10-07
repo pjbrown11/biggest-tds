@@ -79,11 +79,12 @@ async function fetchTradesForLeague(leagueId) {
 				season,
 				week,
 				date: tradeDate,
-				status: t.status,
 				teams: tradeTeams,
 			});
 		}
 	}
+
+	console.log(trades.length + " trades captured for the current season");
 
 	return trades;
 }
@@ -100,7 +101,7 @@ async function main() {
 	// optional: sort across seasons by date
 	allTrades.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-	fs.writeFileSync("trades-current.json", JSON.stringify(allTrades, null, 2), "utf8");
+	fs.writeFileSync("trades-current-year.json", JSON.stringify(allTrades, null, 2), "utf8");
 
 	console.log(`✅ Wrote ${allTrades.length} trades across ${leagueIds.length} seasons to sleeper_trades_all.json`);
 }

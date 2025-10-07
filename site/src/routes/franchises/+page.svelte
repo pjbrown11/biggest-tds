@@ -1,15 +1,29 @@
 <script>
 	import PageWrapper from "$components/page-wrapper.svelte";
+	import { highlightedFranchiseId } from "$stores/highlighted-franchise-id.js";
+	import { slugify } from "$helpers/slugify";
+
+	const { data } = $props();
 </script>
 
 <PageWrapper header="Franchises">
-	<p>The Franchises page goes here</p>
-
-	<p class="mt-8">filterable by query param to the franchiseId</p>
-
-	<p>chart of final place finishes</p>
-
-	<p>chart of avg pts scored vs league average</p>
-
-	<p>each year summary of win loss, pts, final place</p>
+	<div class="grid grid-cols-6 gap-4">
+		{#each data.franchises as franchise}
+			<div class="col-span-6 md:col-span-3 xl:col-span-2">
+				<a
+					class="border-offset-4 block rounded-xl border-4 border-brand-red bg-black px-3 py-2
+			text-sm font-bold uppercase
+			tracking-wider text-white hover:border-black hover:bg-brand-red md:text-base xl:px-5"
+					href="/franchises/{franchise.franchiseId}-{slugify(franchise.teamName)}"
+				>
+					<div class="flex justify-between">
+						<div>
+							{franchise.teamName}
+						</div>
+						<div>{franchise.totalWins} - {franchise.totalLosses}</div>
+					</div>
+				</a>
+			</div>
+		{/each}
+	</div>
 </PageWrapper>

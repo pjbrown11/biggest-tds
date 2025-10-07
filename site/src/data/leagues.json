@@ -3,48 +3,56 @@
 		"year": 2018,
 		"regAvgPtsScored": 145.7,
 		"url": "https://www48.myfantasyleague.com/2018/home/14418#0",
-		"sleeperId": null
+		"sleeperId": null,
+		"isComplete": true
 	},
 	{
 		"year": 2019,
 		"regAvgPtsScored": 138.6,
 		"url": "https://www48.myfantasyleague.com/2019/home/14418#0",
-		"sleeperId": null
+		"sleeperId": null,
+		"isComplete": true
 	},
 	{
 		"year": 2020,
 		"regAvgPtsScored": 141.6,
 		"url": "https://www45.myfantasyleague.com/2020/home/14418#0",
-		"sleeperId": null
+		"sleeperId": null,
+		"isComplete": true
 	},
 	{
 		"year": 2021,
 		"regAvgPtsScored": 146.8,
 		"url": "https://www45.myfantasyleague.com/2021/home/14418#0",
-		"sleeperId": null
+		"sleeperId": null,
+		"isComplete": true
 	},
 	{
 		"year": 2022,
 		"regAvgPtsScored": 144.7,
 		"url": "https://sleeper.com/leagues/844638938554556416/league",
-		"sleeperId": "844638938554556416"
+		"sleeperId": "844638938554556416",
+		"isComplete": true
 	},
 	{
 		"year": 2023,
 		"regAvgPtsScored": 167,
 		"url": "https://sleeper.com/leagues/938149318836469760/league",
-		"sleeperId": "938149318836469760"
+		"sleeperId": "938149318836469760",
+		"isComplete": true
 	},
 	{
 		"year": 2024,
 		"regAvgPtsScored": 166,
 		"url": "https://sleeper.com/leagues/1066785946089164800/league",
-		"sleeperId": "1066785946089164800"
+		"sleeperId": "1066785946089164800",
+		"isComplete": true
 	},
 	{
 		"year": 2025,
 		"regAvgPtsScored": null,
 		"url": "https://sleeper.com/leagues/1188634301885292544/league",
-		"sleeperId": "1188634301885292544"
+		"sleeperId": "1188634301885292544",
+		"isComplete": false
 	}
 ]
