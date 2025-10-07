@@ -18,9 +18,10 @@ jobs:
     build:
         runs-on: ubuntu-latest
         env:
-            # Let Puppeteer cache its downloaded Chrome between runs
+            NODE_ENV: production
             PUPPETEER_CACHE_DIR: ~/.cache/puppeteer
             PUPPETEER_SKIP_DOWNLOAD: "false"
+            PUPPETEER_PRODUCT: chrome
 
         steps:
             - name: Checkout
@@ -47,7 +48,7 @@ jobs:
               run: |
                   if [ -f package-lock.json ]; then npm ci; fi
 
-            - name: Install site deps (include dev for Puppeteer)
+            - name: Install site deps (incl. dev for Puppeteer)
               run: |
                   cd site
                   npm ci --include=dev
@@ -57,14 +58,10 @@ jobs:
                   cd site
                   npx puppeteer browsers install chrome
 
-            # Build + run data scripts via your existing root script
             - name: Build site (runs data scripts + SvelteKit build)
-              env:
-                  NODE_ENV: production
               run: |
                   npm run build-site
 
-            # Commit only generated data (never the build output)
             - name: Commit updated data (if any)
               run: |
                   git config user.name "github-actions[bot]"
