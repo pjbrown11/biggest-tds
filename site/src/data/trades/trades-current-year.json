@@ -254,5 +254,72 @@
         ]
       }
     ]
+  },
+  {
+    "trade_id": "1292286639913054208",
+    "season": "2025",
+    "week": 10,
+    "date": "2025-11-06",
+    "teams": [
+      {
+        "team": "Autodraft Jesus",
+        "received": [
+          {
+            "type": "player",
+            "name": "Kenneth Walker",
+            "pos": "RB"
+          },
+          {
+            "type": "pick",
+            "name": "Round 3 Pick (2026)"
+          }
+        ]
+      },
+      {
+        "team": "ArrowheadHero",
+        "received": [
+          {
+            "type": "player",
+            "name": "Luke McCaffrey",
+            "pos": "WR"
+          },
+          {
+            "type": "pick",
+            "name": "Round 1 Pick (2026)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "trade_id": "1292123237601271808",
+    "season": "2025",
+    "week": 10,
+    "date": "2025-11-06",
+    "teams": [
+      {
+        "team": "Vinegar Strokes",
+        "received": [
+          {
+            "type": "player",
+            "name": "J.K. Dobbins",
+            "pos": "RB"
+          },
+          {
+            "type": "pick",
+            "name": "Round 4 Pick (2026)"
+          }
+        ]
+      },
+      {
+        "team": "ArrowheadHero",
+        "received": [
+          {
+            "type": "pick",
+            "name": "Round 1 Pick (2026)"
+          }
+        ]
+      }
+    ]
   }
 ]
