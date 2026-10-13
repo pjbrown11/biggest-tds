@@ -28,6 +28,6 @@ npm run dev-site
 
 ![Build & Deploy (Netlify)](https://github.com/pjbrown11/biggest-tds/actions/workflows/deploy-netlify.yml/badge.svg?branch=main)
 
-**When:** 2026-10-06T17:04:06.496Z
-**Workflow run:** [#37500533251](https://github.com/pjbrown11/biggest-tds/actions/runs/37500533251)
+**When:** 2026-10-13T18:01:10.717Z
+**Workflow run:** [#38443241635](https://github.com/pjbrown11/biggest-tds/actions/runs/38443241635)
 
